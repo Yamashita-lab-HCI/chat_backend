@@ -2,7 +2,7 @@
 1. 仮想環境の反映
    以下のコマンドを押す
    ```bash
-   source venv/bin/activate
+   source chat/bin/activate
    ```
 
 2. 実行
