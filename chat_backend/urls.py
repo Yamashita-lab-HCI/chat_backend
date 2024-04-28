@@ -17,5 +17,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', views.index, name='index.html'),
+    path('api/login', views.login_view, name='login'),
+    path('api/register', views.register, name='register'),
 ]
