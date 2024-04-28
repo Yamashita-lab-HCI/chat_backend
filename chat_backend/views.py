@@ -10,16 +10,24 @@ import json
 def index(request):
     return render(request, 'index.html')
 
-# ログイン実装
+@require_http_methods(['POST'])
 def login_view(request):
-    username = request.POST.get('username')
-    password = request.POST.get('password')
+    data = json.loads(request.body.decode('utf-8'))
+    username = data.get('username')
+    password = data.get('password')
+
+    # デバッグ用
+    print("Username:", username)
+    print("Password:", password)
+
     user = authenticate(request, username=username, password=password)
     if user is not None:
         login(request, user)
         return JsonResponse({'status': 'success', 'username': username})
     else:
         return JsonResponse({'status': 'error', 'message': 'Login failed'})
+    
+    return JsonResponse({'status': 'error', 'message': 'Only POST method is allowed'}, status=405)
 
 
 @csrf_exempt

@@ -15,7 +15,7 @@
     <link rel="icon" href="/static/favicon.ico" />
     <title>chat</title>
     <script defer="defer" src="/static/js/chunk-vendors.7e910c53.js"></script>
-    <script defer="defer" src="/static/js/app.b0133771.js"></script>
+    <script defer="defer" src="/static/js/app.987090eb.js"></script>
     <link href="/static/css/chunk-vendors.c61adc46.css" rel="stylesheet" />
     <link href="/static/css/app.78ce17eb.css" rel="stylesheet" />
   </head>
@@ -26,6 +26,10 @@
         Please enable it to continue.</strong
       ></noscript
     >
+    <!-- Django テンプレート内での CSRF トークンの設定 -->
+    <script type="text/javascript">
+      window.csrfToken = '{{ csrf_token }}';
+    </script>
     <div id="app"></div>
   </body>
 </html>
