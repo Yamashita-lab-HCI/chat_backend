@@ -20,5 +20,6 @@ urlpatterns = [
     path('', views.index, name='index.html'),
     path('api/login/', views.login_view, name='login'),
     path('api/register/', views.register, name='register'),
-    path('api/check_username/', views.check_username, name='check_username')
+    path('api/check_username/', views.check_username, name='check_username'),
+    path('api/messages/', views.message_view, name='messages'),
 ]
