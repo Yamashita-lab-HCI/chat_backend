@@ -22,4 +22,5 @@ urlpatterns = [
     path('api/register/', views.register, name='register'),
     path('api/check_username/', views.check_username, name='check_username'),
     path('api/messages/', views.message_view, name='messages'),
+    path('api/logout/', views.logout, name='logout'),
 ]

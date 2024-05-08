@@ -28,6 +28,26 @@ SECRET_KEY = 'django-insecure-61tdiyux%$mv1e)4o3pum!t6ue$$-w0_ht5)++j(e3&tax^c6y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': '/Users/keis/Desktop/2023/山下研/chat_backend/debug.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
+
+
 ALLOWED_HOSTS = []
 
 
