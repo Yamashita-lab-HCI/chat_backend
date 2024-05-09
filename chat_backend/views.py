@@ -5,14 +5,27 @@ from django.contrib.auth.models import User
 from django.views.decorators.http import require_http_methods
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.hashers import make_password
-from django.views.decorators.csrf import csrf_exempt
+from django.views.generic import TemplateView
+from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
 from .models import Message
 import json
+from django.http import HttpResponse
+import os
+from django.conf import settings
 
 def index(request):
-    return render(request, 'index.html')
+    return TemplateView.as_view(template_name='index.html')(request)
+def list_static_files(request):
+    static_dir = os.path.join(settings.BASE_DIR, 'static')  # BASE_DIRはsettings.pyからインポート
+    try:
+        files_list = os.listdir(static_dir)
+        files_string = "<br>".join(files_list)
+        return HttpResponse(files_string)
+    except Exception as e:
+        return HttpResponse(f"Error: {e}")
 
-@require_http_methods(['POST'])
+@require_http_methods(['POST']) 
+@ensure_csrf_cookie
 def login_view(request):
     try:
         data = json.loads(request.body)
@@ -33,7 +46,10 @@ def login_view(request):
     except json.JSONDecodeError:
         return JsonResponse({'status': 'error', 'message': 'Invalid JSON'}, status=400)
     except Exception as e:
-        return JsonResponse({'status': 'error', 'message': 'An error occurred'}, status=500)
+        return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+    
+def check_login_status(request):
+    return JsonResponse({'isLoggedIn': request.user.is_authenticated})
     
 @require_http_methods(['POST'])
 def logout_view(request):
@@ -92,3 +108,10 @@ def message_view(request):
         return JsonResponse({'status': 'error', 'message': 'Invalid JSON.'}, status=400)
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+
+@require_http_methods(['POST'])
+def logout_view(request):
+    # ユーザーをログアウトする
+    logout(request)
+    # ログアウト後のレスポンスを返す
+    return JsonResponse({'status': 'success', 'message': 'Logged out successfully'})
