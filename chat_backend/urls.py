@@ -25,6 +25,7 @@ api_urlpatterns = [
     path('check_username/', views.check_username, name='check_username'),
     path('messages/', views.message_view, name='messages'),
     path('check_login_status/', views.check_login_status, name='check_login_status'),
+    path('get_current_user/', views.get_current_user, name='get_current_user'),
     path('logout/', views.logout_view, name='logout'),
 ]
 

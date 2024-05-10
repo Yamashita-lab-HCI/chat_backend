@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.contrib.auth import authenticate, login, logout
 from django.http import JsonResponse
 from django.contrib.auth.models import User
@@ -50,6 +49,24 @@ def login_view(request):
     
 def check_login_status(request):
     return JsonResponse({'isLoggedIn': request.user.is_authenticated})
+
+@login_required
+def get_current_user(request):
+    user = request.user
+    print("Debug: User is authenticated -", user.is_authenticated)
+    print("Debug: User info - Username:", user.username)
+    if user.is_authenticated:
+        response_data = {
+        'username': user.username,
+        # 'email': user.email,
+        # その他必要なユーザー情報
+        }
+        response = JsonResponse(response_data)
+        print("Debug: Sending JSON response")
+        return response
+    else:
+        print("Debug: User not authenticated, sending error")
+        return JsonResponse({'error': 'User is not authenticated'}, status=401)
     
 @require_http_methods(['POST'])
 def logout_view(request):
