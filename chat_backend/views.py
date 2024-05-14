@@ -53,8 +53,6 @@ def check_login_status(request):
 @login_required
 def get_current_user(request):
     user = request.user
-    print("Debug: User is authenticated -", user.is_authenticated)
-    print("Debug: User info - Username:", user.username)
     if user.is_authenticated:
         response_data = {
         'username': user.username,
@@ -62,7 +60,6 @@ def get_current_user(request):
         # その他必要なユーザー情報
         }
         response = JsonResponse(response_data)
-        print("Debug: Sending JSON response")
         return response
     else:
         print("Debug: User not authenticated, sending error")
@@ -111,10 +108,17 @@ def message_view(request):
         if request.method == 'POST':
             data = json.loads(request.body)
             message = data.get('message')
+            username = data.get('username', request.user.username)  # ユーザー名を取得、デフォルトはログインユーザー
+
             if not message:
                 return JsonResponse({'status': 'error', 'message': 'Message is required.'}, status=400)
 
-            Message.objects.create(user=request.user, text=message)
+            # 指定されたユーザー名でユーザーを検索（オプション）
+            user = User.objects.filter(username=username).first()
+            if not user:
+                return JsonResponse({'status': 'error', 'message': 'User does not exist.'}, status=404)
+
+            Message.objects.create(user=user, text=message)  # メッセージを保存
             return JsonResponse({'status': 'success', 'message': 'Message saved'}, status=201)
         
         elif request.method == 'GET':
