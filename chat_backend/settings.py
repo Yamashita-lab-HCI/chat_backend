@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'chat_backend',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -77,6 +78,8 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
 ]
+
+ASGI_APPLICATION = 'chat_backend.routing.application'
 
 ROOT_URLCONF = 'chat_backend.urls'
 
