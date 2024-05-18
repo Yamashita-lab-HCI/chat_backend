@@ -122,7 +122,7 @@ def message_view(request):
             return JsonResponse({'status': 'success', 'message': 'Message saved'}, status=201)
         
         elif request.method == 'GET':
-            messages = Message.objects.all().order_by('-id').values('id', 'user__username', 'text', 'created_at')
+            messages = Message.objects.all().order_by('id').values('id', 'user__username', 'text', 'created_at')
             return JsonResponse(list(messages), safe=False)
 
     except json.JSONDecodeError:
