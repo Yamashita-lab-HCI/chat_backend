@@ -118,8 +118,19 @@ def message_view(request):
             if not user:
                 return JsonResponse({'status': 'error', 'message': 'User does not exist.'}, status=404)
 
-            Message.objects.create(user=user, text=message)  # メッセージを保存
-            return JsonResponse({'status': 'success', 'message': 'Message saved'}, status=201)
+            new_message = Message.objects.create(user=user, text=message)  # メッセージを保存
+
+            # メッセージの詳細を返す
+            return JsonResponse({
+                'status': 'success',
+                'message': 'Message saved',
+                'new_message': {
+                    'id': new_message.id,
+                    'username': new_message.user.username,
+                    'message': new_message.text,
+                    'created_at': new_message.created_at.strftime('%Y-%m-%d %H:%M:%S')
+                }
+            }, status=201)
         
         elif request.method == 'GET':
             messages = Message.objects.all().order_by('id').values('id', 'user__username', 'text', 'created_at')
@@ -129,7 +140,7 @@ def message_view(request):
         return JsonResponse({'status': 'error', 'message': 'Invalid JSON.'}, status=400)
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
-
+    
 @require_http_methods(['POST'])
 def logout_view(request):
     # ユーザーをログアウトする
