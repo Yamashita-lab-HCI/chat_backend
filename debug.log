@@ -3964,3 +3964,611 @@ File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previo
 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'keita' ORDER BY "auth_user"."id" ASC LIMIT 1; args=('keita',); alias=default
 (0.001) INSERT INTO "chat_backend_message" ("user_id", "text", "created_at") VALUES (1, '<p>まま</p>', '2024-05-22 15:51:08.623212') RETURNING "chat_backend_message"."id"; args=(1, '<p>まま</p>', '2024-05-22 15:51:08.623212'); alias=default
 "POST /api/messages/ HTTP/1.1" 201 168
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716393055.6409707, current mtime: 1716393505.447768
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/js/app.js HTTP/1.1" 200 20678
+"GET /static/css/app.css HTTP/1.1" 200 1851
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 15:58:42.013392' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 15:58:42.013392', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 15:58:42.028849' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 15:58:42.028849', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 15:58:42.027081' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 15:58:42.027081', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716393505.447768, current mtime: 1716393609.0042973
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/css/app.css HTTP/1.1" 200 1857
+"GET /static/js/app.js HTTP/1.1" 200 20699
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:00:27.436859' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:00:27.436859', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:00:27.446175' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:00:27.446175', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:00:27.447708' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:00:27.447708', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716393609.0042973, current mtime: 1716393987.4739523
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716393987.4739523, current mtime: 1716393987.8564765
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 1904
+"GET /static/js/app.js HTTP/1.1" 200 20699
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:06:35.689247' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:06:35.689247', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:06:35.702384' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:06:35.702384', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:06:35.706059' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:06:35.706059', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716393987.8564765, current mtime: 1716394156.3576775
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/css/app.css HTTP/1.1" 200 1904
+"GET /static/js/app.js HTTP/1.1" 200 20699
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:09:35.329537' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:09:35.329537', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:09:35.341243' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:09:35.341243', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:09:35.342717' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:09:35.342717', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716394156.3576775, current mtime: 1716394298.533984
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 1956
+"GET /static/js/app.js HTTP/1.1" 200 20699
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:11:55.160859' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:11:55.160859', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:11:55.170064' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:11:55.170064', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:11:55.174534' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:11:55.174534', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.001) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716394298.533984, current mtime: 1716394782.1931672
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2019
+"GET /static/js/app.js HTTP/1.1" 200 20699
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:19:46.162447' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:19:46.162447', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:19:46.165831' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:19:46.165831', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:19:46.166750' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:19:46.166750', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/app.js.map HTTP/1.1" 200 67064
+"GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12769865
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716394782.1931672, current mtime: 1716394893.2185526
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2019
+"GET /static/js/app.js HTTP/1.1" 200 20697
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:21:42.016277' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:21:42.016277', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:21:42.037324' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:21:42.037324', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:21:42.039310' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:21:42.039310', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716394893.2185526, current mtime: 1716394946.0065973
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2009
+"GET /static/js/app.js HTTP/1.1" 200 20699
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:22:32.400520' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:22:32.400520', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:22:32.411188' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:22:32.411188', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:22:32.412255' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:22:32.412255', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716394946.0065973, current mtime: 1716395002.6161056
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/css/app.css HTTP/1.1" 200 1999
+"GET /static/js/app.js HTTP/1.1" 200 20699
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:23:28.149047' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:23:28.149047', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:23:28.172597' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:23:28.172597', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:23:28.173569' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:23:28.173569', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716395002.6161056, current mtime: 1716395223.5866604
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2010
+"GET /static/js/app.js HTTP/1.1" 200 20699
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:27:08.999429' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:27:08.999429', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:27:09.011815' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:27:09.011815', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:27:09.012798' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:27:09.012798', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.001) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716395223.5866604, current mtime: 1716395376.886595
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716395376.886595, current mtime: 1716395377.2596166
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/css/app.css HTTP/1.1" 200 2047
+"GET /static/js/app.js HTTP/1.1" 200 20757
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:29:41.681996' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:29:41.681996', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:29:41.694259' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:29:41.694259', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:29:41.699119' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:29:41.699119', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716395377.2596166, current mtime: 1716395512.283064
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716395512.283064, current mtime: 1716395512.6759934
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2047
+"GET /static/js/app.js HTTP/1.1" 200 20757
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:31:56.970122' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:31:56.970122', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:31:56.981048' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:31:56.981048', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:31:56.982117' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:31:56.982117', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716395512.6759934, current mtime: 1716395697.9401386
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2022
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/app.js HTTP/1.1" 200 20801
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:00.514618' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:00.514618', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:00.524654' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:00.524654', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:00.527045' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:00.527045', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:02.029520' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:02.029520', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:02.037544' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:02.037544', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:02.038433' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:02.038433', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:02.779537' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:02.779537', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:02.791758' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:02.791758', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:02.787798' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:02.787798', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:03.464178' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:03.464178', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:03.472291' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:03.472291', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:03.473166' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:03.473166', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:04.110503' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:04.110503', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:04.119663' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:04.119663', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:04.123045' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:04.123045', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:04.522829' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:04.522829', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:04.531988' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:04.531988', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:04.531087' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:04.531087', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:05.048622' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:05.048622', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.006) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:05.059029' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:05.059029', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:05.056525' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:05.056525', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:05.545172' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:05.545172', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:05.555123' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:05.555123', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:05.557780' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:05.557780', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:05.989638' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:05.989638', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.006) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:05.999651' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:05.999651', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:06.001629' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:06.001629', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:06.470828' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:06.470828', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:06.480250' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:06.480250', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:06.481856' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:06.481856', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:06.914517' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:06.914517', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:06.922194' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:06.922194', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:06.923808' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:06.923808', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:07.409074' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:07.409074', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:07.417005' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:07.417005', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:07.422135' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:07.422135', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:07.919752' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:07.919752', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:07.931051' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:07.931051', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:07.928142' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:07.928142', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:08.342420' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:08.342420', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:08.350679' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:08.350679', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:08.353458' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:08.353458', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:08.998344' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:08.998344', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:09.006476' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:09.006476', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:09.010846' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:09.010846', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:09.456727' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:09.456727', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:09.464621' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:09.464621', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:35:09.468624' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:35:09.468624', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/app.js.map HTTP/1.1" 200 67302
+"GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12769865
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716395697.9401386, current mtime: 1716395944.1153696
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2022
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/app.js HTTP/1.1" 200 20828
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:39:06.201945' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:39:06.201945', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+"GET /static/js/app.js.map HTTP/1.1" 200 67399
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:39:06.229316' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:39:06.229316', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:39:06.230982' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:39:06.230982', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12769865
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2022
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/app.js HTTP/1.1" 200 20828
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:39:08.446253' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:39:08.446253', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+"GET /static/js/app.js.map HTTP/1.1" 200 67399
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:39:08.472701' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:39:08.472701', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:39:08.468973' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:39:08.468973', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12769865
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716395944.1153696, current mtime: 1716396167.425144
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716396167.425144, current mtime: 1716396167.8029191
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2047
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/app.js HTTP/1.1" 200 20757
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:42:52.637898' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:42:52.637898', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:42:52.658558' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:42:52.658558', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:42:52.657385' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:42:52.657385', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /static/js/app.js.map HTTP/1.1" 200 67129
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12769865
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716396167.8029191, current mtime: 1716396421.9853418
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716396421.9853418, current mtime: 1716396422.3639
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2047
+"GET /static/js/app.js HTTP/1.1" 200 20782
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:47:19.465682' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:47:19.465682', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:47:19.487020' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:47:19.487020', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:47:19.485493' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:47:19.485493', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+(0.001) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+"GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+"GET /static/css/app.css HTTP/1.1" 304 0
+"GET /static/js/app.js HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:47:28.314205' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:47:28.314205', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:47:28.322956' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:47:28.322956', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:47:28.326467' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:47:28.326467', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716396422.3639, current mtime: 1716396505.3093953
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716396505.3093953, current mtime: 1716396505.707431
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2033
+"GET /static/js/app.js HTTP/1.1" 200 20782
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:48:34.065354' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:48:34.065354', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:48:34.075206' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:48:34.075206', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:48:34.076224' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:48:34.076224', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716396505.707431, current mtime: 1716396568.3111515
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+File /Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html previous mtime: 1716396568.3111515, current mtime: 1716396568.715875
+/Users/keis/Desktop/2023/山下研/chat_backend/templates/index.html notified as changed. Signal results: [(<function template_changed at 0x10f2eb920>, True), (<function translation_file_changed at 0x10fc4d620>, None)].
+"GET /home HTTP/1.1" 200 1029
+"GET /static/css/app.css HTTP/1.1" 200 2047
+"GET /static/js/app.js HTTP/1.1" 200 20782
+"GET /static/css/chunk-vendors.css HTTP/1.1" 200 188179
+"GET /static/js/chunk-vendors.js HTTP/1.1" 200 4955934
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:49:51.167526' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:49:51.167526', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /api/check_login_status/ HTTP/1.1" 200 20
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:49:51.183366' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:49:51.183366', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-05-22 16:49:51.181591' AND "django_session"."session_key" = '7yzp7yj76o1mmugrf4y2d2lyntujm0zo') LIMIT 21; args=('2024-05-22 16:49:51.181591', '7yzp7yj76o1mmugrf4y2d2lyntujm0zo'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "chat_backend_message"."id", "auth_user"."username", "chat_backend_message"."text", "chat_backend_message"."created_at" FROM "chat_backend_message" INNER JOIN "auth_user" ON ("chat_backend_message"."user_id" = "auth_user"."id") ORDER BY "chat_backend_message"."id" ASC; args=(); alias=default
+"GET /api/get_current_user/ HTTP/1.1" 200 21
+"GET /api/messages/ HTTP/1.1" 200 7193
+"GET /api/favicon.ico HTTP/1.1" 200 1029
