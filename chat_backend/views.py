@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.hashers import make_password
 from django.views.generic import TemplateView
 from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
-from .models import Message
+from .models import Message, Room
 import json
 from django.http import HttpResponse
 import os
@@ -135,6 +135,31 @@ def message_view(request):
         elif request.method == 'GET':
             messages = Message.objects.all().order_by('id').values('id', 'user__username', 'text', 'created_at')
             return JsonResponse(list(messages), safe=False)
+
+    except json.JSONDecodeError:
+        return JsonResponse({'status': 'error', 'message': 'Invalid JSON.'}, status=400)
+    except Exception as e:
+        return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+    
+
+@csrf_exempt
+@login_required
+@require_http_methods(['POST'])
+def create_room(request):
+    try:
+        data = json.loads(request.body)
+        room_name = data.get('roomName')
+
+        if not room_name:
+            return JsonResponse({'status': 'error', 'message': 'Room name is required.'}, status=400)
+
+        new_room = Room.objects.create(name=room_name, created_by=request.user)
+
+        return JsonResponse({
+            'status': 'success',
+            'message': 'Room created',
+            'roomId': new_room.id
+        }, status=201)
 
     except json.JSONDecodeError:
         return JsonResponse({'status': 'error', 'message': 'Invalid JSON.'}, status=400)
