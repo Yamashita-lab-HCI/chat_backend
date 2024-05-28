@@ -28,6 +28,7 @@ api_urlpatterns = [
     path('get_current_user/', views.get_current_user, name='get_current_user'),
     path('logout/', views.logout_view, name='logout'),
     path('create-room/', views.create_room, name='create_room'),
+    path('create_default_room/', views.create_default_room, name='create_default_room'),
 ]
 
 urlpatterns = [

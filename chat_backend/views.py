@@ -108,19 +108,23 @@ def message_view(request):
         if request.method == 'POST':
             data = json.loads(request.body)
             message = data.get('message')
-            username = data.get('username', request.user.username)  # ユーザー名を取得、デフォルトはログインユーザー
+            username = data.get('username', request.user.username)
+            room_id = data.get('room_id')
 
-            if not message:
-                return JsonResponse({'status': 'error', 'message': 'Message is required.'}, status=400)
+            if message is None or room_id is None:
+                return JsonResponse({'status': 'error', 'message': 'Message and room_id are required.'}, status=400)
 
-            # 指定されたユーザー名でユーザーを検索（オプション）
+            # 指定されたroom_idでルームを検索
+            room = Room.objects.filter(id=room_id).first()
+            if not room:
+                return JsonResponse({'status': 'error', 'message': 'Room does not exist.'}, status=404)
+
             user = User.objects.filter(username=username).first()
             if not user:
                 return JsonResponse({'status': 'error', 'message': 'User does not exist.'}, status=404)
 
-            new_message = Message.objects.create(user=user, text=message)  # メッセージを保存
+            new_message = Message.objects.create(user=user, text=message, room=room)  # メッセージを保存
 
-            # メッセージの詳細を返す
             return JsonResponse({
                 'status': 'success',
                 'message': 'Message saved',
@@ -128,12 +132,21 @@ def message_view(request):
                     'id': new_message.id,
                     'username': new_message.user.username,
                     'message': new_message.text,
+                    # 'room_id': new_message.room.room_id,  # ルームIDを追加
                     'created_at': new_message.created_at.strftime('%Y-%m-%d %H:%M:%S')
                 }
             }, status=201)
         
         elif request.method == 'GET':
-            messages = Message.objects.all().order_by('id').values('id', 'user__username', 'text', 'created_at')
+            room_id = request.GET.get('room_id')  # idを取得
+            if not room_id:
+                return JsonResponse({'status': 'error', 'message': 'room_id is required.'}, status=400)
+
+            room = Room.objects.filter(id=room_id).first()
+            if not room:
+                return JsonResponse({'status': 'error', 'message': 'Room does not exist.'}, status=404)
+
+            messages = Message.objects.filter(room=room).order_by('id').values('id', 'user__username', 'text', 'created_at')  # ルームでフィルタリング
             return JsonResponse(list(messages), safe=False)
 
     except json.JSONDecodeError:
@@ -141,7 +154,6 @@ def message_view(request):
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
     
-
 @csrf_exempt
 @login_required
 @require_http_methods(['POST'])
@@ -165,7 +177,27 @@ def create_room(request):
         return JsonResponse({'status': 'error', 'message': 'Invalid JSON.'}, status=400)
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
-    
+
+@csrf_exempt
+@login_required
+@require_http_methods(['POST'])
+def create_default_room(request):
+    try:
+        body = json.loads(request.body.decode('utf-8'))
+        room_name = body.get('room_name')
+        id = body.get('room_id')
+        # print(f'room_id: {id}')
+        id = int(id)
+        room = Room.objects.filter(id=id).first()
+        if room is None:
+            # id=0の部屋を作成
+            new_room = Room.objects.create(id=id, name=room_name, created_by=request.user)
+            return JsonResponse({'status': 'success', 'message': 'Default room created', 'roomId': new_room.id}, status=201)
+        else:
+            return JsonResponse({'status': 'success', 'message': 'Default room already exists', 'roomId': room.id}, status=200)
+    except Exception as e:
+        return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+
 @require_http_methods(['POST'])
 def logout_view(request):
     # ユーザーをログアウトする
