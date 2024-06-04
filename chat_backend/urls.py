@@ -29,6 +29,7 @@ api_urlpatterns = [
     path('logout/', views.logout_view, name='logout'),
     path('create-room/', views.create_room, name='create_room'),
     path('create_default_room/', views.create_default_room, name='create_default_room'),
+    path('room/', views.RoomListView.as_view(), name='room_list'),
 ]
 
 urlpatterns = [

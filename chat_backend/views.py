@@ -1,5 +1,5 @@
 from django.contrib.auth import authenticate, login, logout
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.contrib.auth.models import User
 from django.views.decorators.http import require_http_methods
 from django.contrib.auth.decorators import login_required
@@ -7,10 +7,16 @@ from django.contrib.auth.hashers import make_password
 from django.views.generic import TemplateView
 from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
 from .models import Message, Room
+from rest_framework.generics import ListAPIView
 import json
-from django.http import HttpResponse
 import os
 from django.conf import settings
+
+from .serializers import RoomSerializer
+
+class RoomListView(ListAPIView):
+    queryset = Room.objects.all()
+    serializer_class = RoomSerializer
 
 def index(request):
     return TemplateView.as_view(template_name='index.html')(request)
@@ -197,6 +203,8 @@ def create_default_room(request):
             return JsonResponse({'status': 'success', 'message': 'Default room already exists', 'roomId': room.id}, status=200)
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+    
+
 
 @require_http_methods(['POST'])
 def logout_view(request):
