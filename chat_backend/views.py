@@ -6,7 +6,8 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.hashers import make_password
 from django.views.generic import TemplateView
 from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
-from .models import Message, Room
+from django.shortcuts import get_object_or_404
+from .models import Message, Room, UserProfile
 from rest_framework.generics import ListAPIView
 import json
 import os
@@ -56,6 +57,26 @@ def login_view(request):
 def check_login_status(request):
     return JsonResponse({'isLoggedIn': request.user.is_authenticated})
 
+@require_http_methods(["GET"])
+def get_icon_color(request):
+    username = request.GET.get('username')
+    user_profile = get_object_or_404(UserProfile, user__username=username)
+    return JsonResponse({'color': user_profile.icon_color})
+
+@require_http_methods(["POST"])
+def update_icon_color(request):
+    data = json.loads(request.body)
+    username = data.get('username')
+    color = data.get('color')
+    print(username, color)
+    try:
+        user_profile = UserProfile.objects.get(user__username=username)
+    except UserProfile.DoesNotExist:
+        return JsonResponse({'status': 'error', 'message': 'User does not exist'}, status=404)
+    user_profile.icon_color = color
+    user_profile.save()
+    return JsonResponse({'status': 'success'})
+
 @login_required
 def get_current_user(request):
     user = request.user
@@ -91,10 +112,11 @@ def register(request):
     if User.objects.filter(username=username).exists():
         return JsonResponse({'status': 'error', 'message': 'Username already exists'}, status=400)
 
-    User.objects.create(
-        username=username,
-        # email=email,
-        password=make_password(password))
+    user = User.objects.create(
+            username=username,
+            # email=email,
+            password=make_password(password))
+    UserProfile.objects.create(user=user)
     return JsonResponse({'status': 'success', 'message': 'User registered successfully'}, status=201)
 
 @csrf_exempt

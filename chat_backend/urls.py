@@ -30,6 +30,8 @@ api_urlpatterns = [
     path('create-room/', views.create_room, name='create_room'),
     path('create_default_room/', views.create_default_room, name='create_default_room'),
     path('room/', views.RoomListView.as_view(), name='room_list'),
+    path('get_icon_color/', views.get_icon_color, name='get_icon_color'),
+    path('update_icon_color/', views.update_icon_color, name='update_icon_color'),
 ]
 
 urlpatterns = [

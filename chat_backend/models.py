@@ -15,3 +15,7 @@ class Message(models.Model):
 
     def __str__(self):
         return f"{self.user.username}: {self.text[:50]}"
+    
+class UserProfile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    icon_color = models.CharField(max_length=7, default="#FFFFFF")  # Default color is white
