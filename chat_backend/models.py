@@ -18,4 +18,4 @@ class Message(models.Model):
     
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    icon_color = models.CharField(max_length=7, default="#FFFFFF")  # Default color is white
+    icon_color = models.CharField(max_length=7, default="#E42222")  # Default color is white
