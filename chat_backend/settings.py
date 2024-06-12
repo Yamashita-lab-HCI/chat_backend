@@ -37,7 +37,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': '/Users/keis/Desktop/2023/山下研/chat_backend/debug.log',
+            'filename': '/home/ubuntu/chat_backend/debug.log',
         },
     },
     'loggers': {
