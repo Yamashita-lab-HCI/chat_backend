@@ -1,144 +1,119 @@
-agora-token-builder==1.0.0
-aiohttp==3.8.4
-aiosignal==1.3.1
-alabaster==0.7.16
-appdirs==1.4.4
-asgiref==3.7.2
-async-timeout==4.0.2
-attrs==23.1.0
-audioread==3.0.1
-autobahn==23.6.2
-Automat==22.10.0
-Babel==2.15.0
-beautifulsoup4==4.12.2
-cachetools==5.3.1
-certifi==2023.5.7
-cffi==1.15.1
-channels==4.0.0
-charset-normalizer==3.1.0
-ci-info==0.3.0
-click==8.1.7
-colorama==0.4.6
-colorlog==6.7.0
-compsoc @ git+https://github.com/raviq/compsoc.git@1480da4ad1c181e51b15c950bbe86dc60ad1edff
-configobj==5.0.8
-configparser==7.0.0
-constantly==15.1.0
-contourpy==1.2.0
-cryptography==41.0.1
-cycler==0.12.1
-daphne==4.0.0
-decorator==5.1.1
-dill==0.3.6
-Django==4.0.1
-django-cors-headers==4.1.0
-djangorestframework==3.14.0
-docutils==0.21.2
-etelemetry==0.3.1
-filelock==3.13.4
-fitz==0.0.1.dev2
-fonttools==4.45.1
-frozenlist==1.3.3
-google-api-core==2.11.1
-google-auth==2.20.0
-google-cloud==0.34.0
-google-cloud-speech==2.20.0
-googleapis-common-protos==1.59.1
-grpcio==1.54.2
-grpcio-status==1.54.2
-httplib2==0.22.0
-hyperlink==21.0.0
-idna==3.4
-imageio==2.33.1
-imagesize==1.4.1
-incremental==22.10.0
-isodate==0.6.1
-Jinja2==3.1.4
-joblib==1.4.2
-jsonschema==4.17.3
-kiwisolver==1.4.5
-lazy_loader==0.3
-librosa==0.10.2.post1
-llvmlite==0.42.0
-looseversion==1.3.0
-lxml==4.9.2
-MarkupSafe==2.1.5
-matplotlib==3.8.2
-msgpack==1.0.8
-multidict==6.0.4
-multiprocess==0.70.14
-networkx==3.2.1
-nibabel==5.2.1
-nipype==1.8.6
-numba==0.59.1
-numpy==1.24.3
-online-judge-api-client==10.10.1
-online-judge-tools==11.5.1
-openai==0.27.8
-opencv-python==4.9.0.80
-packaging==23.2
-pandas==2.1.4
-pathlib==1.0.1
-pathos==0.3.0
-Pillow==10.1.0
-platformdirs==4.2.2
-pooch==1.8.1
-pox==0.3.2
-ppft==1.7.6.6
-proto-plus==1.22.2
-prov==2.0.0
-pyasn1==0.5.0
-pyasn1-modules==0.3.0
-pycparser==2.21
-pydot==2.0.0
-PyExecJS==1.5.1
-Pygments==2.18.0
-PyMuPDF==1.24.2
-PyMuPDFb==1.24.1
-pyOpenSSL==23.2.0
-pyparsing==3.1.1
-PyQt5==5.15.10
-PyQt5-Qt5==5.15.12
-PyQt5-sip==12.13.0
-pyqtgraph==0.13.3
-pyrsistent==0.19.3
-pytesseract==0.3.10
-python-dateutil==2.8.2
-pytz==2023.3.post1
-pyxnat==1.6.2
-rdflib==7.0.0
-requests==2.30.0
-rsa==4.9
-scikit-image==0.22.0
-scikit-learn==1.5.0
-scipy==1.11.4
-seaborn==0.13.0
-service-identity==23.1.0
-simplejson==3.19.2
-six==1.16.0
-snowballstemmer==2.2.0
-soundfile==0.12.1
-soupsieve==2.4.1
-soxr==0.3.7
-Sphinx==7.3.7
-sphinxcontrib-applehelp==1.0.8
-sphinxcontrib-devhelp==1.0.6
-sphinxcontrib-htmlhelp==2.0.5
-sphinxcontrib-jsmath==1.0.1
-sphinxcontrib-qthelp==1.0.7
-sphinxcontrib-serializinghtml==1.1.10
-sqlparse==0.4.2
-threadpoolctl==3.5.0
-tifffile==2023.12.9
-toml==0.10.2
-tqdm==4.65.0
-traits==6.3.2
-translators==5.7.6
-Twisted==22.10.0
-txaio==23.1.1
-typing_extensions==4.6.3
-tzdata==2023.3
-urllib3==1.26.16
-websocket-client==1.5.3
-yarl==1.9.2
-zope.interface==6.0
+name: chat
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - appdirs=1.4.4=pyh9f0ad1d_0
+  - archspec=0.2.3=pyhd8ed1ab_0
+  - asgiref=3.8.1=pyhd8ed1ab_0
+  - attrs=23.2.0=pyh71513ae_0
+  - autobahn=23.6.2=pyhd8ed1ab_0
+  - automat=22.10.0=pyhd8ed1ab_0
+  - bcrypt=4.1.2=py312h6e28e45_0
+  - beautifulsoup4=4.12.3=pyha770c72_0
+  - boltons=24.0.0=pyhd8ed1ab_0
+  - brotli-python=1.1.0=py312heafc425_1
+  - bzip2=1.0.8=h10d778d_5
+  - c-ares=1.28.1=h10d778d_0
+  - ca-certificates=2024.2.2=h8857fd0_0
+  - certifi=2024.2.2=pyhd8ed1ab_0
+  - cffi=1.16.0=py312h38bf5a0_0
+  - channels=4.0.0=pyhd8ed1ab_0
+  - charset-normalizer=3.3.2=pyhd8ed1ab_0
+  - colorama=0.4.6=pyhd8ed1ab_0
+  - conda=24.3.0=py312hb401068_0
+  - conda-libmamba-solver=24.1.0=pyhd8ed1ab_0
+  - conda-package-handling=2.2.0=pyh38be061_0
+  - conda-package-streaming=0.9.0=pyhd8ed1ab_0
+  - constantly=15.1.0=py_0
+  - cryptography=42.0.7=py312h7e81a9d_0
+  - daphne=3.0.2=pyhd8ed1ab_0
+  - distro=1.9.0=pyhd8ed1ab_0
+  - django=5.0.4=pyhd8ed1ab_0
+  - django-cors-headers=4.3.1=pyhd8ed1ab_0
+  - djangorestframework=3.15.1=pyhd8ed1ab_0
+  - fmt=10.2.1=h7728843_0
+  - freetype=2.12.1=h60636b9_2
+  - hyperlink=21.0.0=pyhd3deb0d_0
+  - icu=73.2=hf5e326d_0
+  - idna=3.7=pyhd8ed1ab_0
+  - incremental=22.10.0=pyhd8ed1ab_0
+  - jsonpatch=1.33=pyhd8ed1ab_0
+  - jsonpointer=2.4=py312hb401068_3
+  - krb5=1.21.2=hb884880_0
+  - lcms2=2.16=ha2f27b4_0
+  - lerc=4.0.0=hb486fe8_0
+  - libarchive=3.7.2=hd35d340_1
+  - libcurl=8.7.1=h726d00d_0
+  - libcxx=16.0.6=hd57cbcb_0
+  - libdeflate=1.20=h49d49c5_0
+  - libedit=3.1.20191231=h0678c8f_2
+  - libev=4.33=h10d778d_2
+  - libexpat=2.6.2=h73e2aa4_0
+  - libffi=3.4.2=h0d85af4_5
+  - libiconv=1.17=hd75f5a5_2
+  - libjpeg-turbo=3.0.0=h0dc2134_1
+  - libmamba=1.5.8=ha449628_0
+  - libmambapy=1.5.8=py312h67f5953_0
+  - libnghttp2=1.58.0=h64cf6d3_1
+  - libpng=1.6.43=h92b6c6a_0
+  - libsolv=0.7.28=h2d185b6_2
+  - libsqlite=3.45.3=h92b6c6a_0
+  - libssh2=1.11.0=hd019ec5_0
+  - libtiff=4.6.0=h129831d_3
+  - libwebp-base=1.4.0=h10d778d_0
+  - libxcb=1.15=hb7f2c08_0
+  - libxml2=2.12.6=hc0ae0f7_2
+  - libzlib=1.2.13=h8a1eda9_5
+  - lz4-c=1.9.4=hf0c8a7f_0
+  - lzo=2.10=h10d778d_1001
+  - menuinst=2.0.2=py312hb401068_0
+  - ncurses=6.4.20240210=h73e2aa4_0
+  - openjpeg=2.5.2=h7310d3a_0
+  - openssl=3.3.0=hd75f5a5_0
+  - packaging=24.0=pyhd8ed1ab_0
+  - pillow=10.3.0=py312h0c923fa_0
+  - pip=24.0=pyhd8ed1ab_0
+  - platformdirs=4.2.1=pyhd8ed1ab_0
+  - pluggy=1.5.0=pyhd8ed1ab_0
+  - pthread-stubs=0.4=hc929b4f_1001
+  - pyasn1=0.6.0=pyhd8ed1ab_0
+  - pyasn1-modules=0.4.0=pyhd8ed1ab_0
+  - pybind11-abi=4=hd8ed1ab_3
+  - pycosat=0.6.6=py312h104f124_0
+  - pycparser=2.22=pyhd8ed1ab_0
+  - pyopenssl=24.0.0=pyhd8ed1ab_0
+  - pysocks=1.7.1=pyha2e5f31_6
+  - pytesseract=0.3.13=pyhd8ed1ab_0
+  - python=3.12.3=h1411813_0_cpython
+  - python_abi=3.12=4_cp312
+  - readline=8.2=h9e318b2_1
+  - reproc=14.2.4.post0=h10d778d_1
+  - reproc-cpp=14.2.4.post0=h93d8f39_1
+  - requests=2.31.0=pyhd8ed1ab_0
+  - ruamel.yaml=0.18.6=py312h41838bb_0
+  - ruamel.yaml.clib=0.2.8=py312h41838bb_0
+  - service-identity=21.1.0=pyhd8ed1ab_0
+  - service_identity=21.1.0=hd8ed1ab_0
+  - setuptools=69.5.1=pyhd8ed1ab_0
+  - six=1.16.0=pyh6c4a22f_0
+  - soupsieve=2.5=pyhd8ed1ab_1
+  - sqlparse=0.4.4=pyhd8ed1ab_0
+  - tk=8.6.13=h1abcd95_1
+  - tqdm=4.66.2=pyhd8ed1ab_0
+  - truststore=0.8.0=pyhd8ed1ab_0
+  - twisted=24.3.0=py312h41838bb_0
+  - txaio=23.1.1=pyhd8ed1ab_0
+  - typing-extensions=4.11.0=hd8ed1ab_0
+  - typing_extensions=4.11.0=pyha770c72_0
+  - tzdata=2024a=h0c530f3_0
+  - urllib3=2.2.1=pyhd8ed1ab_0
+  - wheel=0.43.0=pyhd8ed1ab_1
+  - xorg-libxau=1.0.11=h0dc2134_0
+  - xorg-libxdmcp=1.1.3=h35c211d_0
+  - xz=5.2.6=h775f41a_0
+  - yaml-cpp=0.8.0=he965462_0
+  - zope.interface=6.3=py312h41838bb_0
+  - zstandard=0.22.0=py312h7a629f7_0
+  - zstd=1.5.5=h829000d_0
+prefix: /Users/keis/miniconda3/envs/chat
