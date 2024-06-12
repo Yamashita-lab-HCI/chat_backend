@@ -7,7 +7,7 @@ from django.contrib.auth.hashers import make_password
 from django.views.generic import TemplateView
 from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
 from django.shortcuts import get_object_or_404
-from .models import Message, Room, UserProfile
+from .models import Message, Room, UserProfile, Chat
 from rest_framework.generics import ListAPIView
 import json
 import os
@@ -226,6 +226,15 @@ def create_default_room(request):
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
     
+@csrf_exempt
+def record_chat(request):
+    if request.method == 'POST':
+        data = json.loads(request.body)
+        chat = Chat(username=data['username'], question=data['question'], answer=data['answer'])
+        chat.save()
+        return JsonResponse({'status': 'success'}, status=201)
+    else:
+        return JsonResponse({'status': 'bad request'}, status=400)
 
 
 @require_http_methods(['POST'])
