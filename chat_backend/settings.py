@@ -25,6 +25,23 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-61tdiyux%$mv1e)4o3pum!t6ue$$-w0_ht5)++j(e3&tax^c6y'
 
+SECURE_SSL_REDIRECT = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# HTTPS設定
+SECURE_HSTS_SECONDS = 3600
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True
+SECURE_SSL_REDIRECT = True
+
+# セッションとCSRFの設定
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+
+# 中間者攻撃対策
+SECURE_BROWSER_XSS_FILTER = True
+X_FRAME_OPTIONS = 'DENY'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -49,9 +66,7 @@ LOGGING = {
     },
 }
 
-
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -62,6 +77,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'corsheaders',
     'chat_backend',
     'channels',
@@ -104,11 +120,20 @@ WSGI_APPLICATION = 'chat_backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#    }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'chat',  # 確認したデータベース名
+        'USER': 'admin',       # 確認したユーザー名
+        'PASSWORD': 'saku1003',   # 確認したパスワード
+        'HOST': 'database-1.cxcik2aa211v.ap-northeast-3.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 
