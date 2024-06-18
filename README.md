@@ -13,6 +13,14 @@ python manage.py runserver 0.0.0.0:8000
 mysql -h database-1.cxcik2aa211v.ap-northeast-3.rds.amazonaws.com -u admin -p
 # パスワードはsaku1003
 ```
+### MySQLのセットアップ
+```bash
+sudo apt-get update
+sudo apt-get install mysql-client
+```
+```mysql
+CREATE DATABASE chat;
+```
 
 ## setup（仮装環境がない場合）
 ```bash
