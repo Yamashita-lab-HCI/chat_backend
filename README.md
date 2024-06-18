@@ -1,11 +1,17 @@
 # chat_backend
 
-# Ubuntuサーバーでのデプロイの流れ
+## Ubuntuサーバーでのデプロイの流れ（まだ試行錯誤中）
 ```bash
 sudo systemctl start nginx
 cd /home/ubuntu/chat_backend
 source activate chat
 python manage.py runserver 0.0.0.0:8000
+```
+
+## RDSとの接続設定
+```bash
+mysql -h database-1.cxcik2aa211v.ap-northeast-3.rds.amazonaws.com -u admin -p
+# パスワードはsaku1003
 ```
 
 ## setup（仮装環境がない場合）
