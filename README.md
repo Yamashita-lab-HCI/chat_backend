@@ -1,12 +1,12 @@
 # chat_backend
 
 # Ubuntuサーバーでのデプロイの流れ
-'''bash
+```bash
 sudo systemctl start nginx
 cd /home/ubuntu/chat_backend
 source activate chat
 python manage.py runserver 0.0.0.0:8000
-'''
+```
 
 ## setup（仮装環境がない場合）
 ```bash
