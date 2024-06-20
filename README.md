@@ -1,11 +1,22 @@
 # chat_backend
 
 ## Ubuntuサーバーでのデプロイの流れ（まだ試行錯誤中）
+### sslアクセスの有効化
+HTTP接続ではブラウザ警告が出てきてしまうので、HTTPS接続に。
+HTTPS接続でも自己証明書を作ったが、これも警告が出るのでドメインを発行して証明書を取得
+1. AWS Route53で新しいドメインを発行（今回は`chatawesome.net`）
+2. Route53にレコードを追加して、EC2のIPアドレス（IPv4）で登録
+3. `nginx`のインストール
+4. `nginx`の設定ファイル`/etc/nginx/sites-available/default`にHTTPS接続`443`をプロキシパス`http://127.0.0.1:8000;`からできるように設定
+5. Let’s Encryptから証明書を取得し、Nginxの設定を自動的に更新
 ```bash
-sudo systemctl start nginx
-cd /home/ubuntu/chat_backend
-source activate chat
-python manage.py runserver 0.0.0.0:8000
+sudo certbot --nginx -d chatawesome.net
+```
+6. 起動時に以下が正しく作動してればOK
+```bash
+sudo systemctl status gunicorn
+sudo systemctl status nginx
+sudo systemctl status custom-startup.service
 ```
 
 ## RDSとの接続設定
