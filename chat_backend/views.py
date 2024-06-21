@@ -3,14 +3,12 @@ from django.http import JsonResponse, HttpResponse
 from django.contrib.auth.models import User
 from django.views.decorators.http import require_http_methods
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.hashers import make_password
 from django.views.generic import TemplateView
 from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
 from django.shortcuts import get_object_or_404
 from .models import Message, Room, UserProfile, Chat
 from rest_framework.generics import ListAPIView
-import json
-import os
+import json, os, logging
 from django.conf import settings
 
 from .serializers import RoomSerializer
@@ -28,7 +26,8 @@ def list_static_files(request):
         files_string = "<br>".join(files_list)
         return HttpResponse(files_string)
     except Exception as e:
-        return HttpResponse(f"Error: {e}")
+        logging.error(str(e))
+        return HttpResponse("An internal error has occurred!")
 
 @require_http_methods(['POST']) 
 @ensure_csrf_cookie
@@ -52,7 +51,8 @@ def login_view(request):
     except json.JSONDecodeError:
         return JsonResponse({'status': 'error', 'message': 'Invalid JSON'}, status=400)
     except Exception as e:
-        return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+        logging.error(str(e))
+        return JsonResponse({'status': 'error', 'message': 'An internal error has occurred!'}, status=500)
     
 def check_login_status(request):
     return JsonResponse({'isLoggedIn': request.user.is_authenticated})
@@ -104,7 +104,7 @@ def register(request):
     username = data.get('username')
     password = data.get('password')
     # email = request.POST.get('email', '')  # メールはオプションで受け取る
-    print(json.dumps({'username': username, 'password': password}))
+    # print(json.dumps({'username': username, 'password': password})) # かなり危険なコード
 
     if not username or not password:
         return JsonResponse({'status': 'error', 'message': 'Username or password cannot be empty'}, status=400)
@@ -112,10 +112,11 @@ def register(request):
     if User.objects.filter(username=username).exists():
         return JsonResponse({'status': 'error', 'message': 'Username already exists'}, status=400)
 
-    user = User.objects.create(
+    #create_userで暗号化
+    user = User.objects.create_user(
             username=username,
             # email=email,
-            password=make_password(password))
+            password=password)
     UserProfile.objects.create(user=user)
     return JsonResponse({'status': 'success', 'message': 'User registered successfully'}, status=201)
 
@@ -180,7 +181,8 @@ def message_view(request):
     except json.JSONDecodeError:
         return JsonResponse({'status': 'error', 'message': 'Invalid JSON.'}, status=400)
     except Exception as e:
-        return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+        logging.error(str(e))
+        return JsonResponse({'status': 'error', 'message': 'An internal error has occurred!'}, status=500)
     
 @csrf_exempt
 @login_required
@@ -204,7 +206,8 @@ def create_room(request):
     except json.JSONDecodeError:
         return JsonResponse({'status': 'error', 'message': 'Invalid JSON.'}, status=400)
     except Exception as e:
-        return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+        logging.error(str(e))
+        return JsonResponse({'status': 'error', 'message': 'An internal error has occurred!'}, status=500)
 
 @csrf_exempt
 @login_required
@@ -224,7 +227,8 @@ def create_default_room(request):
         else:
             return JsonResponse({'status': 'success', 'message': 'Default room already exists', 'roomId': room.id}, status=200)
     except Exception as e:
-        return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+        logging.error(str(e))
+        return JsonResponse({'status': 'error', 'message': 'An internal error has occurred!'}, status=500)
     
 @csrf_exempt
 def record_chat(request):
