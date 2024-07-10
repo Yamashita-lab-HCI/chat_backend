@@ -11,7 +11,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
         self.room_id = self.scope['url_route']['kwargs']['room_id']
         self.room_group_name = f'chat_{self.room_id}'
 
-        logger.info(f"WebSocket connection attempt: room={self.room_id}")
+        logger.info(f"WebSocket connection attempt: room={self.room_id}, user={self.scope['user']}")
 
         # Join room group
         await self.channel_layer.group_add(
@@ -41,13 +41,13 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
     @sync_to_async
     def get_messages(self):
-        room = Room.objects.get(name=self.room_id)
-        return list(Message.objects.filter(room=room).order_by('-timestamp').values('id', 'user__username', 'text', 'timestamp'))
+        room = Room.objects.get(id=self.room_id)
+        return list(Message.objects.filter(room=room).order_by('-created_at').values('id', 'user__username', 'text', 'created_at'))
 
     @sync_to_async
     def save_message(self, username, message):
         user = User.objects.get(username=username)
-        room = Room.objects.get(name=self.room_id)
+        room = Room.objects.get(id=self.room_id)
         return Message.objects.create(user=user, room=room, text=message)
 
     async def receive(self, text_data):
