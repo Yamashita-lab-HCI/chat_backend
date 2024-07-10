@@ -2,28 +2,28 @@
 
 ## setup（仮装環境がない場合）
 ```bash
-conda create --name chat
-conda activate chat
-conda install pip
-conda install --file requirements.txt
+python3 -m venv chat
 ```
 
 ## start
 1. 
 ```bash
-conda activate chat
+source chat/bin/activate
 ```
 2.
 ```bash
+export DJANGO_SETTINGS_MODULE=chat_backend.settings
+export PYTHONPATH="/Users/keis/dev/chat_backend:$PYTHONPATH"
+daphne -p 8001 chat_backend.asgi:application
 python manage.py migrate
 python manage.py runserver
 ```
 ⚠️`python3`はインタプリターが変わるので使ってはいけない！
 
 ## add requirements.txt
-何か追加でcondaに入れたときは、
+何か追加でpipに入れたときは、
 ```bash
-conda list --export | grep -v "^#" | cut -d '=' -f 1-2 > requirements.txt
+pip install -r requirements.txt
 ```
 
 ## initialize database
