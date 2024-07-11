@@ -42,7 +42,11 @@ class ChatConsumer(AsyncWebsocketConsumer):
     @sync_to_async
     def get_messages(self):
         room = Room.objects.get(id=self.room_id)
-        return list(Message.objects.filter(room=room).order_by('-created_at').values('id', 'user__username', 'text', 'created_at'))
+        messages = Message.objects.filter(room=room).order_by('-created_at').values('id', 'user__username', 'text', 'created_at')
+        # datetimeオブジェクトをISO 8601形式の文字列に変換
+        for message in messages:
+            message['created_at'] = message['created_at'].isoformat()
+        return list(messages)
 
     @sync_to_async
     def save_message(self, username, message):
@@ -67,7 +71,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
                     'id': message_obj.id,
                     'user__username': username,
                     'text': message,
-                    'timestamp': str(message_obj.timestamp)
+                    'created_at': str(message_obj.created_at.isoformat())
                 }
             }
         )
