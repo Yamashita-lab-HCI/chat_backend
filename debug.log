@@ -1,463 +1,136 @@
-INFO 2024-07-12 11:16:57,532 autoreload 2354 8314833920 Watching for file changes with StatReloader
-INFO 2024-07-12 11:17:01,606 basehttp 2354 6159986688 "GET /login HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:01,634 basehttp 2354 6159986688 "GET /static/js/app.js HTTP/1.1" 200 28149
-INFO 2024-07-12 11:17:01,636 basehttp 2354 6176813056 "GET /static/css/app.css HTTP/1.1" 200 2409
-INFO 2024-07-12 11:17:01,638 basehttp 2354 6193639424 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
-INFO 2024-07-12 11:17:01,644 basehttp 2354 6210465792 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
-INFO 2024-07-12 11:17:01,857 basehttp 2354 6159986688 "GET /api/check_login_status/ HTTP/1.1" 200 21
-INFO 2024-07-12 11:17:05,176 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:05,342 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:05,444 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:05,539 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:05,683 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:12,888 basehttp 2354 6159986688 "POST /api/register/ HTTP/1.1" 201 64
-INFO 2024-07-12 11:17:15,799 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:15,873 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:15,957 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:16,024 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-WARNING 2024-07-12 11:17:16,137 log 2354 6159986688 Bad Request: /api/check_username/
-WARNING 2024-07-12 11:17:16,138 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 400 63
-INFO 2024-07-12 11:17:16,380 basehttp 2354 6159986688 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-12 11:17:18,866 basehttp 2354 6159986688 "POST /api/register/ HTTP/1.1" 201 64
-INFO 2024-07-12 11:17:24,929 basehttp 2354 6159986688 "POST /api/login/ HTTP/1.1" 200 42
-INFO 2024-07-12 11:17:26,337 basehttp 2354 6159986688 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-12 11:17:26,391 basehttp 2354 6159986688 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:26,399 basehttp 2354 6159986688 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:26,410 basehttp 2354 6193639424 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:26,411 basehttp 2354 6210465792 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:26,415 basehttp 2354 6159986688 "GET /static/js/app.js HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:26,415 basehttp 2354 6176813056 "GET /static/css/app.css HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:26,621 basehttp 2354 6159986688 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:26,629 basehttp 2354 6159986688 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-12 11:17:26,669 basehttp 2354 6159986688 "GET /api/room/ HTTP/1.1" 200 2
-INFO 2024-07-12 11:17:26,752 basehttp 2354 6159986688 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:26,770 basehttp 2354 6159986688 "POST /api/create_default_room/ HTTP/1.1" 201 69
-INFO 2024-07-12 11:17:26,778 basehttp 2354 6159986688 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
-INFO 2024-07-12 11:17:29,802 basehttp 2354 6227292160 "GET / HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:29,818 basehttp 2354 6227292160 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:29,820 basehttp 2354 6227292160 "GET /static/css/app.css HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:29,830 basehttp 2354 6260944896 "GET /static/js/app.js HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:29,830 basehttp 2354 6244118528 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:29,955 basehttp 2354 6260944896 "GET /api/check_login_status/ HTTP/1.1" 200 21
-INFO 2024-07-12 11:17:29,959 basehttp 2354 6244118528 "GET /static/img/chat-icon.svg HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:29,981 basehttp 2354 6244118528 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:33,383 basehttp 2354 6244118528 "POST /api/login/ HTTP/1.1" 200 43
-INFO 2024-07-12 11:17:34,332 basehttp 2354 6244118528 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:34,337 basehttp 2354 6260944896 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:17:34,378 basehttp 2354 6260944896 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:34,526 basehttp 2354 6260944896 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:34,528 basehttp 2354 6244118528 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:17:34,550 basehttp 2354 6244118528 "GET /api/room/ HTTP/1.1" 200 28
-INFO 2024-07-12 11:17:34,573 basehttp 2354 6244118528 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:34,589 basehttp 2354 6260944896 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:34,591 basehttp 2354 6244118528 "POST /api/create_default_room/ HTTP/1.1" 200 76
-INFO 2024-07-12 11:17:34,600 basehttp 2354 6244118528 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
-INFO 2024-07-12 11:17:35,867 basehttp 2354 6260944896 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
-INFO 2024-07-12 11:17:35,867 basehttp 2354 6244118528 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:35,874 basehttp 2354 6227292160 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
-INFO 2024-07-12 11:17:35,877 basehttp 2354 6244118528 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:35,880 basehttp 2354 6227292160 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:17:35,882 basehttp 2354 6244118528 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:17:44,933 basehttp 2354 6159986688 "POST /api/create-room/ HTTP/1.1" 201 61
-INFO 2024-07-12 11:17:44,965 basehttp 2354 6159986688 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:44,967 basehttp 2354 6176813056 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 11:17:44,994 basehttp 2354 6159986688 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-12 11:17:57,207 basehttp 2354 6227292160 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:57,209 basehttp 2354 6244118528 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:57,213 basehttp 2354 6227292160 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:57,807 basehttp 2354 6227292160 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:57,811 basehttp 2354 6244118528 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:17:57,827 basehttp 2354 6244118528 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:57,828 basehttp 2354 6227292160 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:57,834 basehttp 2354 6260944896 "GET /static/css/app.css HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:57,837 basehttp 2354 6277771264 "GET /static/js/app.js HTTP/1.1" 304 0
-INFO 2024-07-12 11:17:57,934 basehttp 2354 6277771264 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:57,935 basehttp 2354 6260944896 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:17:57,956 basehttp 2354 6260944896 "GET /api/room/ HTTP/1.1" 200 51
-INFO 2024-07-12 11:17:57,978 basehttp 2354 6260944896 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:57,985 basehttp 2354 6277771264 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:57,995 basehttp 2354 6260944896 "POST /api/create_default_room/ HTTP/1.1" 200 76
-INFO 2024-07-12 11:17:58,000 basehttp 2354 6260944896 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 11:17:59,078 basehttp 2354 6260944896 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 11:17:59,086 basehttp 2354 6277771264 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 11:17:59,098 basehttp 2354 6260944896 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 11:17:59,101 basehttp 2354 6277771264 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:17:59,101 basehttp 2354 6227292160 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:17:59,103 basehttp 2354 6277771264 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:18:00,104 basehttp 2354 6227292160 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:18:00,108 basehttp 2354 6277771264 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 11:18:00,118 basehttp 2354 6277771264 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:18:01,318 basehttp 2354 6277771264 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 11:18:01,320 basehttp 2354 6227292160 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:18:01,337 basehttp 2354 6227292160 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:18:01,971 basehttp 2354 6277771264 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:18:01,977 basehttp 2354 6227292160 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 11:18:01,984 basehttp 2354 6227292160 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:18:03,416 basehttp 2354 6227292160 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 11:18:03,419 basehttp 2354 6277771264 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:18:03,427 basehttp 2354 6277771264 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:18:06,048 basehttp 2354 6277771264 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 11:18:06,049 basehttp 2354 6227292160 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:18:06,053 basehttp 2354 6227292160 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:18:10,218 basehttp 2354 6227292160 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 11:18:10,220 basehttp 2354 6277771264 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:18:10,226 basehttp 2354 6277771264 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 11:18:18,677 basehttp 2354 6227292160 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 11:18:18,679 basehttp 2354 6277771264 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 11:18:18,692 basehttp 2354 6277771264 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 12:38:52,916 cli 4316 8314833920 Starting server at tcp:port=8001:interface=127.0.0.1
-INFO 2024-07-12 12:38:52,916 server 4316 8314833920 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-INFO 2024-07-12 12:38:52,916 server 4316 8314833920 Configuring endpoint tcp:port=8001:interface=127.0.0.1
-INFO 2024-07-12 12:38:52,917 server 4316 8314833920 Listening on TCP address 127.0.0.1:8001
-INFO 2024-07-12 12:38:56,023 autoreload 4327 8314833920 Watching for file changes with StatReloader
-INFO 2024-07-12 12:38:59,974 basehttp 4327 6135148544 "POST /api/logout/ HTTP/1.1" 200 59
-INFO 2024-07-12 12:39:12,287 basehttp 4327 6151974912 "POST /api/logout/ HTTP/1.1" 200 59
-INFO 2024-07-12 12:39:12,332 basehttp 4327 6151974912 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 12:39:12,333 basehttp 4327 6168801280 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
-INFO 2024-07-12 12:39:17,278 basehttp 4327 6168801280 "POST /api/login/ HTTP/1.1" 200 42
-DEBUG 2024-07-12 12:39:18,079 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63121] to WebSocket
-INFO 2024-07-12 12:39:18,090 basehttp 4327 6168801280 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-12 12:39:18,103 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita
-DEBUG 2024-07-12 12:39:18,104 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63121] open and established
-DEBUG 2024-07-12 12:39:18,105 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63121] accepted by application
-INFO 2024-07-12 12:39:18,105 basehttp 4327 6151974912 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-12 12:39:18,105 consumers 4316 8314833920 WebSocket connected: room=0, user=keita
-DEBUG 2024-07-12 12:39:18,107 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63121]
-DEBUG 2024-07-12 12:39:18,118 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63121]
-INFO 2024-07-12 12:39:18,118 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
-INFO 2024-07-12 12:39:18,128 basehttp 4327 6168801280 "GET /static/css/app.css HTTP/1.1" 200 2409
-INFO 2024-07-12 12:39:18,128 basehttp 4327 6151974912 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 12:39:18,128 basehttp 4327 6185627648 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
-INFO 2024-07-12 12:39:18,151 basehttp 4327 6168801280 "GET /static/js/app.js HTTP/1.1" 200 27945
-INFO 2024-07-12 12:39:18,165 basehttp 4327 6185627648 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
-INFO 2024-07-12 12:39:18,350 basehttp 4327 6168801280 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-12 12:39:18,357 basehttp 4327 6185627648 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-12 12:39:18,386 basehttp 4327 6185627648 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
-INFO 2024-07-12 12:39:18,405 basehttp 4327 6185627648 "GET /api/room/ HTTP/1.1" 200 51
-INFO 2024-07-12 12:39:18,440 basehttp 4327 6185627648 "POST /api/create_default_room/ HTTP/1.1" 200 76
-DEBUG 2024-07-12 12:39:18,449 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63128] to WebSocket
-INFO 2024-07-12 12:39:18,459 basehttp 4327 6185627648 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 12:39:18,460 basehttp 4327 6168801280 "GET /api/favicon.ico HTTP/1.1" 200 1029
-DEBUG 2024-07-12 12:39:18,461 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63128] open and established
-DEBUG 2024-07-12 12:39:18,461 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63128] accepted by application
-DEBUG 2024-07-12 12:39:18,462 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63128]
-DEBUG 2024-07-12 12:39:18,474 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63129] to WebSocket
-INFO 2024-07-12 12:39:18,475 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita
-DEBUG 2024-07-12 12:39:18,475 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63129] open and established
-DEBUG 2024-07-12 12:39:18,475 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63129] accepted by application
-INFO 2024-07-12 12:39:18,475 consumers 4316 8314833920 WebSocket connected: room=0, user=keita
-DEBUG 2024-07-12 12:39:18,477 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63129]
-INFO 2024-07-12 12:39:24,171 basehttp 4327 6135148544 "POST /api/login/ HTTP/1.1" 200 43
-DEBUG 2024-07-12 12:39:25,523 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63137] to WebSocket
-INFO 2024-07-12 12:39:25,526 basehttp 4327 6135148544 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 12:39:25,530 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita2
-DEBUG 2024-07-12 12:39:25,530 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63137] open and established
-DEBUG 2024-07-12 12:39:25,531 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63137] accepted by application
-INFO 2024-07-12 12:39:25,531 consumers 4316 8314833920 WebSocket connected: room=1, user=keita2
-DEBUG 2024-07-12 12:39:25,533 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63137]
-INFO 2024-07-12 12:39:25,586 basehttp 4327 6135148544 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 12:39:25,596 basehttp 4327 6135148544 "GET /home HTTP/1.1" 200 1029
-DEBUG 2024-07-12 12:39:25,599 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63137]
-INFO 2024-07-12 12:39:25,599 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita2, code=1001
-INFO 2024-07-12 12:39:25,607 basehttp 4327 6135148544 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
-INFO 2024-07-12 12:39:25,607 basehttp 4327 6202454016 "GET /static/js/app.js HTTP/1.1" 200 27945
-INFO 2024-07-12 12:39:25,611 basehttp 4327 6219280384 "GET /static/css/app.css HTTP/1.1" 200 2409
-INFO 2024-07-12 12:39:25,625 basehttp 4327 6236106752 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
-INFO 2024-07-12 12:39:25,827 basehttp 4327 6135148544 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-12 12:39:25,832 basehttp 4327 6135148544 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 12:39:25,870 basehttp 4327 6135148544 "GET /api/room/ HTTP/1.1" 200 51
-INFO 2024-07-12 12:39:25,925 basehttp 4327 6135148544 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-DEBUG 2024-07-12 12:39:25,933 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63141] to WebSocket
-DEBUG 2024-07-12 12:39:25,939 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63141] open and established
-DEBUG 2024-07-12 12:39:25,939 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63141] accepted by application
-DEBUG 2024-07-12 12:39:25,940 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63141]
-INFO 2024-07-12 12:39:25,942 basehttp 4327 6135148544 "POST /api/create_default_room/ HTTP/1.1" 200 76
-DEBUG 2024-07-12 12:39:25,946 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63142] to WebSocket
-INFO 2024-07-12 12:39:25,946 basehttp 4327 6135148544 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 12:39:25,947 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita2
-DEBUG 2024-07-12 12:39:25,947 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63142] open and established
-DEBUG 2024-07-12 12:39:25,948 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63142] accepted by application
-INFO 2024-07-12 12:39:25,948 consumers 4316 8314833920 WebSocket connected: room=0, user=keita2
-DEBUG 2024-07-12 12:39:25,949 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63142]
-DEBUG 2024-07-12 12:40:23,604 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63142]
-DEBUG 2024-07-12 12:40:23,610 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63229] to WebSocket
-INFO 2024-07-12 12:40:23,610 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita2, code=None
-INFO 2024-07-12 12:40:23,615 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita2
-DEBUG 2024-07-12 12:40:23,616 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63229] open and established
-DEBUG 2024-07-12 12:40:23,616 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63229] accepted by application
-INFO 2024-07-12 12:40:23,616 consumers 4316 8314833920 WebSocket connected: room=0, user=keita2
-DEBUG 2024-07-12 12:40:23,619 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63229]
-DEBUG 2024-07-12 12:40:23,629 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63230] to WebSocket
-INFO 2024-07-12 12:40:23,635 basehttp 4327 6135148544 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 12:40:23,638 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita2
-DEBUG 2024-07-12 12:40:23,638 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63230] open and established
-DEBUG 2024-07-12 12:40:23,638 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63230] accepted by application
-INFO 2024-07-12 12:40:23,638 consumers 4316 8314833920 WebSocket connected: room=0, user=keita2
-DEBUG 2024-07-12 12:40:23,639 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63230]
-INFO 2024-07-12 12:40:23,639 basehttp 4327 6202454016 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 12:40:23,665 basehttp 4327 6135148544 "GET /api/get_current_user/ HTTP/1.1" 200 22
-DEBUG 2024-07-12 12:40:23,669 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63233] to WebSocket
-DEBUG 2024-07-12 12:40:23,671 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63234] to WebSocket
-INFO 2024-07-12 12:40:23,674 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita2
-DEBUG 2024-07-12 12:40:23,675 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63233] open and established
-DEBUG 2024-07-12 12:40:23,675 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63233] accepted by application
-INFO 2024-07-12 12:40:23,675 consumers 4316 8314833920 WebSocket connected: room=0, user=keita2
-INFO 2024-07-12 12:40:23,676 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita2
-DEBUG 2024-07-12 12:40:23,676 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63234] open and established
-DEBUG 2024-07-12 12:40:23,676 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63234] accepted by application
-INFO 2024-07-12 12:40:23,676 consumers 4316 8314833920 WebSocket connected: room=0, user=keita2
-DEBUG 2024-07-12 12:40:23,677 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63233]
-DEBUG 2024-07-12 12:40:23,677 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63234]
-DEBUG 2024-07-12 12:40:25,179 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63234]
-INFO 2024-07-12 12:40:25,180 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita2, code=None
-DEBUG 2024-07-12 12:40:25,202 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63235] to WebSocket
-INFO 2024-07-12 12:40:25,207 basehttp 4327 6135148544 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 12:40:25,209 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita2
-DEBUG 2024-07-12 12:40:25,210 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63235] open and established
-DEBUG 2024-07-12 12:40:25,210 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63235] accepted by application
-INFO 2024-07-12 12:40:25,210 consumers 4316 8314833920 WebSocket connected: room=0, user=keita2
-DEBUG 2024-07-12 12:40:25,214 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63235]
-INFO 2024-07-12 12:40:25,236 basehttp 4327 6202454016 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-12 12:40:25,238 basehttp 4327 6135148544 - Broken pipe from ('127.0.0.1', 63231)
-DEBUG 2024-07-12 12:40:25,241 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63230]
-DEBUG 2024-07-12 12:40:25,241 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63233]
-DEBUG 2024-07-12 12:40:25,242 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63235]
-DEBUG 2024-07-12 12:40:25,242 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63141]
-DEBUG 2024-07-12 12:40:25,242 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63229]
-INFO 2024-07-12 12:40:25,243 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita2, code=1001
-INFO 2024-07-12 12:40:25,243 basehttp 4327 6202454016 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
-INFO 2024-07-12 12:40:25,243 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita2, code=1001
-INFO 2024-07-12 12:40:25,244 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita2, code=1001
-INFO 2024-07-12 12:40:25,244 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita2, code=1001
-INFO 2024-07-12 12:40:25,245 basehttp 4327 6135148544 "GET /static/js/app.js HTTP/1.1" 304 0
-INFO 2024-07-12 12:40:25,245 basehttp 4327 6219280384 "GET /static/css/app.css HTTP/1.1" 304 0
-INFO 2024-07-12 12:40:25,245 basehttp 4327 6236106752 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
-INFO 2024-07-12 12:40:25,433 basehttp 4327 6202454016 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-12 12:40:25,442 basehttp 4327 6202454016 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 12:40:25,482 basehttp 4327 6202454016 "GET /api/room/ HTTP/1.1" 200 51
-INFO 2024-07-12 12:40:25,537 basehttp 4327 6202454016 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-DEBUG 2024-07-12 12:40:25,543 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63239] to WebSocket
-INFO 2024-07-12 12:40:25,552 basehttp 4327 6202454016 "POST /api/create_default_room/ HTTP/1.1" 200 76
-DEBUG 2024-07-12 12:40:25,553 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63239] open and established
-DEBUG 2024-07-12 12:40:25,554 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63239] accepted by application
-DEBUG 2024-07-12 12:40:25,554 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63239]
-DEBUG 2024-07-12 12:40:25,565 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63240] to WebSocket
-INFO 2024-07-12 12:40:25,575 basehttp 4327 6202454016 "GET /api/messages/?room_id=0 HTTP/1.1" 200 130
-INFO 2024-07-12 12:40:25,576 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita2
-DEBUG 2024-07-12 12:40:25,577 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63240] open and established
-DEBUG 2024-07-12 12:40:25,577 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63240] accepted by application
-INFO 2024-07-12 12:40:25,577 consumers 4316 8314833920 WebSocket connected: room=0, user=keita2
-DEBUG 2024-07-12 12:40:25,578 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:36,169 ws_protocol 4316 8314833920 WebSocket incoming frame on ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:36,178 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63129]
-DEBUG 2024-07-12 12:40:36,179 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:40,577 ws_protocol 4316 8314833920 WebSocket incoming frame on ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:40,586 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63129]
-DEBUG 2024-07-12 12:40:40,586 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:44,396 ws_protocol 4316 8314833920 WebSocket incoming frame on ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:44,407 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63129]
-DEBUG 2024-07-12 12:40:44,407 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:47,546 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63129]
-INFO 2024-07-12 12:40:47,547 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita, code=None
-DEBUG 2024-07-12 12:40:47,567 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63270] to WebSocket
-INFO 2024-07-12 12:40:47,572 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,573 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63270] open and established
-DEBUG 2024-07-12 12:40:47,573 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63270] accepted by application
-INFO 2024-07-12 12:40:47,573 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,576 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63270]
-INFO 2024-07-12 12:40:47,591 basehttp 4327 6168801280 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
-DEBUG 2024-07-12 12:40:47,591 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63271] to WebSocket
-INFO 2024-07-12 12:40:47,597 basehttp 4327 6185627648 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 12:40:47,605 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,605 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63271] open and established
-DEBUG 2024-07-12 12:40:47,605 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63271] accepted by application
-INFO 2024-07-12 12:40:47,605 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-INFO 2024-07-12 12:40:47,608 basehttp 4327 6185627648 "GET /api/favicon.ico HTTP/1.1" 200 1029
-DEBUG 2024-07-12 12:40:47,609 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63271]
-INFO 2024-07-12 12:40:47,611 basehttp 4327 6151974912 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-12 12:40:47,611 basehttp 4327 6168801280 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 12:40:47,617 basehttp 4327 6168801280 "GET /api/get_current_user/ HTTP/1.1" 200 21
-DEBUG 2024-07-12 12:40:47,618 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63272] to WebSocket
-INFO 2024-07-12 12:40:47,620 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,620 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63272] open and established
-DEBUG 2024-07-12 12:40:47,620 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63272] accepted by application
-INFO 2024-07-12 12:40:47,620 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,622 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63272]
-DEBUG 2024-07-12 12:40:47,632 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63273] to WebSocket
-INFO 2024-07-12 12:40:47,634 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,634 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63273] open and established
-DEBUG 2024-07-12 12:40:47,634 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63273] accepted by application
-INFO 2024-07-12 12:40:47,634 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,635 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63273]
-DEBUG 2024-07-12 12:40:47,648 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63274] to WebSocket
-INFO 2024-07-12 12:40:47,649 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,649 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63274] open and established
-DEBUG 2024-07-12 12:40:47,649 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63274] accepted by application
-INFO 2024-07-12 12:40:47,649 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:40:47,650 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63274]
-DEBUG 2024-07-12 12:40:53,970 ws_protocol 4316 8314833920 WebSocket incoming frame on ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:53,977 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63240]
-DEBUG 2024-07-12 12:40:59,396 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63274]
-INFO 2024-07-12 12:40:59,397 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=None
-DEBUG 2024-07-12 12:40:59,407 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63296] to WebSocket
-INFO 2024-07-12 12:40:59,411 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita
-DEBUG 2024-07-12 12:40:59,412 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63296] open and established
-DEBUG 2024-07-12 12:40:59,412 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63296] accepted by application
-INFO 2024-07-12 12:40:59,412 consumers 4316 8314833920 WebSocket connected: room=0, user=keita
-DEBUG 2024-07-12 12:40:59,415 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63296]
-DEBUG 2024-07-12 12:40:59,429 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63297] to WebSocket
-INFO 2024-07-12 12:40:59,432 basehttp 4327 6151974912 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 12:40:59,439 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita
-DEBUG 2024-07-12 12:40:59,439 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63297] open and established
-DEBUG 2024-07-12 12:40:59,439 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63297] accepted by application
-INFO 2024-07-12 12:40:59,439 consumers 4316 8314833920 WebSocket connected: room=0, user=keita
-INFO 2024-07-12 12:40:59,439 basehttp 4327 6168801280 "GET /api/messages/?room_id=0 HTTP/1.1" 200 650
-DEBUG 2024-07-12 12:40:59,441 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63297]
-INFO 2024-07-12 12:40:59,448 basehttp 4327 6168801280 "GET /api/get_current_user/ HTTP/1.1" 200 21
-DEBUG 2024-07-12 12:40:59,453 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63298] to WebSocket
-INFO 2024-07-12 12:40:59,454 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita
-DEBUG 2024-07-12 12:40:59,455 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63298] open and established
-DEBUG 2024-07-12 12:40:59,455 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63298] accepted by application
-INFO 2024-07-12 12:40:59,455 consumers 4316 8314833920 WebSocket connected: room=0, user=keita
-DEBUG 2024-07-12 12:40:59,456 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63298]
-DEBUG 2024-07-12 12:40:59,470 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63299] to WebSocket
-INFO 2024-07-12 12:40:59,475 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita
-DEBUG 2024-07-12 12:40:59,475 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63299] open and established
-DEBUG 2024-07-12 12:40:59,475 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63299] accepted by application
-INFO 2024-07-12 12:40:59,475 consumers 4316 8314833920 WebSocket connected: room=0, user=keita
-DEBUG 2024-07-12 12:40:59,476 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63299]
-DEBUG 2024-07-12 12:41:00,068 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63299]
-INFO 2024-07-12 12:41:00,068 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita, code=None
-DEBUG 2024-07-12 12:41:00,076 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63300] to WebSocket
-INFO 2024-07-12 12:41:00,080 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:41:00,080 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63300] open and established
-DEBUG 2024-07-12 12:41:00,080 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63300] accepted by application
-INFO 2024-07-12 12:41:00,081 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:41:00,085 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63300]
-INFO 2024-07-12 12:41:00,086 basehttp 4327 6168801280 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-12 12:41:00,092 basehttp 4327 6151974912 "GET /api/favicon.ico HTTP/1.1" 200 1029
-DEBUG 2024-07-12 12:41:00,094 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63301] to WebSocket
-INFO 2024-07-12 12:41:00,097 basehttp 4327 6151974912 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-12 12:41:00,098 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:41:00,098 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63301] open and established
-DEBUG 2024-07-12 12:41:00,098 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63301] accepted by application
-INFO 2024-07-12 12:41:00,098 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:41:00,100 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63301]
-DEBUG 2024-07-12 12:41:00,113 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63302] to WebSocket
-INFO 2024-07-12 12:41:00,116 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:41:00,116 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63302] open and established
-DEBUG 2024-07-12 12:41:00,116 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63302] accepted by application
-INFO 2024-07-12 12:41:00,116 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:41:00,118 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63302]
-DEBUG 2024-07-12 12:41:00,130 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63303] to WebSocket
-INFO 2024-07-12 12:41:00,132 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:41:00,132 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63303] open and established
-DEBUG 2024-07-12 12:41:00,132 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63303] accepted by application
-INFO 2024-07-12 12:41:00,133 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:41:00,134 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63303]
-DEBUG 2024-07-12 12:41:01,414 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63303]
-INFO 2024-07-12 12:41:01,418 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=None
-DEBUG 2024-07-12 12:41:01,421 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63306] to WebSocket
-INFO 2024-07-12 12:41:01,430 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:41:01,430 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63306] open and established
-DEBUG 2024-07-12 12:41:01,431 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63306] accepted by application
-INFO 2024-07-12 12:41:01,431 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:41:01,442 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63306]
-DEBUG 2024-07-12 12:41:01,444 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63307] to WebSocket
-INFO 2024-07-12 12:41:01,447 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:41:01,447 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63307] open and established
-DEBUG 2024-07-12 12:41:01,447 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63307] accepted by application
-INFO 2024-07-12 12:41:01,447 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:41:01,448 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63307]
-INFO 2024-07-12 12:41:02,119 basehttp 4327 6151974912 "POST /api/logout/ HTTP/1.1" 200 59
-INFO 2024-07-12 12:41:02,144 basehttp 4327 6151974912 "GET /static/img/chat-icon.svg HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:02,149 basehttp 4327 6151974912 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 12:41:04,342 basehttp 4327 6202454016 "POST /api/logout/ HTTP/1.1" 200 59
-DEBUG 2024-07-12 12:41:04,345 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63240]
-INFO 2024-07-12 12:41:04,345 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita2, code=None
-INFO 2024-07-12 12:41:08,671 basehttp 4327 6151974912 "POST /api/login/ HTTP/1.1" 200 42
-DEBUG 2024-07-12 12:41:09,975 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63336] to WebSocket
-INFO 2024-07-12 12:41:09,980 consumers 4316 8314833920 WebSocket connection attempt: room=1, user=keita
-DEBUG 2024-07-12 12:41:09,980 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63336] open and established
-DEBUG 2024-07-12 12:41:09,980 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63336] accepted by application
-INFO 2024-07-12 12:41:09,980 consumers 4316 8314833920 WebSocket connected: room=1, user=keita
-DEBUG 2024-07-12 12:41:09,982 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63336]
-INFO 2024-07-12 12:41:09,991 basehttp 4327 6151974912 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-12 12:41:09,994 basehttp 4327 6168801280 "GET /api/get_current_user/ HTTP/1.1" 200 21
-DEBUG 2024-07-12 12:41:09,997 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63273]
-DEBUG 2024-07-12 12:41:09,997 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63297]
-DEBUG 2024-07-12 12:41:09,997 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63301]
-DEBUG 2024-07-12 12:41:09,997 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63271]
-DEBUG 2024-07-12 12:41:09,998 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63307]
-DEBUG 2024-07-12 12:41:09,998 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63302]
-DEBUG 2024-07-12 12:41:09,998 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63296]
-DEBUG 2024-07-12 12:41:09,998 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63306]
-DEBUG 2024-07-12 12:41:10,000 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63270]
-DEBUG 2024-07-12 12:41:10,000 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63128]
-DEBUG 2024-07-12 12:41:10,000 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63298]
-DEBUG 2024-07-12 12:41:10,001 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63300]
-DEBUG 2024-07-12 12:41:10,001 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63336]
-DEBUG 2024-07-12 12:41:10,001 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63272]
-INFO 2024-07-12 12:41:10,001 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,001 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
-INFO 2024-07-12 12:41:10,002 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,002 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,002 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,002 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,002 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
-INFO 2024-07-12 12:41:10,002 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,002 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,002 consumers 4316 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
-INFO 2024-07-12 12:41:10,003 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,003 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,003 consumers 4316 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
-INFO 2024-07-12 12:41:10,016 basehttp 4327 6151974912 "GET /static/css/app.css HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:10,017 basehttp 4327 6151974912 "GET /static/js/app.js HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:10,018 basehttp 4327 6185627648 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:10,018 basehttp 4327 6168801280 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 12:41:10,019 basehttp 4327 6252933120 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:10,145 basehttp 4327 6168801280 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-12 12:41:10,151 basehttp 4327 6151974912 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-12 12:41:10,171 basehttp 4327 6151974912 "GET /api/room/ HTTP/1.1" 200 51
-INFO 2024-07-12 12:41:10,203 basehttp 4327 6151974912 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
-DEBUG 2024-07-12 12:41:10,205 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63341] to WebSocket
-INFO 2024-07-12 12:41:10,209 basehttp 4327 6168801280 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-12 12:41:10,215 basehttp 4327 6151974912 "POST /api/create_default_room/ HTTP/1.1" 200 76
-DEBUG 2024-07-12 12:41:10,216 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63341] open and established
-DEBUG 2024-07-12 12:41:10,217 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63341] accepted by application
-DEBUG 2024-07-12 12:41:10,217 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63341]
-INFO 2024-07-12 12:41:10,219 basehttp 4327 6151974912 "GET /api/messages/?room_id=0 HTTP/1.1" 200 650
-DEBUG 2024-07-12 12:41:10,229 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63342] to WebSocket
-INFO 2024-07-12 12:41:10,231 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita
-DEBUG 2024-07-12 12:41:10,231 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63342] open and established
-DEBUG 2024-07-12 12:41:10,231 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63342] accepted by application
-INFO 2024-07-12 12:41:10,231 consumers 4316 8314833920 WebSocket connected: room=0, user=keita
-DEBUG 2024-07-12 12:41:10,232 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63342]
-INFO 2024-07-12 12:41:15,302 basehttp 4327 6202454016 "POST /api/login/ HTTP/1.1" 200 43
-INFO 2024-07-12 12:41:16,814 basehttp 4327 6202454016 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 12:41:16,838 basehttp 4327 6202454016 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-12 12:41:16,843 basehttp 4327 6202454016 "GET /home HTTP/1.1" 200 1029
-DEBUG 2024-07-12 12:41:16,846 ws_protocol 4316 8314833920 WebSocket closed for ['127.0.0.1', 63239]
-INFO 2024-07-12 12:41:16,850 basehttp 4327 6219280384 "GET /static/css/app.css HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:16,853 basehttp 4327 6135148544 "GET /static/js/app.js HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:16,854 basehttp 4327 6202454016 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:16,854 basehttp 4327 6236106752 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
-INFO 2024-07-12 12:41:16,987 basehttp 4327 6202454016 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-12 12:41:16,995 basehttp 4327 6202454016 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-12 12:41:17,027 basehttp 4327 6202454016 "GET /api/room/ HTTP/1.1" 200 51
-INFO 2024-07-12 12:41:17,070 basehttp 4327 6202454016 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-DEBUG 2024-07-12 12:41:17,072 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63353] to WebSocket
-DEBUG 2024-07-12 12:41:17,077 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63353] open and established
-DEBUG 2024-07-12 12:41:17,078 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63353] accepted by application
-INFO 2024-07-12 12:41:17,082 basehttp 4327 6202454016 "POST /api/create_default_room/ HTTP/1.1" 200 76
-DEBUG 2024-07-12 12:41:17,088 http_protocol 4316 8314833920 Upgraded connection ['127.0.0.1', 63354] to WebSocket
-DEBUG 2024-07-12 12:41:17,089 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63353]
-INFO 2024-07-12 12:41:17,092 basehttp 4327 6202454016 "GET /api/messages/?room_id=0 HTTP/1.1" 200 650
-INFO 2024-07-12 12:41:17,092 consumers 4316 8314833920 WebSocket connection attempt: room=0, user=keita2
-DEBUG 2024-07-12 12:41:17,093 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63354] open and established
-DEBUG 2024-07-12 12:41:17,093 ws_protocol 4316 8314833920 WebSocket ['127.0.0.1', 63354] accepted by application
-INFO 2024-07-12 12:41:17,093 consumers 4316 8314833920 WebSocket connected: room=0, user=keita2
-DEBUG 2024-07-12 12:41:17,094 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63354]
-DEBUG 2024-07-12 12:41:21,665 ws_protocol 4316 8314833920 WebSocket incoming frame on ['127.0.0.1', 63354]
-DEBUG 2024-07-12 12:41:21,673 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63342]
-DEBUG 2024-07-12 12:41:21,674 ws_protocol 4316 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63354]
+INFO 2024-07-16 11:49:51,617 autoreload 80056 8314833920 Watching for file changes with StatReloader
+INFO 2024-07-16 11:49:59,065 basehttp 80056 6167785472 "GET / HTTP/1.1" 200 1029
+INFO 2024-07-16 11:49:59,115 basehttp 80056 6184611840 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 11:49:59,117 basehttp 80056 6167785472 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 11:49:59,130 basehttp 80056 6167785472 "GET /static/js/app.js HTTP/1.1" 200 28888
+INFO 2024-07-16 11:49:59,165 basehttp 80056 6167785472 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
+INFO 2024-07-16 11:49:59,456 basehttp 80056 6167785472 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:49:59,461 basehttp 80056 6167785472 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 11:49:59,473 basehttp 80056 6167785472 "GET /static/js/app.js.map HTTP/1.1" 200 92770
+INFO 2024-07-16 11:49:59,527 basehttp 80056 6167785472 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 11:49:59,571 basehttp 80056 6167785472 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:08,108 basehttp 80056 6167785472 "GET / HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:08,143 basehttp 80056 6184611840 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 11:50:08,143 basehttp 80056 6167785472 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 11:50:08,165 basehttp 80056 6184611840 "GET /static/js/app.js HTTP/1.1" 200 28888
+INFO 2024-07-16 11:50:08,176 basehttp 80056 6167785472 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
+INFO 2024-07-16 11:50:08,400 basehttp 80056 6167785472 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:50:08,409 basehttp 80056 6167785472 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 11:50:08,424 basehttp 80056 6167785472 "GET /static/js/app.js.map HTTP/1.1" 200 92770
+INFO 2024-07-16 11:50:08,467 basehttp 80056 6184611840 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 11:50:08,508 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:09,715 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:11,099 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:11,172 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:11,242 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:11,338 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:11,457 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:13,830 basehttp 80056 6184611840 "POST /api/register/ HTTP/1.1" 201 64
+INFO 2024-07-16 11:50:13,845 basehttp 80056 6184611840 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 11:50:13,849 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:14,793 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:16,212 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:16,277 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:16,376 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:16,442 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+WARNING 2024-07-16 11:50:16,571 log 80056 6184611840 Bad Request: /api/check_username/
+WARNING 2024-07-16 11:50:16,572 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 400 63
+INFO 2024-07-16 11:50:16,861 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+WARNING 2024-07-16 11:50:17,398 log 80056 6184611840 Bad Request: /api/check_username/
+WARNING 2024-07-16 11:50:17,398 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 400 63
+INFO 2024-07-16 11:50:17,676 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 11:50:21,299 basehttp 80056 6184611840 "POST /api/register/ HTTP/1.1" 201 64
+INFO 2024-07-16 11:50:21,320 basehttp 80056 6184611840 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 11:50:21,324 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:29,489 basehttp 80056 6201438208 "POST /api/login/ HTTP/1.1" 200 43
+INFO 2024-07-16 11:50:30,947 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:50:30,977 basehttp 80056 6201438208 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+INFO 2024-07-16 11:50:30,991 basehttp 80056 6218264576 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:30,995 basehttp 80056 6201438208 - Broken pipe from ('127.0.0.1', 51761)
+INFO 2024-07-16 11:50:30,999 basehttp 80056 6218264576 "GET /static/js/app.js HTTP/1.1" 200 28888
+INFO 2024-07-16 11:50:30,999 basehttp 80056 6201438208 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 11:50:31,001 basehttp 80056 6235090944 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 11:50:31,008 basehttp 80056 6251917312 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
+INFO 2024-07-16 11:50:31,162 basehttp 80056 6218264576 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 11:50:31,167 basehttp 80056 6218264576 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:50:31,199 basehttp 80056 6218264576 "GET /api/room/ HTTP/1.1" 200 28
+INFO 2024-07-16 11:50:31,236 basehttp 80056 6218264576 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+INFO 2024-07-16 11:50:31,247 basehttp 80056 6218264576 "POST /api/create_default_room/ HTTP/1.1" 200 76
+INFO 2024-07-16 11:50:31,252 basehttp 80056 6218264576 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
+INFO 2024-07-16 11:50:35,824 basehttp 80056 6184611840 "POST /api/login/ HTTP/1.1" 200 42
+INFO 2024-07-16 11:50:37,353 basehttp 80056 6184611840 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:37,360 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:50:37,409 basehttp 80056 6184611840 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 11:50:37,414 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:37,414 basehttp 80056 6167785472 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 11:50:37,436 basehttp 80056 6268743680 "GET /static/js/app.js HTTP/1.1" 200 28888
+INFO 2024-07-16 11:50:37,458 basehttp 80056 6167785472 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
+INFO 2024-07-16 11:50:37,669 basehttp 80056 6167785472 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 11:50:37,671 basehttp 80056 6268743680 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:50:37,677 basehttp 80056 6167785472 "GET /static/js/app.js.map HTTP/1.1" 200 92770
+INFO 2024-07-16 11:50:37,707 basehttp 80056 6167785472 "GET /api/room/ HTTP/1.1" 200 28
+INFO 2024-07-16 11:50:37,717 basehttp 80056 6268743680 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 11:50:37,745 basehttp 80056 6268743680 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 11:50:37,766 basehttp 80056 6268743680 "POST /api/create_default_room/ HTTP/1.1" 200 76
+INFO 2024-07-16 11:50:37,822 basehttp 80056 6268743680 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
+INFO 2024-07-16 11:50:37,830 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:58,626 basehttp 80056 6268743680 "POST /api/create-room/ HTTP/1.1" 201 61
+INFO 2024-07-16 11:50:58,659 basehttp 80056 6268743680 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 11:50:58,660 basehttp 80056 6167785472 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
+INFO 2024-07-16 11:50:58,663 basehttp 80056 6268743680 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
+INFO 2024-07-16 11:50:58,677 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:50:58,678 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:50:58,680 basehttp 80056 6268743680 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:51:02,197 basehttp 80056 6268743680 "POST /api/create-room/ HTTP/1.1" 201 61
+INFO 2024-07-16 11:51:02,227 basehttp 80056 6268743680 "GET /api/messages/?room_id=2 HTTP/1.1" 200 2
+INFO 2024-07-16 11:51:02,230 basehttp 80056 6167785472 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:51:02,237 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:51:03,621 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:51:03,622 basehttp 80056 6167785472 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
+INFO 2024-07-16 11:51:03,628 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:51:08,385 basehttp 80056 6218264576 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-16 11:51:08,394 basehttp 80056 6235090944 "GET /static/js/app.js HTTP/1.1" 304 0
+INFO 2024-07-16 11:51:08,394 basehttp 80056 6201438208 "GET /static/css/app.css HTTP/1.1" 304 0
+INFO 2024-07-16 11:51:08,395 basehttp 80056 6218264576 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+INFO 2024-07-16 11:51:08,395 basehttp 80056 6251917312 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+INFO 2024-07-16 11:51:08,530 basehttp 80056 6218264576 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 11:51:08,535 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:51:08,562 basehttp 80056 6218264576 "GET /api/room/ HTTP/1.1" 200 74
+INFO 2024-07-16 11:51:08,591 basehttp 80056 6218264576 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+INFO 2024-07-16 11:51:08,608 basehttp 80056 6218264576 "POST /api/create_default_room/ HTTP/1.1" 200 76
+INFO 2024-07-16 11:51:08,617 basehttp 80056 6218264576 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
+INFO 2024-07-16 11:51:09,450 basehttp 80056 6218264576 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+INFO 2024-07-16 11:51:09,453 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
+INFO 2024-07-16 11:51:09,479 basehttp 80056 6218264576 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:51:17,792 basehttp 80056 6218264576 "GET /api/messages/?room_id=2 HTTP/1.1" 200 2
+INFO 2024-07-16 11:51:17,798 basehttp 80056 6218264576 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:51:19,845 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:51:19,848 basehttp 80056 6167785472 "GET /api/messages/?room_id=2 HTTP/1.1" 200 2
+INFO 2024-07-16 11:51:19,851 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:51:26,506 basehttp 80056 6218264576 "GET /api/messages/?room_id=1 HTTP/1.1" 200 130
+INFO 2024-07-16 11:51:26,517 basehttp 80056 6218264576 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:51:28,205 basehttp 80056 6167785472 "GET /api/messages/?room_id=1 HTTP/1.1" 200 130
+INFO 2024-07-16 11:51:28,205 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:51:28,210 basehttp 80056 6268743680 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:51:29,917 basehttp 80056 6167785472 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:51:29,918 basehttp 80056 6268743680 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
+INFO 2024-07-16 11:51:29,923 basehttp 80056 6268743680 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:51:30,598 basehttp 80056 6268743680 "GET /api/messages/?room_id=1 HTTP/1.1" 200 130
+INFO 2024-07-16 11:51:30,600 basehttp 80056 6167785472 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 11:51:30,605 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 11:52:58,256 basehttp 80056 6201438208 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
+INFO 2024-07-16 11:52:58,261 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:52:58,810 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 259
+INFO 2024-07-16 11:52:58,821 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:52:59,474 basehttp 80056 6201438208 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
+INFO 2024-07-16 11:52:59,483 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:52:59,955 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 259
+INFO 2024-07-16 11:52:59,966 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:53:01,342 basehttp 80056 6201438208 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
+INFO 2024-07-16 11:53:01,354 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:53:02,027 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 259
+INFO 2024-07-16 11:53:02,042 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:53:02,525 basehttp 80056 6201438208 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
+INFO 2024-07-16 11:53:02,533 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 11:53:03,041 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 259
+INFO 2024-07-16 11:53:03,053 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22

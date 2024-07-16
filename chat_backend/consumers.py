@@ -49,9 +49,28 @@ class ChatConsumer(AsyncWebsocketConsumer):
                         'user__username': username,
                         'text': message,
                         'created_at': str(message_obj.created_at.isoformat())
-                    }
+                    },
                 }
             )
+        elif message_type == 'icon_color_change':
+            await self.icon_color_change(data['color'])
+
+    async def icon_color_change(self, color):
+        # アイコンの色情報を他のクライアントにブロードキャスト
+        await self.channel_layer.group_send(
+            self.room_group_name,
+            {
+                'type': 'icon_color_message',
+                'color': color,
+            }
+        )
+
+    async def icon_color_message(self, event):
+        # クライアントにアイコンの色情報を送信
+        await self.send(text_data=json.dumps({
+            'type': 'icon_color_change',
+            'color': event['color']
+        }))
 
     async def chat_message(self, event):
         message = event['message']
