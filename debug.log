@@ -1,136 +1,1268 @@
-INFO 2024-07-16 11:49:51,617 autoreload 80056 8314833920 Watching for file changes with StatReloader
-INFO 2024-07-16 11:49:59,065 basehttp 80056 6167785472 "GET / HTTP/1.1" 200 1029
-INFO 2024-07-16 11:49:59,115 basehttp 80056 6184611840 "GET /static/css/app.css HTTP/1.1" 200 2409
-INFO 2024-07-16 11:49:59,117 basehttp 80056 6167785472 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
-INFO 2024-07-16 11:49:59,130 basehttp 80056 6167785472 "GET /static/js/app.js HTTP/1.1" 200 28888
-INFO 2024-07-16 11:49:59,165 basehttp 80056 6167785472 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
-INFO 2024-07-16 11:49:59,456 basehttp 80056 6167785472 "GET /api/check_login_status/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:49:59,461 basehttp 80056 6167785472 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
-INFO 2024-07-16 11:49:59,473 basehttp 80056 6167785472 "GET /static/js/app.js.map HTTP/1.1" 200 92770
-INFO 2024-07-16 11:49:59,527 basehttp 80056 6167785472 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
-INFO 2024-07-16 11:49:59,571 basehttp 80056 6167785472 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:08,108 basehttp 80056 6167785472 "GET / HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:08,143 basehttp 80056 6184611840 "GET /static/css/app.css HTTP/1.1" 200 2409
-INFO 2024-07-16 11:50:08,143 basehttp 80056 6167785472 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
-INFO 2024-07-16 11:50:08,165 basehttp 80056 6184611840 "GET /static/js/app.js HTTP/1.1" 200 28888
-INFO 2024-07-16 11:50:08,176 basehttp 80056 6167785472 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
-INFO 2024-07-16 11:50:08,400 basehttp 80056 6167785472 "GET /api/check_login_status/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:50:08,409 basehttp 80056 6167785472 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
-INFO 2024-07-16 11:50:08,424 basehttp 80056 6167785472 "GET /static/js/app.js.map HTTP/1.1" 200 92770
-INFO 2024-07-16 11:50:08,467 basehttp 80056 6184611840 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
-INFO 2024-07-16 11:50:08,508 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:09,715 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:11,099 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:11,172 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:11,242 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:11,338 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:11,457 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:13,830 basehttp 80056 6184611840 "POST /api/register/ HTTP/1.1" 201 64
-INFO 2024-07-16 11:50:13,845 basehttp 80056 6184611840 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
-INFO 2024-07-16 11:50:13,849 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:14,793 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:16,212 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:16,277 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:16,376 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:16,442 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-WARNING 2024-07-16 11:50:16,571 log 80056 6184611840 Bad Request: /api/check_username/
-WARNING 2024-07-16 11:50:16,572 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 400 63
-INFO 2024-07-16 11:50:16,861 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-WARNING 2024-07-16 11:50:17,398 log 80056 6184611840 Bad Request: /api/check_username/
-WARNING 2024-07-16 11:50:17,398 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 400 63
-INFO 2024-07-16 11:50:17,676 basehttp 80056 6184611840 "POST /api/check_username/ HTTP/1.1" 200 17
-INFO 2024-07-16 11:50:21,299 basehttp 80056 6184611840 "POST /api/register/ HTTP/1.1" 201 64
-INFO 2024-07-16 11:50:21,320 basehttp 80056 6184611840 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
-INFO 2024-07-16 11:50:21,324 basehttp 80056 6184611840 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:29,489 basehttp 80056 6201438208 "POST /api/login/ HTTP/1.1" 200 43
-INFO 2024-07-16 11:50:30,947 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:50:30,977 basehttp 80056 6201438208 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-16 11:50:30,991 basehttp 80056 6218264576 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:30,995 basehttp 80056 6201438208 - Broken pipe from ('127.0.0.1', 51761)
-INFO 2024-07-16 11:50:30,999 basehttp 80056 6218264576 "GET /static/js/app.js HTTP/1.1" 200 28888
-INFO 2024-07-16 11:50:30,999 basehttp 80056 6201438208 "GET /static/css/app.css HTTP/1.1" 200 2409
-INFO 2024-07-16 11:50:31,001 basehttp 80056 6235090944 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
-INFO 2024-07-16 11:50:31,008 basehttp 80056 6251917312 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
-INFO 2024-07-16 11:50:31,162 basehttp 80056 6218264576 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-16 11:50:31,167 basehttp 80056 6218264576 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:50:31,199 basehttp 80056 6218264576 "GET /api/room/ HTTP/1.1" 200 28
-INFO 2024-07-16 11:50:31,236 basehttp 80056 6218264576 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-16 11:50:31,247 basehttp 80056 6218264576 "POST /api/create_default_room/ HTTP/1.1" 200 76
-INFO 2024-07-16 11:50:31,252 basehttp 80056 6218264576 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
-INFO 2024-07-16 11:50:35,824 basehttp 80056 6184611840 "POST /api/login/ HTTP/1.1" 200 42
-INFO 2024-07-16 11:50:37,353 basehttp 80056 6184611840 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:37,360 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:50:37,409 basehttp 80056 6184611840 "GET /static/css/app.css HTTP/1.1" 200 2409
-INFO 2024-07-16 11:50:37,414 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:37,414 basehttp 80056 6167785472 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
-INFO 2024-07-16 11:50:37,436 basehttp 80056 6268743680 "GET /static/js/app.js HTTP/1.1" 200 28888
-INFO 2024-07-16 11:50:37,458 basehttp 80056 6167785472 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982752
-INFO 2024-07-16 11:50:37,669 basehttp 80056 6167785472 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-16 11:50:37,671 basehttp 80056 6268743680 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:50:37,677 basehttp 80056 6167785472 "GET /static/js/app.js.map HTTP/1.1" 200 92770
-INFO 2024-07-16 11:50:37,707 basehttp 80056 6167785472 "GET /api/room/ HTTP/1.1" 200 28
-INFO 2024-07-16 11:50:37,717 basehttp 80056 6268743680 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
-INFO 2024-07-16 11:50:37,745 basehttp 80056 6268743680 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
-INFO 2024-07-16 11:50:37,766 basehttp 80056 6268743680 "POST /api/create_default_room/ HTTP/1.1" 200 76
-INFO 2024-07-16 11:50:37,822 basehttp 80056 6268743680 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
-INFO 2024-07-16 11:50:37,830 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:58,626 basehttp 80056 6268743680 "POST /api/create-room/ HTTP/1.1" 201 61
-INFO 2024-07-16 11:50:58,659 basehttp 80056 6268743680 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
-INFO 2024-07-16 11:50:58,660 basehttp 80056 6167785472 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-16 11:50:58,663 basehttp 80056 6268743680 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-16 11:50:58,677 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:50:58,678 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:50:58,680 basehttp 80056 6268743680 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:51:02,197 basehttp 80056 6268743680 "POST /api/create-room/ HTTP/1.1" 201 61
-INFO 2024-07-16 11:51:02,227 basehttp 80056 6268743680 "GET /api/messages/?room_id=2 HTTP/1.1" 200 2
-INFO 2024-07-16 11:51:02,230 basehttp 80056 6167785472 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:51:02,237 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:51:03,621 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:51:03,622 basehttp 80056 6167785472 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-16 11:51:03,628 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:51:08,385 basehttp 80056 6218264576 "GET /home HTTP/1.1" 200 1029
-INFO 2024-07-16 11:51:08,394 basehttp 80056 6235090944 "GET /static/js/app.js HTTP/1.1" 304 0
-INFO 2024-07-16 11:51:08,394 basehttp 80056 6201438208 "GET /static/css/app.css HTTP/1.1" 304 0
-INFO 2024-07-16 11:51:08,395 basehttp 80056 6218264576 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
-INFO 2024-07-16 11:51:08,395 basehttp 80056 6251917312 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
-INFO 2024-07-16 11:51:08,530 basehttp 80056 6218264576 "GET /api/check_login_status/ HTTP/1.1" 200 20
-INFO 2024-07-16 11:51:08,535 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:51:08,562 basehttp 80056 6218264576 "GET /api/room/ HTTP/1.1" 200 74
-INFO 2024-07-16 11:51:08,591 basehttp 80056 6218264576 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-16 11:51:08,608 basehttp 80056 6218264576 "POST /api/create_default_room/ HTTP/1.1" 200 76
-INFO 2024-07-16 11:51:08,617 basehttp 80056 6218264576 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
-INFO 2024-07-16 11:51:09,450 basehttp 80056 6218264576 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
-INFO 2024-07-16 11:51:09,453 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
-INFO 2024-07-16 11:51:09,479 basehttp 80056 6218264576 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:51:17,792 basehttp 80056 6218264576 "GET /api/messages/?room_id=2 HTTP/1.1" 200 2
-INFO 2024-07-16 11:51:17,798 basehttp 80056 6218264576 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:51:19,845 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:51:19,848 basehttp 80056 6167785472 "GET /api/messages/?room_id=2 HTTP/1.1" 200 2
-INFO 2024-07-16 11:51:19,851 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:51:26,506 basehttp 80056 6218264576 "GET /api/messages/?room_id=1 HTTP/1.1" 200 130
-INFO 2024-07-16 11:51:26,517 basehttp 80056 6218264576 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:51:28,205 basehttp 80056 6167785472 "GET /api/messages/?room_id=1 HTTP/1.1" 200 130
-INFO 2024-07-16 11:51:28,205 basehttp 80056 6268743680 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:51:28,210 basehttp 80056 6268743680 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:51:29,917 basehttp 80056 6167785472 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:51:29,918 basehttp 80056 6268743680 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
-INFO 2024-07-16 11:51:29,923 basehttp 80056 6268743680 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:51:30,598 basehttp 80056 6268743680 "GET /api/messages/?room_id=1 HTTP/1.1" 200 130
-INFO 2024-07-16 11:51:30,600 basehttp 80056 6167785472 "GET /api/favicon.ico HTTP/1.1" 200 1029
-INFO 2024-07-16 11:51:30,605 basehttp 80056 6167785472 "GET /api/get_current_user/ HTTP/1.1" 200 21
-INFO 2024-07-16 11:52:58,256 basehttp 80056 6201438208 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
-INFO 2024-07-16 11:52:58,261 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:52:58,810 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 259
-INFO 2024-07-16 11:52:58,821 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:52:59,474 basehttp 80056 6201438208 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
-INFO 2024-07-16 11:52:59,483 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:52:59,955 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 259
-INFO 2024-07-16 11:52:59,966 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:53:01,342 basehttp 80056 6201438208 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
-INFO 2024-07-16 11:53:01,354 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:53:02,027 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 259
-INFO 2024-07-16 11:53:02,042 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:53:02,525 basehttp 80056 6201438208 "GET /api/messages/?room_id=2 HTTP/1.1" 200 129
-INFO 2024-07-16 11:53:02,533 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
-INFO 2024-07-16 11:53:03,041 basehttp 80056 6201438208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 259
-INFO 2024-07-16 11:53:03,053 basehttp 80056 6201438208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-16 18:03:11,609 cli 1068 8314833920 Starting server at tcp:port=8001:interface=127.0.0.1
+INFO 2024-07-16 18:03:11,610 server 1068 8314833920 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-07-16 18:03:11,610 server 1068 8314833920 Configuring endpoint tcp:port=8001:interface=127.0.0.1
+INFO 2024-07-16 18:03:11,610 server 1068 8314833920 Listening on TCP address 127.0.0.1:8001
+INFO 2024-07-16 18:03:18,683 autoreload 1139 8314833920 Watching for file changes with StatReloader
+INFO 2024-07-16 18:03:26,320 basehttp 1139 6136360960 "GET / HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:26,354 basehttp 1139 6153187328 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:03:26,356 basehttp 1139 6136360960 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:03:26,373 basehttp 1139 6136360960 "GET /static/js/app.js HTTP/1.1" 200 29171
+INFO 2024-07-16 18:03:26,403 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:03:26,626 basehttp 1139 6153187328 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:03:26,635 basehttp 1139 6153187328 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:03:26,712 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:28,129 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:29,930 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 18:03:30,015 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 18:03:30,125 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 18:03:30,212 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 18:03:30,401 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 18:03:33,207 basehttp 1139 6153187328 "POST /api/register/ HTTP/1.1" 201 64
+INFO 2024-07-16 18:03:33,234 basehttp 1139 6153187328 "GET /static/img/chat-icon.svg HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:33,237 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:37,028 basehttp 1139 6153187328 "POST /api/login/ HTTP/1.1" 200 42
+INFO 2024-07-16 18:03:37,970 basehttp 1139 6153187328 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:37,976 basehttp 1139 6136360960 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:03:38,028 basehttp 1139 6153187328 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:38,030 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:38,031 basehttp 1139 6170013696 "GET /static/css/app.css HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:38,034 basehttp 1139 6186840064 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:38,037 basehttp 1139 6203666432 "GET /static/js/app.js HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:38,178 basehttp 1139 6203666432 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 18:03:38,188 basehttp 1139 6186840064 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:03:38,207 basehttp 1139 6186840064 "GET /api/room/ HTTP/1.1" 200 2
+INFO 2024-07-16 18:03:38,237 basehttp 1139 6186840064 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:03:38,239 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62663] to WebSocket
+DEBUG 2024-07-16 18:03:38,257 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62663] open and established
+DEBUG 2024-07-16 18:03:38,257 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62663] accepted by application
+DEBUG 2024-07-16 18:03:38,259 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62663]
+INFO 2024-07-16 18:03:38,260 basehttp 1139 6186840064 "POST /api/create_default_room/ HTTP/1.1" 201 69
+INFO 2024-07-16 18:03:38,266 basehttp 1139 6186840064 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:03:38,269 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62664] to WebSocket
+INFO 2024-07-16 18:03:38,271 basehttp 1139 6186840064 "GET /api/messages/?room_id=0 HTTP/1.1" 200 2
+INFO 2024-07-16 18:03:38,271 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:03:38,272 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62664] open and established
+DEBUG 2024-07-16 18:03:38,272 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62664] accepted by application
+INFO 2024-07-16 18:03:38,272 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:03:38,274 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62664]
+DEBUG 2024-07-16 18:03:47,545 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 62664]
+DEBUG 2024-07-16 18:03:47,554 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62664]
+DEBUG 2024-07-16 18:03:48,588 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62664]
+INFO 2024-07-16 18:03:48,592 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-16 18:03:48,609 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62666] to WebSocket
+INFO 2024-07-16 18:03:48,617 basehttp 1139 6203666432 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:48,621 basehttp 1139 6186840064 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:03:48,627 basehttp 1139 6203666432 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:03:48,628 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62666] open and established
+DEBUG 2024-07-16 18:03:48,628 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62666] accepted by application
+DEBUG 2024-07-16 18:03:48,629 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62666]
+DEBUG 2024-07-16 18:03:49,744 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 62666]
+DEBUG 2024-07-16 18:03:51,519 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62666]
+INFO 2024-07-16 18:03:51,548 basehttp 1139 6136360960 "GET /home HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:03:51,554 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62663]
+INFO 2024-07-16 18:03:51,562 basehttp 1139 6153187328 - Broken pipe from ('127.0.0.1', 62669)
+INFO 2024-07-16 18:03:51,576 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:51,579 basehttp 1139 6136360960 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:51,579 basehttp 1139 6170013696 "GET /static/js/app.js HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:51,580 basehttp 1139 6153187328 "GET /static/css/app.css HTTP/1.1" 304 0
+INFO 2024-07-16 18:03:51,732 basehttp 1139 6153187328 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 18:03:51,738 basehttp 1139 6136360960 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:03:51,762 basehttp 1139 6136360960 "GET /api/room/ HTTP/1.1" 200 28
+INFO 2024-07-16 18:03:51,789 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:03:51,790 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62676] to WebSocket
+INFO 2024-07-16 18:03:51,793 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:51,804 basehttp 1139 6136360960 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-16 18:03:51,807 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62676] open and established
+DEBUG 2024-07-16 18:03:51,807 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62676] accepted by application
+DEBUG 2024-07-16 18:03:51,809 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62676]
+INFO 2024-07-16 18:03:51,810 basehttp 1139 6136360960 "GET /api/messages/?room_id=0 HTTP/1.1" 200 153
+DEBUG 2024-07-16 18:03:51,823 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62677] to WebSocket
+INFO 2024-07-16 18:03:51,828 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:03:51,828 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62677] open and established
+DEBUG 2024-07-16 18:03:51,828 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62677] accepted by application
+INFO 2024-07-16 18:03:51,828 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:03:51,830 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62677]
+DEBUG 2024-07-16 18:03:56,228 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 62677]
+DEBUG 2024-07-16 18:03:56,237 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62677]
+DEBUG 2024-07-16 18:03:57,772 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62677]
+INFO 2024-07-16 18:03:57,773 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-16 18:03:57,794 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62678] to WebSocket
+INFO 2024-07-16 18:03:57,802 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:03:57,807 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62678] open and established
+DEBUG 2024-07-16 18:03:57,807 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62678] accepted by application
+INFO 2024-07-16 18:03:57,808 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:03:57,812 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:03:57,813 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62678]
+DEBUG 2024-07-16 18:03:58,775 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 62678]
+DEBUG 2024-07-16 18:03:59,912 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62678]
+DEBUG 2024-07-16 18:03:59,915 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62682] to WebSocket
+INFO 2024-07-16 18:03:59,922 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,923 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62682] open and established
+DEBUG 2024-07-16 18:03:59,923 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62682] accepted by application
+INFO 2024-07-16 18:03:59,923 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,927 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62682]
+INFO 2024-07-16 18:03:59,937 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:03:59,938 basehttp 1139 6153187328 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-16 18:03:59,938 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62683] to WebSocket
+INFO 2024-07-16 18:03:59,941 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,942 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62683] open and established
+DEBUG 2024-07-16 18:03:59,942 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62683] accepted by application
+INFO 2024-07-16 18:03:59,942 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+INFO 2024-07-16 18:03:59,943 basehttp 1139 6170013696 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-16 18:03:59,944 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:03:59,945 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62683]
+INFO 2024-07-16 18:03:59,946 basehttp 1139 6153187328 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:03:59,949 basehttp 1139 6153187328 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-16 18:03:59,954 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62684] to WebSocket
+INFO 2024-07-16 18:03:59,956 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,956 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62684] open and established
+DEBUG 2024-07-16 18:03:59,956 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62684] accepted by application
+INFO 2024-07-16 18:03:59,956 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,958 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62684]
+DEBUG 2024-07-16 18:03:59,971 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62685] to WebSocket
+INFO 2024-07-16 18:03:59,972 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,973 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62685] open and established
+DEBUG 2024-07-16 18:03:59,973 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62685] accepted by application
+INFO 2024-07-16 18:03:59,973 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,974 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62685]
+DEBUG 2024-07-16 18:03:59,984 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62686] to WebSocket
+INFO 2024-07-16 18:03:59,986 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,986 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62686] open and established
+DEBUG 2024-07-16 18:03:59,986 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62686] accepted by application
+INFO 2024-07-16 18:03:59,986 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:03:59,988 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62686]
+INFO 2024-07-16 18:04:12,468 basehttp 1139 6136360960 "POST /api/create-room/ HTTP/1.1" 201 61
+DEBUG 2024-07-16 18:04:12,471 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62686]
+DEBUG 2024-07-16 18:04:12,474 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62692] to WebSocket
+INFO 2024-07-16 18:04:12,475 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+INFO 2024-07-16 18:04:12,478 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:12,479 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62692] open and established
+DEBUG 2024-07-16 18:04:12,479 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62692] accepted by application
+INFO 2024-07-16 18:04:12,479 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:12,481 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62692]
+INFO 2024-07-16 18:04:12,495 basehttp 1139 6136360960 "GET /api/messages/?room_id=1 HTTP/1.1" 200 2
+DEBUG 2024-07-16 18:04:12,495 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62693] to WebSocket
+INFO 2024-07-16 18:04:12,497 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:04:12,498 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:12,498 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62693] open and established
+DEBUG 2024-07-16 18:04:12,498 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62693] accepted by application
+INFO 2024-07-16 18:04:12,498 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:12,500 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62693]
+INFO 2024-07-16 18:04:12,504 basehttp 1139 6136360960 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-16 18:04:12,512 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62694] to WebSocket
+INFO 2024-07-16 18:04:12,514 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:12,514 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62694] open and established
+DEBUG 2024-07-16 18:04:12,514 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62694] accepted by application
+INFO 2024-07-16 18:04:12,514 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:12,515 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62694]
+DEBUG 2024-07-16 18:04:12,526 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62695] to WebSocket
+INFO 2024-07-16 18:04:12,528 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:12,528 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62695] open and established
+DEBUG 2024-07-16 18:04:12,528 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62695] accepted by application
+INFO 2024-07-16 18:04:12,528 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:12,529 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62695]
+DEBUG 2024-07-16 18:04:15,322 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 62695]
+DEBUG 2024-07-16 18:04:15,329 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62692]
+DEBUG 2024-07-16 18:04:15,330 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62693]
+DEBUG 2024-07-16 18:04:15,330 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62694]
+DEBUG 2024-07-16 18:04:15,330 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62695]
+DEBUG 2024-07-16 18:04:16,252 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62695]
+INFO 2024-07-16 18:04:16,252 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=None
+DEBUG 2024-07-16 18:04:16,272 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62696] to WebSocket
+INFO 2024-07-16 18:04:16,277 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:04:16,280 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62696] open and established
+DEBUG 2024-07-16 18:04:16,280 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62696] accepted by application
+DEBUG 2024-07-16 18:04:16,283 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62696]
+INFO 2024-07-16 18:04:16,283 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:04:16,284 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:04:17,117 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 62696]
+DEBUG 2024-07-16 18:04:18,038 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62696]
+DEBUG 2024-07-16 18:04:18,047 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62700] to WebSocket
+INFO 2024-07-16 18:04:18,051 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,051 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62700] open and established
+DEBUG 2024-07-16 18:04:18,052 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62700] accepted by application
+INFO 2024-07-16 18:04:18,052 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,054 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62700]
+DEBUG 2024-07-16 18:04:18,070 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62702] to WebSocket
+INFO 2024-07-16 18:04:18,072 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:04:18,073 basehttp 1139 6153187328 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+INFO 2024-07-16 18:04:18,077 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:04:18,083 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:04:18,084 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,084 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62702] open and established
+DEBUG 2024-07-16 18:04:18,084 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62702] accepted by application
+INFO 2024-07-16 18:04:18,084 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,086 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62702]
+INFO 2024-07-16 18:04:18,086 basehttp 1139 6136360960 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+INFO 2024-07-16 18:04:18,089 basehttp 1139 6136360960 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-16 18:04:18,097 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62703] to WebSocket
+INFO 2024-07-16 18:04:18,100 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,101 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62703] open and established
+DEBUG 2024-07-16 18:04:18,101 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62703] accepted by application
+INFO 2024-07-16 18:04:18,101 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,105 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62703]
+DEBUG 2024-07-16 18:04:18,118 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62704] to WebSocket
+INFO 2024-07-16 18:04:18,123 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,123 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62704] open and established
+DEBUG 2024-07-16 18:04:18,123 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62704] accepted by application
+INFO 2024-07-16 18:04:18,123 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,124 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62704]
+DEBUG 2024-07-16 18:04:18,139 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62705] to WebSocket
+INFO 2024-07-16 18:04:18,143 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,143 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62705] open and established
+DEBUG 2024-07-16 18:04:18,143 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62705] accepted by application
+INFO 2024-07-16 18:04:18,143 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,145 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62705]
+DEBUG 2024-07-16 18:04:18,159 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 62706] to WebSocket
+INFO 2024-07-16 18:04:18,163 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,163 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62706] open and established
+DEBUG 2024-07-16 18:04:18,163 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 62706] accepted by application
+INFO 2024-07-16 18:04:18,163 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:04:18,165 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 62706]
+DEBUG 2024-07-16 18:32:44,786 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62706]
+INFO 2024-07-16 18:32:44,790 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=None
+DEBUG 2024-07-16 18:32:44,829 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63486] to WebSocket
+INFO 2024-07-16 18:32:44,833 basehttp 1139 6136360960 "GET /home HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:32:44,854 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63486]
+DEBUG 2024-07-16 18:32:44,860 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62702]
+DEBUG 2024-07-16 18:32:44,860 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62685]
+DEBUG 2024-07-16 18:32:44,860 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62682]
+DEBUG 2024-07-16 18:32:44,860 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62704]
+DEBUG 2024-07-16 18:32:44,860 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62693]
+DEBUG 2024-07-16 18:32:44,860 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62703]
+DEBUG 2024-07-16 18:32:44,861 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62694]
+DEBUG 2024-07-16 18:32:44,861 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62683]
+DEBUG 2024-07-16 18:32:44,861 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62676]
+DEBUG 2024-07-16 18:32:44,862 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62700]
+DEBUG 2024-07-16 18:32:44,862 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62692]
+DEBUG 2024-07-16 18:32:44,862 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62684]
+DEBUG 2024-07-16 18:32:44,863 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 62705]
+INFO 2024-07-16 18:32:44,865 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:32:44,865 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-16 18:32:44,866 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-16 18:32:44,866 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:32:44,867 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:32:44,867 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:32:44,867 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:32:44,867 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-16 18:32:44,867 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:32:44,867 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:32:44,867 basehttp 1139 6170013696 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:32:44,872 basehttp 1139 6136360960 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:32:44,874 basehttp 1139 6153187328 - Broken pipe from ('127.0.0.1', 63487)
+INFO 2024-07-16 18:32:44,874 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-16 18:32:44,875 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:32:44,877 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+INFO 2024-07-16 18:32:44,877 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+INFO 2024-07-16 18:32:44,881 basehttp 1139 6170013696 "GET /static/js/app.js HTTP/1.1" 200 29265
+INFO 2024-07-16 18:32:44,882 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1006
+INFO 2024-07-16 18:32:44,889 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:32:45,126 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:32:45,127 basehttp 1139 6136360960 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 18:32:45,165 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:32:45,184 basehttp 1139 6136360960 "GET /api/room/ HTTP/1.1" 200 51
+DEBUG 2024-07-16 18:32:45,223 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63492] to WebSocket
+INFO 2024-07-16 18:32:45,227 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:32:45,230 basehttp 1139 6136360960 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-16 18:32:45,230 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63492] open and established
+DEBUG 2024-07-16 18:32:45,230 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63492] accepted by application
+DEBUG 2024-07-16 18:32:45,232 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63492]
+INFO 2024-07-16 18:32:45,241 basehttp 1139 6136360960 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-16 18:32:45,242 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63493] to WebSocket
+INFO 2024-07-16 18:32:45,244 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:32:45,244 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63493] open and established
+DEBUG 2024-07-16 18:32:45,244 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63493] accepted by application
+INFO 2024-07-16 18:32:45,244 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:32:45,246 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63493]
+DEBUG 2024-07-16 18:32:46,865 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63493]
+INFO 2024-07-16 18:32:46,866 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-16 18:32:46,893 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63494] to WebSocket
+DEBUG 2024-07-16 18:32:46,896 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63494] open and established
+DEBUG 2024-07-16 18:32:46,896 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63494] accepted by application
+INFO 2024-07-16 18:32:46,896 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:32:46,898 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63494]
+INFO 2024-07-16 18:32:46,899 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:32:46,900 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:32:47,993 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 63494]
+DEBUG 2024-07-16 18:32:49,072 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63494]
+DEBUG 2024-07-16 18:32:49,079 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63496] to WebSocket
+INFO 2024-07-16 18:32:49,083 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,084 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63496] open and established
+DEBUG 2024-07-16 18:32:49,084 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63496] accepted by application
+INFO 2024-07-16 18:32:49,084 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,087 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63496]
+INFO 2024-07-16 18:32:49,092 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:32:49,102 basehttp 1139 6170013696 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+DEBUG 2024-07-16 18:32:49,103 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63497] to WebSocket
+INFO 2024-07-16 18:32:49,106 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,106 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63497] open and established
+INFO 2024-07-16 18:32:49,106 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:32:49,106 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63497] accepted by application
+INFO 2024-07-16 18:32:49,106 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,108 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63497]
+INFO 2024-07-16 18:32:49,108 basehttp 1139 6153187328 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+INFO 2024-07-16 18:32:49,109 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:32:49,112 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-16 18:32:49,118 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63498] to WebSocket
+INFO 2024-07-16 18:32:49,120 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,120 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63498] open and established
+DEBUG 2024-07-16 18:32:49,120 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63498] accepted by application
+INFO 2024-07-16 18:32:49,121 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,122 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63498]
+DEBUG 2024-07-16 18:32:49,132 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63499] to WebSocket
+INFO 2024-07-16 18:32:49,134 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,134 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63499] open and established
+DEBUG 2024-07-16 18:32:49,134 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63499] accepted by application
+INFO 2024-07-16 18:32:49,134 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,136 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63499]
+DEBUG 2024-07-16 18:32:49,146 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63500] to WebSocket
+INFO 2024-07-16 18:32:49,148 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,148 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63500] open and established
+DEBUG 2024-07-16 18:32:49,148 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63500] accepted by application
+INFO 2024-07-16 18:32:49,148 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,149 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63500]
+DEBUG 2024-07-16 18:32:49,163 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63501] to WebSocket
+INFO 2024-07-16 18:32:49,180 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,180 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63501] open and established
+DEBUG 2024-07-16 18:32:49,180 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63501] accepted by application
+INFO 2024-07-16 18:32:49,180 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:32:49,184 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63501]
+DEBUG 2024-07-16 18:32:50,096 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63501]
+INFO 2024-07-16 18:32:50,097 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=None
+DEBUG 2024-07-16 18:32:50,110 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63502] to WebSocket
+INFO 2024-07-16 18:32:50,115 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:32:50,116 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63502] open and established
+DEBUG 2024-07-16 18:32:50,116 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63502] accepted by application
+INFO 2024-07-16 18:32:50,116 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:32:50,120 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63502]
+INFO 2024-07-16 18:32:50,122 basehttp 1139 6170013696 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-16 18:32:50,124 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:32:50,134 basehttp 1139 6153187328 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-16 18:32:50,137 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63503] to WebSocket
+INFO 2024-07-16 18:32:50,141 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:32:50,142 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63503] open and established
+DEBUG 2024-07-16 18:32:50,142 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63503] accepted by application
+INFO 2024-07-16 18:32:50,142 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:32:50,143 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63503]
+DEBUG 2024-07-16 18:32:50,155 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63504] to WebSocket
+INFO 2024-07-16 18:32:50,159 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:32:50,159 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63504] open and established
+DEBUG 2024-07-16 18:32:50,159 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63504] accepted by application
+INFO 2024-07-16 18:32:50,159 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:32:50,161 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63504]
+DEBUG 2024-07-16 18:32:50,173 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63505] to WebSocket
+INFO 2024-07-16 18:32:50,175 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:32:50,175 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63505] open and established
+DEBUG 2024-07-16 18:32:50,175 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63505] accepted by application
+INFO 2024-07-16 18:32:50,175 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:32:50,176 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63505]
+INFO 2024-07-16 18:32:54,555 basehttp 1139 6153187328 "GET /static/css/app.css HTTP/1.1" 304 0
+INFO 2024-07-16 18:32:54,555 basehttp 1139 6170013696 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+INFO 2024-07-16 18:32:54,945 basehttp 1139 6153187328 "GET /static/js/app.js.map HTTP/1.1" 200 93863
+INFO 2024-07-16 18:32:54,991 basehttp 1139 6170013696 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:32:57,579 basehttp 1139 6170013696 "POST /api/logout/ HTTP/1.1" 200 59
+DEBUG 2024-07-16 18:32:57,585 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63505]
+INFO 2024-07-16 18:32:57,586 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+INFO 2024-07-16 18:32:57,614 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:32:57,615 basehttp 1139 6170013696 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:33:04,234 basehttp 1139 6170013696 "POST /api/login/ HTTP/1.1" 200 42
+INFO 2024-07-16 18:33:04,975 basehttp 1139 6170013696 "GET /home HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:33:04,976 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63526] to WebSocket
+DEBUG 2024-07-16 18:33:04,988 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63492]
+DEBUG 2024-07-16 18:33:04,988 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63500]
+DEBUG 2024-07-16 18:33:04,988 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63526]
+DEBUG 2024-07-16 18:33:04,988 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63496]
+DEBUG 2024-07-16 18:33:04,988 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63504]
+DEBUG 2024-07-16 18:33:04,988 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63502]
+DEBUG 2024-07-16 18:33:04,988 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63497]
+DEBUG 2024-07-16 18:33:04,989 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63503]
+DEBUG 2024-07-16 18:33:04,989 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63498]
+DEBUG 2024-07-16 18:33:04,989 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63499]
+INFO 2024-07-16 18:33:04,989 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+INFO 2024-07-16 18:33:04,989 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+INFO 2024-07-16 18:33:04,990 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:04,990 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:04,990 basehttp 1139 6170013696 - Broken pipe from ('127.0.0.1', 63490)
+INFO 2024-07-16 18:33:04,990 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-16 18:33:04,990 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-16 18:33:04,990 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:04,990 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-16 18:33:04,990 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:04,990 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:04,992 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1006
+WARNING 2024-07-16 18:33:04,997 log 1139 6153187328 Not Found: /api/get_icon_color/
+WARNING 2024-07-16 18:33:04,997 basehttp 1139 6153187328 "GET /api/get_icon_color/ HTTP/1.1" 404 4346
+INFO 2024-07-16 18:33:04,998 basehttp 1139 6153187328 - Broken pipe from ('127.0.0.1', 63495)
+INFO 2024-07-16 18:33:05,010 basehttp 1139 6153187328 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+INFO 2024-07-16 18:33:05,011 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:05,011 basehttp 1139 6170013696 "GET /static/css/app.css HTTP/1.1" 304 0
+INFO 2024-07-16 18:33:05,014 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+INFO 2024-07-16 18:33:05,015 basehttp 1139 6136360960 "GET /static/js/app.js HTTP/1.1" 304 0
+INFO 2024-07-16 18:33:05,242 basehttp 1139 6136360960 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 18:33:05,252 basehttp 1139 6136360960 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:33:05,280 basehttp 1139 6136360960 "GET /api/room/ HTTP/1.1" 200 51
+DEBUG 2024-07-16 18:33:05,371 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63530] to WebSocket
+INFO 2024-07-16 18:33:05,383 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:05,384 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:33:05,390 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63530] open and established
+DEBUG 2024-07-16 18:33:05,391 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63530] accepted by application
+INFO 2024-07-16 18:33:05,391 basehttp 1139 6136360960 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-16 18:33:05,391 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63530]
+INFO 2024-07-16 18:33:05,402 basehttp 1139 6136360960 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-16 18:33:05,404 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63531] to WebSocket
+INFO 2024-07-16 18:33:05,406 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:33:05,406 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63531] open and established
+DEBUG 2024-07-16 18:33:05,406 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63531] accepted by application
+INFO 2024-07-16 18:33:05,406 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:33:05,407 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63531]
+DEBUG 2024-07-16 18:33:06,402 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63531]
+INFO 2024-07-16 18:33:06,405 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-16 18:33:06,422 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63532] to WebSocket
+INFO 2024-07-16 18:33:06,428 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:33:06,430 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63532] open and established
+DEBUG 2024-07-16 18:33:06,430 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63532] accepted by application
+INFO 2024-07-16 18:33:06,431 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:33:06,432 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63532]
+INFO 2024-07-16 18:33:06,433 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:33:08,166 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 63532]
+DEBUG 2024-07-16 18:33:09,877 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63532]
+DEBUG 2024-07-16 18:33:09,883 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63533] to WebSocket
+INFO 2024-07-16 18:33:09,888 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,888 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63533] open and established
+DEBUG 2024-07-16 18:33:09,888 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63533] accepted by application
+INFO 2024-07-16 18:33:09,888 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,891 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63533]
+INFO 2024-07-16 18:33:09,902 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:33:09,905 basehttp 1139 6153187328 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+DEBUG 2024-07-16 18:33:09,906 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63534] to WebSocket
+INFO 2024-07-16 18:33:09,907 basehttp 1139 6170013696 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+INFO 2024-07-16 18:33:09,908 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,908 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63534] open and established
+DEBUG 2024-07-16 18:33:09,908 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63534] accepted by application
+INFO 2024-07-16 18:33:09,908 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,911 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63534]
+INFO 2024-07-16 18:33:09,912 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:09,914 basehttp 1139 6153187328 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:33:09,916 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-16 18:33:09,922 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63535] to WebSocket
+INFO 2024-07-16 18:33:09,924 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,924 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63535] open and established
+DEBUG 2024-07-16 18:33:09,924 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63535] accepted by application
+INFO 2024-07-16 18:33:09,924 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,925 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63535]
+DEBUG 2024-07-16 18:33:09,938 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63536] to WebSocket
+INFO 2024-07-16 18:33:09,940 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,940 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63536] open and established
+DEBUG 2024-07-16 18:33:09,940 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63536] accepted by application
+INFO 2024-07-16 18:33:09,940 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,941 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63536]
+DEBUG 2024-07-16 18:33:09,951 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63537] to WebSocket
+INFO 2024-07-16 18:33:09,953 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,953 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63537] open and established
+DEBUG 2024-07-16 18:33:09,953 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63537] accepted by application
+INFO 2024-07-16 18:33:09,953 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,955 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63537]
+DEBUG 2024-07-16 18:33:09,967 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63538] to WebSocket
+INFO 2024-07-16 18:33:09,971 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,972 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63538] open and established
+DEBUG 2024-07-16 18:33:09,972 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63538] accepted by application
+INFO 2024-07-16 18:33:09,972 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:33:09,975 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63538]
+INFO 2024-07-16 18:33:12,791 basehttp 1139 6170013696 "POST /api/logout/ HTTP/1.1" 200 59
+DEBUG 2024-07-16 18:33:12,795 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63538]
+INFO 2024-07-16 18:33:12,797 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=None
+INFO 2024-07-16 18:33:12,819 basehttp 1139 6170013696 "GET /static/img/chat-icon.svg HTTP/1.1" 304 0
+INFO 2024-07-16 18:33:12,828 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:33:14,753 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63536]
+DEBUG 2024-07-16 18:33:14,753 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63530]
+DEBUG 2024-07-16 18:33:14,754 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63537]
+DEBUG 2024-07-16 18:33:14,754 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63533]
+DEBUG 2024-07-16 18:33:14,763 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63534]
+DEBUG 2024-07-16 18:33:14,763 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63535]
+INFO 2024-07-16 18:33:14,764 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:14,764 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:14,764 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:14,764 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:14,764 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-16 18:33:27,512 basehttp 1139 6170013696 "GET / HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:27,542 basehttp 1139 6153187328 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:33:27,543 basehttp 1139 6170013696 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:33:27,577 basehttp 1139 6153187328 "GET /static/js/app.js HTTP/1.1" 200 29265
+INFO 2024-07-16 18:33:27,602 basehttp 1139 6170013696 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:33:27,890 basehttp 1139 6170013696 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:33:27,901 basehttp 1139 6170013696 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:33:27,922 basehttp 1139 6170013696 "GET /static/js/app.js.map HTTP/1.1" 200 93863
+INFO 2024-07-16 18:33:27,966 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:33:28,670 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:31,744 basehttp 1139 6153187328 "POST /api/login/ HTTP/1.1" 200 42
+INFO 2024-07-16 18:33:32,760 basehttp 1139 6153187328 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:32,765 basehttp 1139 6136360960 "GET /api/get_current_user/ HTTP/1.1" 200 21
+WARNING 2024-07-16 18:33:32,773 log 1139 6170013696 Not Found: /api/get_icon_color/
+WARNING 2024-07-16 18:33:32,774 basehttp 1139 6170013696 "GET /api/get_icon_color/ HTTP/1.1" 404 4346
+INFO 2024-07-16 18:33:32,816 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:32,816 basehttp 1139 6170013696 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:33:32,818 basehttp 1139 6153187328 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:33:32,849 basehttp 1139 6153187328 "GET /static/js/app.js HTTP/1.1" 200 29265
+INFO 2024-07-16 18:33:32,881 basehttp 1139 6170013696 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:33:35,139 basehttp 1139 6136360960 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 18:33:35,145 basehttp 1139 6136360960 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:33:35,157 basehttp 1139 6136360960 "GET /static/js/app.js.map HTTP/1.1" 200 93863
+INFO 2024-07-16 18:33:35,178 basehttp 1139 6136360960 "GET /api/room/ HTTP/1.1" 200 51
+DEBUG 2024-07-16 18:33:35,184 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63612] to WebSocket
+DEBUG 2024-07-16 18:33:35,186 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63612] open and established
+DEBUG 2024-07-16 18:33:35,186 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63612] accepted by application
+DEBUG 2024-07-16 18:33:35,187 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63612]
+INFO 2024-07-16 18:33:35,198 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:33:36,562 basehttp 1139 6153187328 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:33:36,606 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:33:36,613 basehttp 1139 6153187328 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-16 18:33:36,623 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63623] to WebSocket
+INFO 2024-07-16 18:33:36,625 basehttp 1139 6153187328 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-16 18:33:36,631 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:33:36,632 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63623] open and established
+DEBUG 2024-07-16 18:33:36,632 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63623] accepted by application
+INFO 2024-07-16 18:33:36,632 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:33:36,635 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63623]
+INFO 2024-07-16 18:33:37,978 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:40,629 basehttp 1139 6136360960 "POST /api/logout/ HTTP/1.1" 200 59
+DEBUG 2024-07-16 18:33:40,633 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63623]
+INFO 2024-07-16 18:33:40,634 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+INFO 2024-07-16 18:33:40,658 basehttp 1139 6136360960 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:33:40,661 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:33:44,454 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63612]
+INFO 2024-07-16 18:33:50,051 basehttp 1139 6136360960 "GET /login HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:50,112 basehttp 1139 6153187328 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:33:50,113 basehttp 1139 6136360960 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:33:50,149 basehttp 1139 6136360960 "GET /static/js/app.js HTTP/1.1" 200 29265
+INFO 2024-07-16 18:33:50,169 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:33:51,812 basehttp 1139 6153187328 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:33:51,823 basehttp 1139 6153187328 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:33:51,838 basehttp 1139 6153187328 "GET /static/js/app.js.map HTTP/1.1" 200 93863
+INFO 2024-07-16 18:33:51,874 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:33:52,115 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:56,610 basehttp 1139 6136360960 "POST /api/login/ HTTP/1.1" 200 42
+INFO 2024-07-16 18:33:57,835 basehttp 1139 6136360960 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:57,849 basehttp 1139 6153187328 "GET /api/get_current_user/ HTTP/1.1" 200 21
+WARNING 2024-07-16 18:33:57,856 log 1139 6136360960 Not Found: /api/get_icon_color/
+WARNING 2024-07-16 18:33:57,859 basehttp 1139 6136360960 "GET /api/get_icon_color/ HTTP/1.1" 404 4346
+INFO 2024-07-16 18:33:57,896 basehttp 1139 6153187328 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:33:57,896 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:33:57,898 basehttp 1139 6136360960 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:33:57,927 basehttp 1139 6170013696 "GET /static/js/app.js HTTP/1.1" 200 29265
+INFO 2024-07-16 18:33:57,958 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:33:58,408 basehttp 1139 6170013696 "GET /static/js/app.js.map HTTP/1.1" 200 93863
+INFO 2024-07-16 18:33:58,417 basehttp 1139 6136360960 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 18:33:58,419 basehttp 1139 6325039104 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:33:58,453 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:33:58,455 basehttp 1139 6325039104 "GET /api/room/ HTTP/1.1" 200 51
+INFO 2024-07-16 18:33:58,503 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:33:58,509 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63711] to WebSocket
+INFO 2024-07-16 18:33:58,511 basehttp 1139 6153187328 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-16 18:33:58,514 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63711] open and established
+DEBUG 2024-07-16 18:33:58,514 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63711] accepted by application
+DEBUG 2024-07-16 18:33:58,516 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63711]
+INFO 2024-07-16 18:33:58,517 basehttp 1139 6153187328 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-16 18:33:58,529 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63712] to WebSocket
+INFO 2024-07-16 18:33:58,539 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:33:58,539 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63712] open and established
+DEBUG 2024-07-16 18:33:58,539 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63712] accepted by application
+INFO 2024-07-16 18:33:58,539 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:33:58,541 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63712]
+INFO 2024-07-16 18:34:00,418 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:34:05,845 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63712]
+INFO 2024-07-16 18:34:05,846 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-16 18:34:05,873 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63746] to WebSocket
+INFO 2024-07-16 18:34:05,877 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:34:05,881 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63746] open and established
+DEBUG 2024-07-16 18:34:05,881 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63746] accepted by application
+DEBUG 2024-07-16 18:34:05,884 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63746]
+INFO 2024-07-16 18:34:05,889 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:34:05,889 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:34:07,101 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 63746]
+INFO 2024-07-16 18:36:30,569 basehttp 1139 6136360960 "POST /api/logout/ HTTP/1.1" 200 59
+DEBUG 2024-07-16 18:36:30,585 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63746]
+INFO 2024-07-16 18:36:30,601 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:36:30,607 basehttp 1139 6136360960 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+DEBUG 2024-07-16 18:36:32,723 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63711]
+INFO 2024-07-16 18:37:21,075 basehttp 1139 6136360960 "GET / HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:21,102 basehttp 1139 6153187328 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:37:21,105 basehttp 1139 6136360960 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:37:21,137 basehttp 1139 6153187328 "GET /static/js/app.js HTTP/1.1" 200 29255
+INFO 2024-07-16 18:37:21,164 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:37:21,511 basehttp 1139 6136360960 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:37:21,522 basehttp 1139 6136360960 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:37:21,542 basehttp 1139 6136360960 "GET /static/js/app.js.map HTTP/1.1" 200 93849
+INFO 2024-07-16 18:37:21,590 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:37:21,646 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:24,497 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:26,214 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 18:37:26,294 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 18:37:26,403 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-16 18:37:26,490 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 200 17
+WARNING 2024-07-16 18:37:26,701 log 1139 6153187328 Bad Request: /api/check_username/
+WARNING 2024-07-16 18:37:26,702 basehttp 1139 6153187328 "POST /api/check_username/ HTTP/1.1" 400 63
+INFO 2024-07-16 18:37:32,984 basehttp 1139 6153187328 "GET /login HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:33,019 basehttp 1139 6136360960 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:37:33,026 basehttp 1139 6153187328 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:37:33,054 basehttp 1139 6153187328 "GET /static/js/app.js HTTP/1.1" 200 29255
+INFO 2024-07-16 18:37:33,073 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:37:33,361 basehttp 1139 6136360960 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:37:33,371 basehttp 1139 6136360960 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:37:33,387 basehttp 1139 6136360960 "GET /static/js/app.js.map HTTP/1.1" 200 93849
+INFO 2024-07-16 18:37:33,426 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:37:33,481 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:44,673 basehttp 1139 6153187328 "GET /login HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:44,706 basehttp 1139 6136360960 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:37:44,709 basehttp 1139 6153187328 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:37:44,748 basehttp 1139 6136360960 "GET /static/js/app.js HTTP/1.1" 200 29255
+INFO 2024-07-16 18:37:44,762 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:37:45,049 basehttp 1139 6153187328 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:37:45,060 basehttp 1139 6153187328 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-16 18:37:45,082 basehttp 1139 6153187328 "GET /static/js/app.js.map HTTP/1.1" 200 93849
+INFO 2024-07-16 18:37:45,122 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:37:45,188 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:48,853 basehttp 1139 6136360960 "POST /api/login/ HTTP/1.1" 200 42
+INFO 2024-07-16 18:37:50,279 basehttp 1139 6136360960 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:50,286 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+WARNING 2024-07-16 18:37:50,294 log 1139 6153187328 Not Found: /api/get_icon_color/
+WARNING 2024-07-16 18:37:50,295 basehttp 1139 6153187328 "GET /api/get_icon_color/ HTTP/1.1" 404 4346
+INFO 2024-07-16 18:37:50,343 basehttp 1139 6153187328 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-16 18:37:50,344 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:37:50,345 basehttp 1139 6170013696 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-16 18:37:50,372 basehttp 1139 6136360960 "GET /static/js/app.js HTTP/1.1" 200 29255
+INFO 2024-07-16 18:37:50,397 basehttp 1139 6170013696 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-16 18:37:50,688 basehttp 1139 6136360960 "GET /static/js/app.js.map HTTP/1.1" 200 93849
+INFO 2024-07-16 18:37:50,689 basehttp 1139 6170013696 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-16 18:37:50,701 basehttp 1139 6325039104 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:37:50,726 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-16 18:37:50,731 basehttp 1139 6325039104 "GET /api/room/ HTTP/1.1" 200 51
+INFO 2024-07-16 18:37:50,786 basehttp 1139 6325039104 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:37:50,790 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 64496] to WebSocket
+INFO 2024-07-16 18:37:50,797 basehttp 1139 6325039104 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-16 18:37:50,801 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 64496] open and established
+DEBUG 2024-07-16 18:37:50,802 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 64496] accepted by application
+DEBUG 2024-07-16 18:37:50,804 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 64496]
+DEBUG 2024-07-16 18:37:50,858 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 64497] to WebSocket
+INFO 2024-07-16 18:37:50,861 basehttp 1139 6325039104 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-16 18:37:50,861 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:37:50,862 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 64497] open and established
+DEBUG 2024-07-16 18:37:50,862 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 64497] accepted by application
+INFO 2024-07-16 18:37:50,862 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:37:50,866 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 64497]
+INFO 2024-07-16 18:37:50,868 basehttp 1139 6325039104 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:40:50,443 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 64497]
+INFO 2024-07-16 18:40:50,444 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-16 18:40:50,479 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65232] to WebSocket
+INFO 2024-07-16 18:40:50,483 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-16 18:40:50,484 basehttp 1139 6325039104 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:40:50,488 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65232] open and established
+DEBUG 2024-07-16 18:40:50,488 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65232] accepted by application
+INFO 2024-07-16 18:40:50,489 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-16 18:40:50,490 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65232]
+DEBUG 2024-07-16 18:40:51,711 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 65232]
+INFO 2024-07-16 18:40:51,721 basehttp 1139 6153187328 "POST /api/update_icon_color/ HTTP/1.1" 200 21
+DEBUG 2024-07-16 18:40:56,324 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65232]
+DEBUG 2024-07-16 18:40:56,327 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65258] to WebSocket
+INFO 2024-07-16 18:40:56,331 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,332 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65258] open and established
+DEBUG 2024-07-16 18:40:56,332 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65258] accepted by application
+INFO 2024-07-16 18:40:56,332 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,334 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65258]
+DEBUG 2024-07-16 18:40:56,356 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65259] to WebSocket
+INFO 2024-07-16 18:40:56,357 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-16 18:40:56,360 basehttp 1139 6170013696 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-16 18:40:56,360 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,360 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65259] open and established
+DEBUG 2024-07-16 18:40:56,361 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65259] accepted by application
+INFO 2024-07-16 18:40:56,361 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,363 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65259]
+INFO 2024-07-16 18:40:56,363 basehttp 1139 6325039104 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-16 18:40:56,367 basehttp 1139 6325039104 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:40:56,373 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65260] to WebSocket
+INFO 2024-07-16 18:40:56,377 basehttp 1139 6325039104 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:40:56,378 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-16 18:40:56,380 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,380 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65260] open and established
+DEBUG 2024-07-16 18:40:56,380 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65260] accepted by application
+INFO 2024-07-16 18:40:56,380 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,382 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65260]
+DEBUG 2024-07-16 18:40:56,393 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65261] to WebSocket
+INFO 2024-07-16 18:40:56,395 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,395 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65261] open and established
+DEBUG 2024-07-16 18:40:56,395 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65261] accepted by application
+INFO 2024-07-16 18:40:56,396 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,397 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65261]
+DEBUG 2024-07-16 18:40:56,409 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65262] to WebSocket
+INFO 2024-07-16 18:40:56,411 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,411 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65262] open and established
+DEBUG 2024-07-16 18:40:56,411 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65262] accepted by application
+INFO 2024-07-16 18:40:56,411 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-16 18:40:56,413 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65262]
+DEBUG 2024-07-16 18:40:57,375 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65262]
+INFO 2024-07-16 18:40:57,375 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-16 18:40:57,384 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65267] to WebSocket
+INFO 2024-07-16 18:40:57,389 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:40:57,389 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65267] open and established
+DEBUG 2024-07-16 18:40:57,389 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65267] accepted by application
+INFO 2024-07-16 18:40:57,389 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:40:57,392 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65267]
+INFO 2024-07-16 18:40:57,400 basehttp 1139 6170013696 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+INFO 2024-07-16 18:40:57,405 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-16 18:40:57,407 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65268] to WebSocket
+INFO 2024-07-16 18:40:57,412 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:40:57,412 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65268] open and established
+DEBUG 2024-07-16 18:40:57,412 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65268] accepted by application
+INFO 2024-07-16 18:40:57,413 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:40:57,419 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65268]
+INFO 2024-07-16 18:40:57,422 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-16 18:40:57,429 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65269] to WebSocket
+INFO 2024-07-16 18:40:57,432 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:40:57,432 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65269] open and established
+DEBUG 2024-07-16 18:40:57,432 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65269] accepted by application
+INFO 2024-07-16 18:40:57,432 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:40:57,433 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65269]
+DEBUG 2024-07-16 18:40:57,448 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65270] to WebSocket
+INFO 2024-07-16 18:40:57,450 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:40:57,450 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65270] open and established
+DEBUG 2024-07-16 18:40:57,450 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65270] accepted by application
+INFO 2024-07-16 18:40:57,450 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:40:57,452 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65270]
+DEBUG 2024-07-16 18:40:58,047 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65270]
+INFO 2024-07-16 18:40:58,048 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=None
+DEBUG 2024-07-16 18:40:58,051 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65271] to WebSocket
+INFO 2024-07-16 18:40:58,057 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:40:58,058 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65271] open and established
+DEBUG 2024-07-16 18:40:58,058 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65271] accepted by application
+INFO 2024-07-16 18:40:58,058 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:40:58,064 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65271]
+DEBUG 2024-07-16 18:40:58,074 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 65272] to WebSocket
+INFO 2024-07-16 18:40:58,079 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-16 18:40:58,079 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65272] open and established
+DEBUG 2024-07-16 18:40:58,079 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 65272] accepted by application
+INFO 2024-07-16 18:40:58,079 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-16 18:40:58,082 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 65272]
+DEBUG 2024-07-16 19:36:40,244 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65272]
+DEBUG 2024-07-16 19:36:40,245 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65271]
+DEBUG 2024-07-16 19:36:40,246 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65269]
+DEBUG 2024-07-16 19:36:40,247 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65268]
+DEBUG 2024-07-16 19:36:40,248 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65267]
+DEBUG 2024-07-16 19:36:40,248 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65260]
+DEBUG 2024-07-16 19:36:40,248 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65259]
+DEBUG 2024-07-16 19:36:40,248 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65258]
+DEBUG 2024-07-16 19:36:40,248 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 64496]
+DEBUG 2024-07-16 19:36:40,249 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 65261]
+INFO 2024-07-16 19:36:40,250 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1006
+INFO 2024-07-16 19:36:40,251 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1006
+INFO 2024-07-16 19:36:40,251 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1006
+INFO 2024-07-16 19:36:40,251 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1006
+INFO 2024-07-16 19:36:40,251 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1006
+INFO 2024-07-16 19:36:40,251 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1006
+INFO 2024-07-16 19:36:40,251 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1006
+INFO 2024-07-16 19:36:40,251 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1006
+INFO 2024-07-16 19:36:40,252 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1006
+DEBUG 2024-07-16 19:36:44,247 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 63058] to WebSocket
+DEBUG 2024-07-16 19:36:44,259 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63058] open and established
+DEBUG 2024-07-16 19:36:44,259 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 63058] accepted by application
+DEBUG 2024-07-16 19:36:44,261 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 63058]
+DEBUG 2024-07-17 02:56:46,102 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 63058]
+DEBUG 2024-07-17 02:56:49,682 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58051] to WebSocket
+DEBUG 2024-07-17 02:56:49,692 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58051] open and established
+DEBUG 2024-07-17 02:56:49,692 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58051] accepted by application
+DEBUG 2024-07-17 02:56:49,694 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58051]
+DEBUG 2024-07-17 03:10:27,866 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 58051]
+DEBUG 2024-07-17 03:10:31,281 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59949] to WebSocket
+DEBUG 2024-07-17 03:10:31,294 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59949] open and established
+DEBUG 2024-07-17 03:10:31,294 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59949] accepted by application
+DEBUG 2024-07-17 03:10:31,296 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59949]
+DEBUG 2024-07-17 06:52:16,424 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 59949]
+DEBUG 2024-07-17 06:52:19,560 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 56592] to WebSocket
+DEBUG 2024-07-17 06:52:19,583 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 56592] open and established
+DEBUG 2024-07-17 06:52:19,583 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 56592] accepted by application
+DEBUG 2024-07-17 06:52:19,584 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 56592]
+INFO 2024-07-17 07:46:51,497 basehttp 1139 6136360960 "POST /api/logout/ HTTP/1.1" 200 59
+INFO 2024-07-17 07:46:51,537 basehttp 1139 6136360960 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-17 07:46:51,538 basehttp 1139 6153187328 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-17 07:46:58,005 basehttp 1139 6153187328 "POST /api/login/ HTTP/1.1" 200 42
+DEBUG 2024-07-17 07:46:58,963 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55027] to WebSocket
+INFO 2024-07-17 07:46:58,976 basehttp 1139 6153187328 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-17 07:46:58,976 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 07:46:58,977 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55027] open and established
+DEBUG 2024-07-17 07:46:58,977 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55027] accepted by application
+INFO 2024-07-17 07:46:58,978 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-17 07:46:58,982 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55027]
+INFO 2024-07-17 07:46:58,983 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+WARNING 2024-07-17 07:46:58,986 log 1139 6136360960 Not Found: /api/get_icon_color/
+WARNING 2024-07-17 07:46:58,986 basehttp 1139 6136360960 "GET /api/get_icon_color/ HTTP/1.1" 404 4346
+DEBUG 2024-07-17 07:46:58,999 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 56592]
+DEBUG 2024-07-17 07:46:59,000 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55027]
+INFO 2024-07-17 07:46:59,000 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-17 07:46:59,027 basehttp 1139 6136360960 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-17 07:46:59,036 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-17 07:46:59,038 basehttp 1139 6153187328 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-17 07:46:59,046 basehttp 1139 6170013696 "GET /static/js/app.js HTTP/1.1" 200 29611
+INFO 2024-07-17 07:46:59,063 basehttp 1139 6153187328 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4983000
+INFO 2024-07-17 07:46:59,317 basehttp 1139 6153187328 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-17 07:46:59,337 basehttp 1139 6325039104 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-17 07:46:59,338 basehttp 1139 6136360960 "GET /static/js/app.js.map HTTP/1.1" 200 94540
+INFO 2024-07-17 07:46:59,354 basehttp 1139 6136360960 "GET /api/room/ HTTP/1.1" 200 51
+INFO 2024-07-17 07:46:59,376 basehttp 1139 6170013696 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12850835
+INFO 2024-07-17 07:46:59,418 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-17 07:46:59,474 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55040] to WebSocket
+INFO 2024-07-17 07:46:59,492 basehttp 1139 6136360960 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-17 07:46:59,497 basehttp 1139 6170013696 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-17 07:46:59,497 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55040] open and established
+DEBUG 2024-07-17 07:46:59,497 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55040] accepted by application
+DEBUG 2024-07-17 07:46:59,498 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55040]
+INFO 2024-07-17 07:46:59,508 basehttp 1139 6170013696 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-17 07:46:59,516 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55041] to WebSocket
+INFO 2024-07-17 07:46:59,523 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 07:46:59,523 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55041] open and established
+DEBUG 2024-07-17 07:46:59,523 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55041] accepted by application
+INFO 2024-07-17 07:46:59,523 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 07:46:59,525 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55041]
+DEBUG 2024-07-17 07:47:00,602 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55041]
+INFO 2024-07-17 07:47:00,604 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-17 07:47:00,626 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55046] to WebSocket
+INFO 2024-07-17 07:47:00,632 basehttp 1139 6325039104 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-17 07:47:00,637 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-17 07:47:00,639 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-17 07:47:00,642 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55046] open and established
+DEBUG 2024-07-17 07:47:00,643 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55046] accepted by application
+DEBUG 2024-07-17 07:47:00,645 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55046]
+DEBUG 2024-07-17 07:47:01,463 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 55046]
+INFO 2024-07-17 07:47:01,473 basehttp 1139 6136360960 "POST /api/update_icon_color/ HTTP/1.1" 200 21
+DEBUG 2024-07-17 07:47:02,715 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55046]
+DEBUG 2024-07-17 07:47:02,720 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55055] to WebSocket
+INFO 2024-07-17 07:47:02,725 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,725 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55055] open and established
+DEBUG 2024-07-17 07:47:02,725 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55055] accepted by application
+INFO 2024-07-17 07:47:02,725 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,740 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55055]
+DEBUG 2024-07-17 07:47:02,741 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55056] to WebSocket
+INFO 2024-07-17 07:47:02,742 basehttp 1139 6136360960 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-17 07:47:02,744 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,744 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55056] open and established
+DEBUG 2024-07-17 07:47:02,744 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55056] accepted by application
+INFO 2024-07-17 07:47:02,744 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+INFO 2024-07-17 07:47:02,745 basehttp 1139 6325039104 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-17 07:47:02,746 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55056]
+INFO 2024-07-17 07:47:02,746 basehttp 1139 6170013696 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-17 07:47:02,750 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-17 07:47:02,756 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-17 07:47:02,757 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55057] to WebSocket
+INFO 2024-07-17 07:47:02,757 basehttp 1139 6325039104 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-17 07:47:02,759 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,759 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55057] open and established
+DEBUG 2024-07-17 07:47:02,759 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55057] accepted by application
+INFO 2024-07-17 07:47:02,759 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,761 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55057]
+DEBUG 2024-07-17 07:47:02,773 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55058] to WebSocket
+INFO 2024-07-17 07:47:02,775 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,775 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55058] open and established
+DEBUG 2024-07-17 07:47:02,775 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55058] accepted by application
+INFO 2024-07-17 07:47:02,775 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,776 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55058]
+DEBUG 2024-07-17 07:47:02,789 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55059] to WebSocket
+INFO 2024-07-17 07:47:02,791 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,791 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55059] open and established
+DEBUG 2024-07-17 07:47:02,791 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55059] accepted by application
+INFO 2024-07-17 07:47:02,791 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 07:47:02,792 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55059]
+DEBUG 2024-07-17 07:47:03,699 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55059]
+INFO 2024-07-17 07:47:03,700 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-17 07:47:03,712 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55064] to WebSocket
+INFO 2024-07-17 07:47:03,728 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 07:47:03,728 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55064] open and established
+DEBUG 2024-07-17 07:47:03,728 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55064] accepted by application
+INFO 2024-07-17 07:47:03,728 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+INFO 2024-07-17 07:47:03,729 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-17 07:47:03,730 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55064]
+INFO 2024-07-17 07:47:03,731 basehttp 1139 6325039104 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+INFO 2024-07-17 07:47:03,736 basehttp 1139 6325039104 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-17 07:47:03,741 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55066] to WebSocket
+INFO 2024-07-17 07:47:03,743 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 07:47:03,743 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55066] open and established
+DEBUG 2024-07-17 07:47:03,743 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55066] accepted by application
+INFO 2024-07-17 07:47:03,743 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-17 07:47:03,744 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55066]
+DEBUG 2024-07-17 07:47:03,761 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55067] to WebSocket
+INFO 2024-07-17 07:47:03,764 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 07:47:03,764 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55067] open and established
+DEBUG 2024-07-17 07:47:03,764 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55067] accepted by application
+INFO 2024-07-17 07:47:03,764 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-17 07:47:03,765 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55067]
+DEBUG 2024-07-17 07:47:03,782 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 55068] to WebSocket
+INFO 2024-07-17 07:47:03,784 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 07:47:03,784 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55068] open and established
+DEBUG 2024-07-17 07:47:03,784 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 55068] accepted by application
+INFO 2024-07-17 07:47:03,784 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-17 07:47:03,786 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55068]
+DEBUG 2024-07-17 08:01:00,734 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55068]
+INFO 2024-07-17 08:01:00,738 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=None
+DEBUG 2024-07-17 08:01:00,778 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58589] to WebSocket
+INFO 2024-07-17 08:01:00,788 basehttp 1139 6136360960 "GET /home HTTP/1.1" 200 1029
+DEBUG 2024-07-17 08:01:00,807 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 58589]
+DEBUG 2024-07-17 08:01:00,811 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55058]
+DEBUG 2024-07-17 08:01:00,812 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55066]
+DEBUG 2024-07-17 08:01:00,821 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55064]
+DEBUG 2024-07-17 08:01:00,822 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55055]
+DEBUG 2024-07-17 08:01:00,822 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55040]
+DEBUG 2024-07-17 08:01:00,822 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55056]
+DEBUG 2024-07-17 08:01:00,823 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55057]
+DEBUG 2024-07-17 08:01:00,823 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 55067]
+INFO 2024-07-17 08:01:00,824 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-17 08:01:00,824 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-17 08:01:00,824 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-17 08:01:00,824 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-17 08:01:00,825 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-17 08:01:00,825 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=1001
+INFO 2024-07-17 08:01:00,825 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1001
+INFO 2024-07-17 08:01:00,825 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-17 08:01:00,827 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+INFO 2024-07-17 08:01:00,827 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+INFO 2024-07-17 08:01:00,828 basehttp 1139 6153187328 - Broken pipe from ('127.0.0.1', 58591)
+INFO 2024-07-17 08:01:00,830 basehttp 1139 6170013696 - Broken pipe from ('127.0.0.1', 58593)
+INFO 2024-07-17 08:01:00,830 basehttp 1139 6325039104 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-17 08:01:00,831 basehttp 1139 6136360960 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-17 08:01:00,831 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita, code=1006
+INFO 2024-07-17 08:01:00,844 basehttp 1139 6325039104 "GET /static/js/app.js HTTP/1.1" 200 29595
+INFO 2024-07-17 08:01:00,858 basehttp 1139 6136360960 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-17 08:01:01,126 basehttp 1139 6136360960 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-17 08:01:01,132 basehttp 1139 6153187328 "GET /static/js/app.js.map HTTP/1.1" 200 94540
+INFO 2024-07-17 08:01:01,133 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-17 08:01:01,166 basehttp 1139 6170013696 "GET /api/room/ HTTP/1.1" 200 51
+DEBUG 2024-07-17 08:01:01,212 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58602] to WebSocket
+INFO 2024-07-17 08:01:01,211 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:01,215 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58602] open and established
+DEBUG 2024-07-17 08:01:01,216 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58602] accepted by application
+DEBUG 2024-07-17 08:01:01,219 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58602]
+INFO 2024-07-17 08:01:01,225 basehttp 1139 6325039104 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-17 08:01:01,294 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-17 08:01:01,297 basehttp 1139 6325039104 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-17 08:01:01,302 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58603] to WebSocket
+INFO 2024-07-17 08:01:01,304 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 08:01:01,304 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58603] open and established
+DEBUG 2024-07-17 08:01:01,304 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58603] accepted by application
+INFO 2024-07-17 08:01:01,304 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+INFO 2024-07-17 08:01:01,305 basehttp 1139 6325039104 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-17 08:01:01,306 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58603]
+INFO 2024-07-17 08:01:01,313 basehttp 1139 6325039104 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:04,331 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 58603]
+INFO 2024-07-17 08:01:04,333 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-17 08:01:04,357 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58612] to WebSocket
+INFO 2024-07-17 08:01:04,360 basehttp 1139 6325039104 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:04,373 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58612] open and established
+DEBUG 2024-07-17 08:01:04,373 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58612] accepted by application
+INFO 2024-07-17 08:01:04,374 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-17 08:01:04,375 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:04,375 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58612]
+DEBUG 2024-07-17 08:01:05,576 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 58612]
+INFO 2024-07-17 08:01:05,597 basehttp 1139 6153187328 "POST /api/update_icon_color/ HTTP/1.1" 200 21
+DEBUG 2024-07-17 08:01:06,638 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 58612]
+DEBUG 2024-07-17 08:01:06,645 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58613] to WebSocket
+INFO 2024-07-17 08:01:06,648 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,649 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58613] open and established
+DEBUG 2024-07-17 08:01:06,649 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58613] accepted by application
+INFO 2024-07-17 08:01:06,649 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,651 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58613]
+INFO 2024-07-17 08:01:06,664 basehttp 1139 6170013696 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-17 08:01:06,664 basehttp 1139 6153187328 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:06,665 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58614] to WebSocket
+INFO 2024-07-17 08:01:06,669 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,670 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58614] open and established
+DEBUG 2024-07-17 08:01:06,670 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58614] accepted by application
+INFO 2024-07-17 08:01:06,670 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+INFO 2024-07-17 08:01:06,670 basehttp 1139 6325039104 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-17 08:01:06,672 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58614]
+INFO 2024-07-17 08:01:06,674 basehttp 1139 6325039104 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-17 08:01:06,678 basehttp 1139 6153187328 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-17 08:01:06,678 basehttp 1139 6325039104 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-17 08:01:06,680 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-17 08:01:06,681 basehttp 1139 6153187328 "GET /api/get_current_user/ HTTP/1.1" 200 21
+DEBUG 2024-07-17 08:01:06,681 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58615] to WebSocket
+INFO 2024-07-17 08:01:06,683 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,683 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58615] open and established
+DEBUG 2024-07-17 08:01:06,683 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58615] accepted by application
+INFO 2024-07-17 08:01:06,683 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,684 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58615]
+DEBUG 2024-07-17 08:01:06,695 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58616] to WebSocket
+INFO 2024-07-17 08:01:06,696 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,697 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58616] open and established
+DEBUG 2024-07-17 08:01:06,697 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58616] accepted by application
+INFO 2024-07-17 08:01:06,697 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,698 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58616]
+DEBUG 2024-07-17 08:01:06,708 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58617] to WebSocket
+INFO 2024-07-17 08:01:06,710 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,710 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58617] open and established
+DEBUG 2024-07-17 08:01:06,710 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58617] accepted by application
+INFO 2024-07-17 08:01:06,710 consumers 1068 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-17 08:01:06,711 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58617]
+DEBUG 2024-07-17 08:01:07,318 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 58617]
+INFO 2024-07-17 08:01:07,319 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+DEBUG 2024-07-17 08:01:07,330 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58618] to WebSocket
+INFO 2024-07-17 08:01:07,334 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 08:01:07,335 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58618] open and established
+DEBUG 2024-07-17 08:01:07,335 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58618] accepted by application
+INFO 2024-07-17 08:01:07,335 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+INFO 2024-07-17 08:01:07,345 basehttp 1139 6153187328 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+DEBUG 2024-07-17 08:01:07,347 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58618]
+INFO 2024-07-17 08:01:07,347 basehttp 1139 6170013696 "GET /api/favicon.ico HTTP/1.1" 200 1029
+DEBUG 2024-07-17 08:01:07,350 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58619] to WebSocket
+INFO 2024-07-17 08:01:07,351 basehttp 1139 6170013696 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-17 08:01:07,352 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 08:01:07,352 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58619] open and established
+DEBUG 2024-07-17 08:01:07,352 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58619] accepted by application
+INFO 2024-07-17 08:01:07,352 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-17 08:01:07,356 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58619]
+DEBUG 2024-07-17 08:01:07,367 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58620] to WebSocket
+INFO 2024-07-17 08:01:07,371 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 08:01:07,371 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58620] open and established
+DEBUG 2024-07-17 08:01:07,372 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58620] accepted by application
+INFO 2024-07-17 08:01:07,372 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-17 08:01:07,373 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58620]
+DEBUG 2024-07-17 08:01:07,384 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58621] to WebSocket
+INFO 2024-07-17 08:01:07,388 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita
+DEBUG 2024-07-17 08:01:07,388 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58621] open and established
+DEBUG 2024-07-17 08:01:07,388 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58621] accepted by application
+INFO 2024-07-17 08:01:07,388 consumers 1068 8314833920 WebSocket connected: room=1, user=keita
+DEBUG 2024-07-17 08:01:07,390 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58621]
+INFO 2024-07-17 08:01:18,144 basehttp 1139 6341865472 "GET /room/1 HTTP/1.1" 200 1029
+INFO 2024-07-17 08:01:18,237 basehttp 1139 6341865472 "GET /static/js/app.js HTTP/1.1" 200 29595
+INFO 2024-07-17 08:01:18,238 basehttp 1139 6358691840 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-17 08:01:18,239 basehttp 1139 6375518208 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-17 08:01:18,251 basehttp 1139 6341865472 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-17 08:01:18,549 basehttp 1139 6341865472 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-17 08:01:18,636 basehttp 1139 6341865472 "GET /api/messages/?room_id=1 HTTP/1.1" 302 0
+INFO 2024-07-17 08:01:18,655 basehttp 1139 6341865472 "GET /accounts/login/?next=/api/messages/%3Froom_id%3D1 HTTP/1.1" 200 1029
+INFO 2024-07-17 08:01:19,229 basehttp 1139 6358691840 "GET /api/get_current_user/ HTTP/1.1" 302 0
+WARNING 2024-07-17 08:01:19,239 log 1139 6341865472 Not Found: /api/get_icon_color/
+WARNING 2024-07-17 08:01:19,240 basehttp 1139 6341865472 "GET /api/get_icon_color/ HTTP/1.1" 404 4346
+INFO 2024-07-17 08:01:19,365 basehttp 1139 6341865472 "GET / HTTP/1.1" 200 1029
+INFO 2024-07-17 08:01:19,653 basehttp 1139 6341865472 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-17 08:01:23,904 basehttp 1139 6341865472 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-17 08:01:23,939 basehttp 1139 6341865472 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-17 08:01:24,055 basehttp 1139 6341865472 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-17 08:01:24,109 basehttp 1139 6341865472 "POST /api/check_username/ HTTP/1.1" 200 17
+WARNING 2024-07-17 08:01:24,209 log 1139 6341865472 Bad Request: /api/check_username/
+WARNING 2024-07-17 08:01:24,210 basehttp 1139 6341865472 "POST /api/check_username/ HTTP/1.1" 400 63
+INFO 2024-07-17 08:01:24,506 basehttp 1139 6341865472 "POST /api/check_username/ HTTP/1.1" 200 17
+INFO 2024-07-17 08:01:30,817 basehttp 1139 6341865472 "POST /api/register/ HTTP/1.1" 201 64
+INFO 2024-07-17 08:01:35,598 basehttp 1139 6341865472 "POST /api/login/ HTTP/1.1" 200 43
+INFO 2024-07-17 08:01:37,221 basehttp 1139 6358691840 "GET /api/get_current_user/ HTTP/1.1" 200 22
+WARNING 2024-07-17 08:01:37,227 log 1139 6341865472 Not Found: /api/get_icon_color/
+WARNING 2024-07-17 08:01:37,228 basehttp 1139 6341865472 "GET /api/get_icon_color/ HTTP/1.1" 404 4346
+INFO 2024-07-17 08:01:37,280 basehttp 1139 6341865472 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+INFO 2024-07-17 08:01:37,296 basehttp 1139 6358691840 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-17 08:01:37,296 basehttp 1139 6341865472 "POST /api/create_default_room/ HTTP/1.1" 200 76
+INFO 2024-07-17 08:01:37,297 basehttp 1139 6341865472 - Broken pipe from ('127.0.0.1', 58770)
+INFO 2024-07-17 08:01:37,313 basehttp 1139 6358691840 "GET /static/css/app.css HTTP/1.1" 304 0
+INFO 2024-07-17 08:01:37,313 basehttp 1139 6375518208 "GET /static/js/app.js HTTP/1.1" 304 0
+INFO 2024-07-17 08:01:37,314 basehttp 1139 6341865472 "GET /static/css/chunk-vendors.css HTTP/1.1" 304 0
+INFO 2024-07-17 08:01:37,316 basehttp 1139 6358691840 "GET /static/js/chunk-vendors.js HTTP/1.1" 304 0
+INFO 2024-07-17 08:01:37,451 basehttp 1139 6358691840 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-17 08:01:37,460 basehttp 1139 6375518208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+INFO 2024-07-17 08:01:37,510 basehttp 1139 6358691840 "GET /api/room/ HTTP/1.1" 200 51
+INFO 2024-07-17 08:01:37,538 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:37,555 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58992] to WebSocket
+INFO 2024-07-17 08:01:37,571 basehttp 1139 6358691840 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-17 08:01:37,574 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58993] to WebSocket
+INFO 2024-07-17 08:01:37,575 basehttp 1139 6358691840 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-17 08:01:37,576 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58992] open and established
+DEBUG 2024-07-17 08:01:37,576 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58992] accepted by application
+INFO 2024-07-17 08:01:37,577 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita2
+DEBUG 2024-07-17 08:01:37,577 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58993] open and established
+DEBUG 2024-07-17 08:01:37,577 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58993] accepted by application
+INFO 2024-07-17 08:01:37,577 consumers 1068 8314833920 WebSocket connected: room=0, user=keita2
+DEBUG 2024-07-17 08:01:37,579 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58992]
+DEBUG 2024-07-17 08:01:37,579 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58993]
+INFO 2024-07-17 08:01:37,584 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:40,569 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 58993]
+INFO 2024-07-17 08:01:40,570 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita2, code=None
+DEBUG 2024-07-17 08:01:40,576 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 58994] to WebSocket
+INFO 2024-07-17 08:01:40,583 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:40,587 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58994] open and established
+DEBUG 2024-07-17 08:01:40,587 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 58994] accepted by application
+DEBUG 2024-07-17 08:01:40,589 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58994]
+DEBUG 2024-07-17 08:01:42,338 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59002] to WebSocket
+DEBUG 2024-07-17 08:01:42,347 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 58994]
+DEBUG 2024-07-17 08:01:42,353 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59003] to WebSocket
+INFO 2024-07-17 08:01:42,355 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:42,355 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59004] to WebSocket
+INFO 2024-07-17 08:01:42,360 basehttp 1139 6375518208 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+INFO 2024-07-17 08:01:42,361 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita2
+DEBUG 2024-07-17 08:01:42,361 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59002] open and established
+DEBUG 2024-07-17 08:01:42,361 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59002] accepted by application
+INFO 2024-07-17 08:01:42,362 consumers 1068 8314833920 WebSocket connected: room=0, user=keita2
+INFO 2024-07-17 08:01:42,363 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita2
+DEBUG 2024-07-17 08:01:42,363 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59003] open and established
+DEBUG 2024-07-17 08:01:42,363 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59003] accepted by application
+INFO 2024-07-17 08:01:42,363 consumers 1068 8314833920 WebSocket connected: room=0, user=keita2
+INFO 2024-07-17 08:01:42,365 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita2
+DEBUG 2024-07-17 08:01:42,365 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59004] open and established
+DEBUG 2024-07-17 08:01:42,365 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59004] accepted by application
+INFO 2024-07-17 08:01:42,365 consumers 1068 8314833920 WebSocket connected: room=0, user=keita2
+DEBUG 2024-07-17 08:01:42,367 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59002]
+DEBUG 2024-07-17 08:01:42,368 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59003]
+DEBUG 2024-07-17 08:01:42,368 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59004]
+INFO 2024-07-17 08:01:42,385 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-17 08:01:42,386 basehttp 1139 6375518208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+DEBUG 2024-07-17 08:01:42,387 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 59004]
+INFO 2024-07-17 08:01:42,387 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita2, code=None
+DEBUG 2024-07-17 08:01:42,388 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59005] to WebSocket
+DEBUG 2024-07-17 08:01:42,389 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59006] to WebSocket
+INFO 2024-07-17 08:01:42,391 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita2
+DEBUG 2024-07-17 08:01:42,391 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59005] open and established
+DEBUG 2024-07-17 08:01:42,392 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59005] accepted by application
+INFO 2024-07-17 08:01:42,392 consumers 1068 8314833920 WebSocket connected: room=0, user=keita2
+INFO 2024-07-17 08:01:42,393 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita2
+DEBUG 2024-07-17 08:01:42,393 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59006] open and established
+DEBUG 2024-07-17 08:01:42,394 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59006] accepted by application
+INFO 2024-07-17 08:01:42,394 consumers 1068 8314833920 WebSocket connected: room=0, user=keita2
+DEBUG 2024-07-17 08:01:42,395 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59005]
+DEBUG 2024-07-17 08:01:42,395 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59006]
+DEBUG 2024-07-17 08:01:48,032 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59014] to WebSocket
+DEBUG 2024-07-17 08:01:48,042 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59015] to WebSocket
+INFO 2024-07-17 08:01:48,046 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita2
+DEBUG 2024-07-17 08:01:48,047 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59014] open and established
+DEBUG 2024-07-17 08:01:48,047 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59014] accepted by application
+INFO 2024-07-17 08:01:48,047 consumers 1068 8314833920 WebSocket connected: room=0, user=keita2
+INFO 2024-07-17 08:01:48,048 consumers 1068 8314833920 WebSocket connection attempt: room=0, user=keita2
+DEBUG 2024-07-17 08:01:48,048 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59015] open and established
+DEBUG 2024-07-17 08:01:48,048 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59015] accepted by application
+INFO 2024-07-17 08:01:48,048 consumers 1068 8314833920 WebSocket connected: room=0, user=keita2
+DEBUG 2024-07-17 08:01:48,050 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59014]
+DEBUG 2024-07-17 08:01:48,050 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59015]
+DEBUG 2024-07-17 08:01:48,492 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 59015]
+INFO 2024-07-17 08:01:48,493 consumers 1068 8314833920 WebSocket disconnected: room=0, user=keita2, code=None
+DEBUG 2024-07-17 08:01:48,503 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59016] to WebSocket
+DEBUG 2024-07-17 08:01:48,504 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59017] to WebSocket
+DEBUG 2024-07-17 08:01:48,506 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59018] to WebSocket
+INFO 2024-07-17 08:01:48,506 basehttp 1139 6358691840 "GET /api/messages/?room_id=1 HTTP/1.1" 200 135
+INFO 2024-07-17 08:01:48,514 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:01:48,514 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59016] open and established
+DEBUG 2024-07-17 08:01:48,515 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59016] accepted by application
+INFO 2024-07-17 08:01:48,515 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+INFO 2024-07-17 08:01:48,516 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:01:48,516 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59017] open and established
+INFO 2024-07-17 08:01:48,516 basehttp 1139 6358691840 "GET /api/get_current_user/ HTTP/1.1" 200 22
+DEBUG 2024-07-17 08:01:48,517 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59017] accepted by application
+INFO 2024-07-17 08:01:48,517 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+INFO 2024-07-17 08:01:48,518 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:01:48,518 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59018] open and established
+DEBUG 2024-07-17 08:01:48,518 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59018] accepted by application
+INFO 2024-07-17 08:01:48,518 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+DEBUG 2024-07-17 08:01:48,520 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59016]
+DEBUG 2024-07-17 08:01:48,521 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59019] to WebSocket
+DEBUG 2024-07-17 08:01:48,523 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59017]
+DEBUG 2024-07-17 08:01:48,523 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59018]
+INFO 2024-07-17 08:01:48,525 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:01:48,525 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59019] open and established
+DEBUG 2024-07-17 08:01:48,525 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59019] accepted by application
+INFO 2024-07-17 08:01:48,525 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+DEBUG 2024-07-17 08:01:48,527 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59019]
+DEBUG 2024-07-17 08:01:51,136 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 59019]
+DEBUG 2024-07-17 08:01:51,148 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58618]
+DEBUG 2024-07-17 08:01:51,149 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58619]
+DEBUG 2024-07-17 08:01:51,149 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58620]
+DEBUG 2024-07-17 08:01:51,150 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58621]
+DEBUG 2024-07-17 08:01:51,150 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59016]
+DEBUG 2024-07-17 08:01:51,150 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59017]
+DEBUG 2024-07-17 08:01:51,150 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59018]
+DEBUG 2024-07-17 08:01:51,150 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59019]
+INFO 2024-07-17 08:01:51,162 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+INFO 2024-07-17 08:01:51,177 basehttp 1139 6170013696 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:58,880 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 59019]
+INFO 2024-07-17 08:01:58,882 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita2, code=None
+DEBUG 2024-07-17 08:01:58,890 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59034] to WebSocket
+INFO 2024-07-17 08:01:58,895 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:01:58,896 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59034] open and established
+DEBUG 2024-07-17 08:01:58,897 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59034] accepted by application
+DEBUG 2024-07-17 08:01:58,899 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59034]
+DEBUG 2024-07-17 08:01:59,597 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 59034]
+INFO 2024-07-17 08:01:59,617 basehttp 1139 6358691840 "POST /api/update_icon_color/ HTTP/1.1" 200 21
+DEBUG 2024-07-17 08:02:03,846 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59042] to WebSocket
+DEBUG 2024-07-17 08:02:03,855 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 59034]
+INFO 2024-07-17 08:02:03,856 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,856 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59042] open and established
+DEBUG 2024-07-17 08:02:03,856 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59042] accepted by application
+INFO 2024-07-17 08:02:03,856 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,859 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59042]
+DEBUG 2024-07-17 08:02:03,866 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59043] to WebSocket
+DEBUG 2024-07-17 08:02:03,868 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59044] to WebSocket
+DEBUG 2024-07-17 08:02:03,869 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59045] to WebSocket
+INFO 2024-07-17 08:02:03,869 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+INFO 2024-07-17 08:02:03,873 basehttp 1139 6375518208 "GET /api/messages/?room_id=1 HTTP/1.1" 200 253
+INFO 2024-07-17 08:02:03,874 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,874 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59043] open and established
+DEBUG 2024-07-17 08:02:03,874 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59043] accepted by application
+INFO 2024-07-17 08:02:03,874 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+INFO 2024-07-17 08:02:03,875 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,876 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59044] open and established
+DEBUG 2024-07-17 08:02:03,876 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59044] accepted by application
+INFO 2024-07-17 08:02:03,876 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+INFO 2024-07-17 08:02:03,877 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,878 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59045] open and established
+DEBUG 2024-07-17 08:02:03,878 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59045] accepted by application
+INFO 2024-07-17 08:02:03,878 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,879 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59043]
+DEBUG 2024-07-17 08:02:03,879 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59044]
+DEBUG 2024-07-17 08:02:03,880 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59045]
+INFO 2024-07-17 08:02:03,897 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-17 08:02:03,898 basehttp 1139 6375518208 "GET /api/get_current_user/ HTTP/1.1" 200 22
+DEBUG 2024-07-17 08:02:03,899 ws_protocol 1068 8314833920 WebSocket closed for ['127.0.0.1', 59045]
+INFO 2024-07-17 08:02:03,899 consumers 1068 8314833920 WebSocket disconnected: room=1, user=keita2, code=None
+INFO 2024-07-17 08:02:03,900 basehttp 1139 6358691840 "GET /api/get_icon_color/?username=keita2 HTTP/1.1" 200 20
+DEBUG 2024-07-17 08:02:03,901 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59046] to WebSocket
+DEBUG 2024-07-17 08:02:03,902 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59047] to WebSocket
+INFO 2024-07-17 08:02:03,904 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,904 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59046] open and established
+DEBUG 2024-07-17 08:02:03,904 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59046] accepted by application
+INFO 2024-07-17 08:02:03,904 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+INFO 2024-07-17 08:02:03,905 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,905 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59047] open and established
+DEBUG 2024-07-17 08:02:03,905 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59047] accepted by application
+INFO 2024-07-17 08:02:03,905 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+DEBUG 2024-07-17 08:02:03,906 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59046]
+DEBUG 2024-07-17 08:02:03,906 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59047]
+DEBUG 2024-07-17 08:02:13,157 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59063] to WebSocket
+DEBUG 2024-07-17 08:02:13,162 http_protocol 1068 8314833920 Upgraded connection ['127.0.0.1', 59064] to WebSocket
+INFO 2024-07-17 08:02:13,177 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:02:13,177 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59063] open and established
+DEBUG 2024-07-17 08:02:13,177 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59063] accepted by application
+INFO 2024-07-17 08:02:13,177 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+INFO 2024-07-17 08:02:13,179 consumers 1068 8314833920 WebSocket connection attempt: room=1, user=keita2
+DEBUG 2024-07-17 08:02:13,180 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59064] open and established
+DEBUG 2024-07-17 08:02:13,180 ws_protocol 1068 8314833920 WebSocket ['127.0.0.1', 59064] accepted by application
+INFO 2024-07-17 08:02:13,180 consumers 1068 8314833920 WebSocket connected: room=1, user=keita2
+DEBUG 2024-07-17 08:02:13,183 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59063]
+DEBUG 2024-07-17 08:02:13,183 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59064]
+DEBUG 2024-07-17 08:02:17,832 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 59064]
+DEBUG 2024-07-17 08:02:17,839 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58618]
+DEBUG 2024-07-17 08:02:17,840 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58619]
+DEBUG 2024-07-17 08:02:17,840 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58620]
+DEBUG 2024-07-17 08:02:17,840 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58621]
+DEBUG 2024-07-17 08:02:17,841 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59016]
+DEBUG 2024-07-17 08:02:17,841 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59017]
+DEBUG 2024-07-17 08:02:17,841 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59018]
+DEBUG 2024-07-17 08:02:17,842 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59042]
+DEBUG 2024-07-17 08:02:17,842 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59043]
+DEBUG 2024-07-17 08:02:17,842 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59044]
+DEBUG 2024-07-17 08:02:17,842 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59046]
+DEBUG 2024-07-17 08:02:17,843 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59047]
+DEBUG 2024-07-17 08:02:17,843 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59063]
+DEBUG 2024-07-17 08:02:17,843 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59064]
+DEBUG 2024-07-17 08:02:25,240 ws_protocol 1068 8314833920 WebSocket incoming frame on ['127.0.0.1', 59064]
+DEBUG 2024-07-17 08:02:25,250 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58618]
+DEBUG 2024-07-17 08:02:25,251 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58619]
+DEBUG 2024-07-17 08:02:25,251 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58620]
+DEBUG 2024-07-17 08:02:25,251 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 58621]
+DEBUG 2024-07-17 08:02:25,252 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59016]
+DEBUG 2024-07-17 08:02:25,252 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59017]
+DEBUG 2024-07-17 08:02:25,252 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59018]
+DEBUG 2024-07-17 08:02:25,252 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59042]
+DEBUG 2024-07-17 08:02:25,253 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59043]
+DEBUG 2024-07-17 08:02:25,253 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59044]
+DEBUG 2024-07-17 08:02:25,253 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59046]
+DEBUG 2024-07-17 08:02:25,253 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59047]
+DEBUG 2024-07-17 08:02:25,254 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59063]
+DEBUG 2024-07-17 08:02:25,254 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59064]
