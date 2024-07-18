@@ -1,2 +1,5 @@
 static/js/
 staticfiles/js/
+debug.log
+db.sqlite3
+
