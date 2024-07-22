@@ -129,9 +129,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'chat',  # 確認したデータベース名
-        'USER': 'admin',       # 確認したユーザー名
+        'USER': 'ubuntu',       # 確認したユーザー名
         'PASSWORD': 'saku1003',   # 確認したパスワード
-        'HOST': 'database-1.cxcik2aa211v.ap-northeast-3.rds.amazonaws.com',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
