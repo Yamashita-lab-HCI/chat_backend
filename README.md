@@ -1,6 +1,6 @@
 # chat_backend
 
-## Ubuntuサーバーでのデプロイの流れ（まだ試行錯誤中）
+## Ubuntuサーバーでのデプロイの流れ
 ### sslアクセスの有効化
 HTTP接続ではブラウザ警告が出てきてしまうので、HTTPS接続に。
 HTTPS接続でも自己証明書を作ったが、これも警告が出るのでドメインを発行して証明書を取得
@@ -18,19 +18,45 @@ sudo systemctl status gunicorn
 sudo systemctl status nginx
 sudo systemctl status custom-startup.service
 ```
+## database
+`mysql`をEC2サーバー内に設置。
+### boot
+```bash
+mysql -u ubuntu -p
+Enter password: 'saku1003`
+```
+### setup
+```bash
+sudo mysql
+sudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 13
+Server version: 8.0.37-0ubuntu0.24.04.1 (Ubuntu)
 
-## RDSとの接続設定
-```bash
-mysql -h database-1.cxcik2aa211v.ap-northeast-3.rds.amazonaws.com -u admin -p
-# パスワードはsaku1003
-```
-### MySQLのセットアップ
-```bash
-sudo apt-get update
-sudo apt-get install mysql-client
-```
-```mysql
-CREATE DATABASE chat;
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE DATABASE chat;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> CREATE USER 'ubuntu'@'localhost' IDENTIFIED BY 'saku1003';
+Query OK, 0 rows affected (0.02 sec)
+
+mysql>
+mysql> GRANT ALL PRIVILEGES ON chat.* TO 'ubuntu'@'localhost';
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> EXIT;
+Bye
 ```
 
 ## setup（仮装環境がない場合）
