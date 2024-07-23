@@ -1,4 +1,4 @@
-#!/Users/keis/dev/chat_backend/chat/bin/python3.12
+#!/home/ubuntu/chat_backend/chat/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
