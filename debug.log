@@ -1266,3 +1266,82 @@ DEBUG 2024-07-17 08:02:25,253 ws_protocol 1068 8314833920 Sent WebSocket packet 
 DEBUG 2024-07-17 08:02:25,253 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59047]
 DEBUG 2024-07-17 08:02:25,254 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59063]
 DEBUG 2024-07-17 08:02:25,254 ws_protocol 1068 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 59064]
+INFO 2024-07-23 09:31:39,075 autoreload 51112 8314833920 Watching for file changes with StatReloader
+INFO 2024-07-23 09:32:16,317 cli 51617 8314833920 Starting server at tcp:port=8001:interface=127.0.0.1
+INFO 2024-07-23 09:32:16,318 server 51617 8314833920 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-07-23 09:32:16,318 server 51617 8314833920 Configuring endpoint tcp:port=8001:interface=127.0.0.1
+INFO 2024-07-23 09:32:16,319 server 51617 8314833920 Listening on TCP address 127.0.0.1:8001
+INFO 2024-07-23 09:32:34,442 basehttp 51112 6132592640 "GET / HTTP/1.1" 200 1029
+INFO 2024-07-23 09:32:34,470 basehttp 51112 6149419008 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-23 09:32:34,471 basehttp 51112 6132592640 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-23 09:32:34,488 basehttp 51112 6149419008 "GET /static/js/app.js HTTP/1.1" 304 0
+INFO 2024-07-23 09:32:34,505 basehttp 51112 6132592640 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-23 09:32:34,695 basehttp 51112 6149419008 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-23 09:32:34,695 basehttp 51112 6132592640 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-23 09:32:34,729 basehttp 51112 6132592640 "GET /api/room/ HTTP/1.1" 200 51
+DEBUG 2024-07-23 09:32:34,748 http_protocol 51617 8314833920 Upgraded connection ['127.0.0.1', 55236] to WebSocket
+DEBUG 2024-07-23 09:32:34,753 ws_protocol 51617 8314833920 WebSocket ['127.0.0.1', 55236] open and established
+DEBUG 2024-07-23 09:32:34,753 ws_protocol 51617 8314833920 WebSocket ['127.0.0.1', 55236] accepted by application
+DEBUG 2024-07-23 09:32:34,754 ws_protocol 51617 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55236]
+INFO 2024-07-23 09:32:34,880 basehttp 51112 6132592640 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-23 09:32:37,721 basehttp 51112 6132592640 "GET /static/js/app.js.map HTTP/1.1" 200 94540
+INFO 2024-07-23 09:32:37,743 basehttp 51112 6149419008 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-23 09:32:38,565 basehttp 51112 6149419008 "POST /api/logout/ HTTP/1.1" 200 59
+INFO 2024-07-23 09:32:38,593 basehttp 51112 6149419008 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-23 09:32:42,498 basehttp 51112 6149419008 "POST /api/login/ HTTP/1.1" 200 42
+INFO 2024-07-23 09:32:43,540 basehttp 51112 6149419008 "GET /home HTTP/1.1" 200 1029
+INFO 2024-07-23 09:32:43,548 basehttp 51112 6149419008 "GET /api/get_current_user/ HTTP/1.1" 200 21
+WARNING 2024-07-23 09:32:43,562 log 51112 6132592640 Not Found: /api/get_icon_color/
+WARNING 2024-07-23 09:32:43,562 basehttp 51112 6132592640 "GET /api/get_icon_color/ HTTP/1.1" 404 4346
+DEBUG 2024-07-23 09:32:43,581 ws_protocol 51617 8314833920 WebSocket closed for ['127.0.0.1', 55236]
+INFO 2024-07-23 09:32:43,621 basehttp 51112 6166245376 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-23 09:32:43,622 basehttp 51112 6149419008 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-23 09:32:43,622 basehttp 51112 6132592640 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-23 09:32:43,632 basehttp 51112 6132592640 "GET /static/js/app.js HTTP/1.1" 200 29595
+INFO 2024-07-23 09:32:43,649 basehttp 51112 6149419008 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-23 09:32:43,909 basehttp 51112 6149419008 "GET /api/check_login_status/ HTTP/1.1" 200 20
+INFO 2024-07-23 09:32:43,909 basehttp 51112 6132592640 "GET /static/js/app.js.map HTTP/1.1" 200 94540
+INFO 2024-07-23 09:32:43,911 basehttp 51112 6325039104 "GET /api/get_current_user/ HTTP/1.1" 200 21
+INFO 2024-07-23 09:32:43,937 basehttp 51112 6166245376 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-23 09:32:43,940 basehttp 51112 6325039104 "GET /api/room/ HTTP/1.1" 200 51
+INFO 2024-07-23 09:32:43,977 basehttp 51112 6325039104 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+DEBUG 2024-07-23 09:32:43,995 http_protocol 51617 8314833920 Upgraded connection ['127.0.0.1', 55281] to WebSocket
+INFO 2024-07-23 09:32:43,999 basehttp 51112 6325039104 "POST /api/create_default_room/ HTTP/1.1" 200 76
+DEBUG 2024-07-23 09:32:44,000 ws_protocol 51617 8314833920 WebSocket ['127.0.0.1', 55281] open and established
+DEBUG 2024-07-23 09:32:44,000 ws_protocol 51617 8314833920 WebSocket ['127.0.0.1', 55281] accepted by application
+DEBUG 2024-07-23 09:32:44,001 ws_protocol 51617 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55281]
+INFO 2024-07-23 09:32:44,006 basehttp 51112 6325039104 "GET /api/messages/?room_id=0 HTTP/1.1" 200 288
+DEBUG 2024-07-23 09:32:44,012 http_protocol 51617 8314833920 Upgraded connection ['127.0.0.1', 55282] to WebSocket
+INFO 2024-07-23 09:32:44,013 basehttp 51112 6325039104 "GET /api/get_icon_color/?username=keita HTTP/1.1" 200 20
+INFO 2024-07-23 09:32:44,014 consumers 51617 8314833920 WebSocket connection attempt: room=0, user=keita
+DEBUG 2024-07-23 09:32:44,015 ws_protocol 51617 8314833920 WebSocket ['127.0.0.1', 55282] open and established
+DEBUG 2024-07-23 09:32:44,015 ws_protocol 51617 8314833920 WebSocket ['127.0.0.1', 55282] accepted by application
+INFO 2024-07-23 09:32:44,015 consumers 51617 8314833920 WebSocket connected: room=0, user=keita
+DEBUG 2024-07-23 09:32:44,017 ws_protocol 51617 8314833920 Sent WebSocket packet to client for ['127.0.0.1', 55282]
+INFO 2024-07-23 09:32:44,081 basehttp 51112 6325039104 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-23 09:49:37,077 basehttp 51112 6132592640 "POST /api/logout/ HTTP/1.1" 200 59
+DEBUG 2024-07-23 09:49:37,080 ws_protocol 51617 8314833920 WebSocket closed for ['127.0.0.1', 55282]
+INFO 2024-07-23 09:49:37,081 consumers 51617 8314833920 WebSocket disconnected: room=0, user=keita, code=None
+INFO 2024-07-23 09:49:37,116 basehttp 51112 6149419008 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-23 09:49:37,117 basehttp 51112 6132592640 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+DEBUG 2024-07-23 09:49:41,558 ws_protocol 51617 8314833920 WebSocket closed for ['127.0.0.1', 55281]
+INFO 2024-07-23 09:49:46,223 basehttp 51112 6132592640 "GET /login HTTP/1.1" 200 1029
+INFO 2024-07-23 09:49:46,252 basehttp 51112 6149419008 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-23 09:49:46,254 basehttp 51112 6132592640 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-23 09:49:46,289 basehttp 51112 6149419008 "GET /static/js/app.js HTTP/1.1" 200 29595
+INFO 2024-07-23 09:49:46,303 basehttp 51112 6132592640 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-23 09:49:46,595 basehttp 51112 6132592640 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-23 09:49:46,602 basehttp 51112 6132592640 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-23 09:49:46,622 basehttp 51112 6149419008 "GET /static/js/app.js.map HTTP/1.1" 200 94540
+INFO 2024-07-23 09:49:46,647 basehttp 51112 6132592640 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-23 09:49:46,716 basehttp 51112 6132592640 "GET /api/favicon.ico HTTP/1.1" 200 1029
+INFO 2024-07-23 10:36:49,072 basehttp 51112 6132592640 "GET /login HTTP/1.1" 200 1029
+INFO 2024-07-23 10:36:49,097 basehttp 51112 6149419008 "GET /static/css/app.css HTTP/1.1" 200 2409
+INFO 2024-07-23 10:36:49,098 basehttp 51112 6132592640 "GET /static/css/chunk-vendors.css HTTP/1.1" 200 188207
+INFO 2024-07-23 10:36:49,139 basehttp 51112 6149419008 "GET /static/js/app.js HTTP/1.1" 200 29595
+INFO 2024-07-23 10:36:49,149 basehttp 51112 6132592640 "GET /static/js/chunk-vendors.js HTTP/1.1" 200 4982744
+INFO 2024-07-23 10:36:49,457 basehttp 51112 6132592640 "GET /api/check_login_status/ HTTP/1.1" 200 21
+INFO 2024-07-23 10:36:49,468 basehttp 51112 6132592640 "GET /static/img/chat-icon.svg HTTP/1.1" 200 1615
+INFO 2024-07-23 10:36:49,479 basehttp 51112 6149419008 "GET /static/js/app.js.map HTTP/1.1" 200 94540
+INFO 2024-07-23 10:36:49,506 basehttp 51112 6132592640 "GET /static/js/chunk-vendors.js.map HTTP/1.1" 200 12849883
+INFO 2024-07-23 10:36:49,590 basehttp 51112 6132592640 "GET /api/favicon.ico HTTP/1.1" 200 1029
