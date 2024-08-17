@@ -239,11 +239,3 @@ def record_chat(request):
         return JsonResponse({'status': 'success'}, status=201)
     else:
         return JsonResponse({'status': 'bad request'}, status=400)
-
-
-@require_http_methods(['POST'])
-def logout_view(request):
-    # ユーザーをログアウトする
-    logout(request)
-    # ログアウト後のレスポンスを返す
-    return JsonResponse({'status': 'success', 'message': 'Logged out successfully'})

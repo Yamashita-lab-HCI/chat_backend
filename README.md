@@ -71,9 +71,14 @@ source chat/bin/activate
 ```
 2.
 ```bash
+# start websocket server
 export DJANGO_SETTINGS_MODULE=chat_backend.settings
 export PYTHONPATH="/Users/keis/dev/chat_backend:$PYTHONPATH"
 daphne -p 8001 chat_backend.asgi:application
+```
+また、別のCUIで
+```bash
+# start server
 python manage.py migrate
 python manage.py runserver
 ```
@@ -82,8 +87,13 @@ python manage.py runserver
 ## add requirements.txt
 何か追加でpipに入れたときは、
 ```bash
+pip freeze > requirements.txt
+```
+で書き込む。pip環境を再度作るときは、
+```bash
 pip install -r requirements.txt
 ```
+でやる。
 
 ## initialize database
 `db.sqlite3`がデータベースにあたる。

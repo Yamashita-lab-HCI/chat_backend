@@ -3,7 +3,7 @@ from django.conf import settings
 from django.contrib.auth.models import User
 
 class Room(models.Model):
-    id = models.AutoField(primary_key=True)
+    id = models.BigAutoField(primary_key=True)
     name = models.CharField(max_length=255)
     created_by = models.ForeignKey(User, on_delete=models.CASCADE)
 class Message(models.Model):
