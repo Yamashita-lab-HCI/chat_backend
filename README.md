@@ -16,7 +16,8 @@ sudo certbot --nginx -d chatawesome.net
 ```bash
 sudo systemctl status gunicorn
 sudo systemctl status nginx
-sudo systemctl status custom-startup.service
+sudo systemctl status daphne
+# sudo systemctl status custom-startup.service
 ```
 ## database
 `mysql`をEC2サーバー内に設置。
