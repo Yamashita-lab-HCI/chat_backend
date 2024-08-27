@@ -233,9 +233,22 @@ def create_default_room(request):
 @csrf_exempt
 def record_chat(request):
     if request.method == 'POST':
-        data = json.loads(request.body)
-        chat = Chat(username=data['username'], question=data['question'], answer=data['answer'])
-        chat.save()
-        return JsonResponse({'status': 'success'}, status=201)
+        try:
+            data = json.loads(request.body)
+            chat = Chat(
+                username=data['username'],
+                question=data['question'],
+                answer=data['answer'],
+                purpose=data.get('purpose', ''),
+                room=data.get('room', '')
+            )
+            chat.save()
+            return JsonResponse({'status': 'success'}, status=201)
+        except KeyError as e:
+            return JsonResponse({'status': 'bad request', 'error': f'Missing required field: {str(e)}'}, status=400)
+        except json.JSONDecodeError:
+            return JsonResponse({'status': 'bad request', 'error': 'Invalid JSON'}, status=400)
+        except Exception as e:
+            return JsonResponse({'status': 'error', 'error': str(e)}, status=500)
     else:
-        return JsonResponse({'status': 'bad request'}, status=400)
+        return JsonResponse({'status': 'bad request', 'error': 'Only POST method is allowed'}, status=405)
