@@ -214,6 +214,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),  # Vue.jsのビルドファイルがここに配置されている
 ]
 
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
 
 
 # Default primary key field type
