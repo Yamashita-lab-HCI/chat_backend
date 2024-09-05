@@ -3,3 +3,4 @@ staticfiles/js/
 chat/
 db.sqlite3
 debug.log
+chat_backend/_pycache_/
