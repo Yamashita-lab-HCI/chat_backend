@@ -159,7 +159,7 @@ WSGI_APPLICATION = 'chat_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'chat',  # 確認したデータベース名
+        'NAME': 'chat_pre_experiment',  # 確認したデータベース名
         'USER': 'ubuntu',       # 確認したユーザー名
         'PASSWORD': 'saku1003',   # 確認したパスワード
         'HOST': 'localhost',
