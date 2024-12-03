@@ -1,5 +1,45 @@
 # chat_backend
 
+## 実験の流れ
+### データベースの入れ替え
+1. データベースの作成
+```bash
+mysql -u ubuntu -p #パスワードはsaku1003
+```
+でログインし、以下のコマンドを入力。
+```sql
+create database chat_experiment_1; # データベース名は適宜変更
+```
+2. バックエンドでの変更
+
+`settings.py`からデータベース名を変更。
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'chat_experiment_1',  # 確認したデータベース名←⚠️ここを変更する！！
+        'USER': 'ubuntu',       # 確認したユーザー名
+        'PASSWORD': 'saku1003',   # 確認したパスワード
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+```
+次に、データベースとの接続し直しをする。
+```bash
+source chat/bin/activate # 必要であれば
+python manage.py makemigrations
+python manage.py migrate
+```
+
+3. サーバー（Ubuntuインスタンス）内のシステムの再起動を行う。
+```bash
+sudo systemctl restart nginx
+sudo systemctl restart daphne
+sudo systemctl restart gunicorn
+```
+
+
 ## Ubuntuサーバーでのデプロイの流れ
 ### sslアクセスの有効化
 HTTP接続ではブラウザ警告が出てきてしまうので、HTTPS接続に。
